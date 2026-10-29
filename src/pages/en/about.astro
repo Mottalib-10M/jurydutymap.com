@@ -1,0 +1,29 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { LAST_UPDATED, AUTHOR_NAME, CONTACT_EMAIL, AUTHOR_ROLE, SITE_NAMES } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { organizationSchema, breadcrumbSchema, profilePageSchema } from '../../lib/seo';
+import { displayDate } from '../../lib/format';
+import { PAGES } from '../../lib/guides';
+import { ALL } from '../../lib/engine/jury';
+const lang = 'en';
+const n = PAGES.length + ALL.length + 1;
+---
+<PageLayout title="Radif Partners, publisher of Jury Duty Map: who we are" description="Who publishes Jury Duty Map, where each juror fee and rule comes from, what the tools do with what you type, and why the site answers no summons or fee." lang={lang} jsonLd={[organizationSchema(lang), profilePageSchema({ path: route('about', lang), lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'About', path: route('about', lang) }])]} breadcrumbs={[{ label: 'About' }]}>
+  <header class="mb-6"><p class="kicker">About</p><h1 class="mt-0 text-3xl font-bold text-navy-900 md:text-4xl">Who is behind {SITE_NAMES[lang]}</h1></header>
+  <div class="prose prose-slate max-w-none">
+    <div class="not-prose mb-6"><p class="text-lg font-semibold text-navy-900">{AUTHOR_NAME}</p><p class="text-navy-700">{AUTHOR_ROLE[lang]}</p></div>
+    <p>{SITE_NAMES[lang]} is published by {AUTHOR_NAME}, a company that builds free tools on public rules. This one exists because a jury summons raises the same handful of questions everywhere (what does it pay, does my employer have to pay me, can I be excused, how do I postpone) while each court answers them only for itself. We read the jury law of the 50 states, the District of Columbia and the federal courts and put the answers side by side.</p>
+    <h2>What the site does</h2>
+    <p>The pay calculator adds the juror fee of each day and the wages an employer must keep paying under the state's law. The excuse checker matches your circumstances with the grounds your state names. The comparator sets up to three courts side by side, the scam checker flags the demands courts never make, and the day checklist and the request letter help you prepare. Each state has its own page with the statute behind every rule.</p>
+    <h2>Where the rules come from</h2>
+    <p>From each state's code on its legislature's website, from the rules and juror pages of its judiciary, and for federal service from the US Code and the United States Courts. Every fact carries the page and the date we read it. Private legal databases, law firm pages and blogs never supply a figure; when the official text does not settle a question, the page says "not specified by the state". The <a href={route('method', lang)}>method page</a> describes the checks.</p>
+    <h2>What we are not</h2>
+    <p>We are not a court, a clerk's office or a law firm, and we give no legal advice. We cannot receive a summons answer, grant a postponement or excuse anyone. Answer your summons only through the address, portal or phone number printed on it.</p>
+    <h2>How the site is paid for</h2>
+    <p>Nothing is sold here and there is no affiliate link. If advertising is added one day, it will never sit inside a tool, and it cannot use what you type, which never leaves your browser.</p>
+    <h2>Tell us when something is wrong</h2>
+    <p>Legislatures change juror fees and courts revise their rules. If a fact differs from the official text, write to <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> with the page. The <a href={route('editorial', lang)}>editorial policy</a> explains how a correction is made and dated. The site has {n} pages of tools and guides.</p>
+    <p class="text-sm text-navy-600">Laws last read on <time datetime={LAST_UPDATED}>{displayDate(LAST_UPDATED, 'en-US')}</time>.</p>
+  </div>
+</PageLayout>

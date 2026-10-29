@@ -1,0 +1,4732 @@
+{
+ "readOn": "2026-10-29",
+ "jurisdictions": [
+  {
+   "code": "AK",
+   "name": "Alaska",
+   "slug": "alaska-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": null,
+    "daily": null,
+    "from": 1,
+    "later": null,
+    "laterFrom": null,
+    "mileage": null,
+    "countyVaries": false,
+    "topUp": false,
+    "text": "Juror fees are set by the Alaska Court System (Administrative Rule 14); the court website could not be reached to confirm the amounts.",
+    "law": null,
+    "src": null
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "Employers do not have to pay wages for time spent on jury service.",
+    "protection": true,
+    "notice": null,
+    "law": "Alaska Stat. § 09.20.037",
+    "src": "https://www.akleg.gov/basis/statutes.asp#09.20.037"
+   },
+   "age": {
+    "rule": "not-specified",
+    "age": null,
+    "text": "The jury statutes set no age-based exemption; exemptions are for health, family care, long-term disability or hardship.",
+    "law": "Alaska Stat. § 09.20.030",
+    "src": "https://www.akleg.gov/basis/statutes.asp#09.20.030"
+   },
+   "odot": null,
+   "term": {
+    "text": "No more than three months of jury service in any two-year period (a trial in progress must be finished).",
+    "src": "https://www.akleg.gov/basis/statutes.asp#09.20.025",
+    "law": null
+   },
+   "frequency": {
+    "months": 12,
+    "text": "A person who served as a juror in Alaska within the past year is disqualified from serving again.",
+    "src": "https://www.akleg.gov/basis/statutes.asp#09.20.020",
+    "law": null
+   },
+   "deferral": {
+    "text": "Service can be deferred for hardship, temporary transportation problems or election work, to an agreed date no more than 10 months after the original date.",
+    "src": "https://www.akleg.gov/basis/statutes.asp#09.20.035",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "caregiver",
+     "medical",
+     "student",
+     "hardship"
+    ],
+    "list": [
+     "own health",
+     "health or care of family",
+     "permanent physical or mental disability",
+     "substantial hardship lasting more than two years",
+     "judicial officer",
+     "teacher at a designated low-performing school (during school term)"
+    ],
+    "text": "Claim the exemption with the court and show the reason.",
+    "law": "Alaska Stat. § 09.20.030",
+    "src": "https://www.akleg.gov/basis/statutes.asp#09.20.030"
+   },
+   "penalty": {
+    "fine": 25000,
+    "jail": 365,
+    "text": "Neglecting to attend when summoned is contempt of court; criminal contempt is a class A misdemeanor (up to 1 year and $25,000), civil contempt up to $5,000 per violation.",
+    "law": "Alaska Stat. §§ 09.50.010(11), 09.50.020, 12.55.135, 12.55.035",
+    "src": "https://www.akleg.gov/basis/statutes.asp#09.50.020"
+   },
+   "portal": null,
+   "missing": [
+    "pay (all figures)",
+    "employer.noticeRequired",
+    "oneDayOneTrial",
+    "portal"
+   ],
+   "unread": "the Alaska Court System site (juror fees)",
+   "caveat": null
+  },
+  {
+   "code": "AL",
+   "name": "Alabama",
+   "slug": "alabama-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": null,
+    "daily": null,
+    "from": 1,
+    "later": null,
+    "laterFrom": null,
+    "mileage": "A per-mile allowance for travel to and from court, amount set by the Alabama Supreme Court",
+    "countyVaries": false,
+    "topUp": false,
+    "text": "The statute leaves the daily expense allowance and mileage to an Alabama Supreme Court order or rule; the amount could not be confirmed on a reachable official page.",
+    "law": "Ala. Code § 12-19-210",
+    "src": "https://alison.legislature.state.al.us/code-of-alabama?section=12-19-210"
+   },
+   "employer": {
+    "pays": "yes",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "Full-time employees keep their usual pay while on jury duty; employers cannot make them use vacation, sick or unpaid leave.",
+    "protection": true,
+    "notice": "Employee must show the summons to the immediate supervisor on the next workday after receiving it.",
+    "law": "Ala. Code §§ 12-16-8, 12-16-8.1",
+    "src": "https://alison.legislature.state.al.us/code-of-alabama?section=12-16-8"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 80,
+    "text": "Anyone 80 or older may ask in writing to be permanently exempt and removed from the jury list.",
+    "law": "Ala. Code § 12-16-62",
+    "src": "https://alison.legislature.state.al.us/code-of-alabama?section=12-16-62"
+   },
+   "odot": null,
+   "term": {
+    "text": "A selected juror serves for the length of the trial unless excused by the judge.",
+    "src": "https://alison.legislature.state.al.us/code-of-alabama?section=12-16-75",
+    "law": null
+   },
+   "frequency": {
+    "months": 24,
+    "text": "A person who served on a petit jury cannot be summoned again for 24 months; an excused juror is exempt for 24 months.",
+    "src": "https://alison.legislature.state.al.us/code-of-alabama?section=12-16-75",
+    "law": null
+   },
+   "deferral": {
+    "text": "One automatic postponement on request (in person, phone, email or writing) to a fixed date within 6 months; a second only for an extreme emergency.",
+    "src": "https://alison.legislature.state.al.us/code-of-alabama?section=12-16-63.1",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "caregiver",
+     "medical",
+     "hardship",
+     "breastfeeding"
+    ],
+    "list": [
+     "undue or extreme physical or financial hardship",
+     "incapacitating mental or physical condition",
+     "nursing mother",
+     "public necessity",
+     "sole caregiver with no substitute available"
+    ],
+    "text": "Apply to the court before the report date, with documentation if asked; being absent from work alone is not a hardship. An excused juror is exempt for 24 months.",
+    "law": "Ala. Code § 12-16-63",
+    "src": "https://alison.legislature.state.al.us/code-of-alabama?section=12-16-63"
+   },
+   "penalty": {
+    "fine": 300,
+    "jail": 10,
+    "text": "Failing to obey a summons without good excuse is contempt of court: fine up to $300 and up to 10 days in county jail.",
+    "law": "Ala. Code § 12-16-82",
+    "src": "https://alison.legislature.state.al.us/code-of-alabama?section=12-16-82"
+   },
+   "portal": null,
+   "missing": [
+    "pay.firstDayRate",
+    "pay.dailyRate",
+    "pay.fromDay",
+    "pay.mileage amount",
+    "oneDayOneTrial",
+    "portal"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "AR",
+   "name": "Arkansas",
+   "slug": "arkansas-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": null,
+    "daily": null,
+    "from": 1,
+    "later": null,
+    "laterFrom": null,
+    "mileage": null,
+    "countyVaries": true,
+    "topUp": false,
+    "text": "Set by the state and each county quorum court. Example (Clark County): $50 a day for jurors seated on a trial, $15 a day for those who report but are not selected (Mississippi County pays $30 to non-selected jurors). Statute not readable online, figures are county-reported.",
+    "law": null,
+    "src": "https://clarkcountyar.gov/circuit-clerk/jury-duty/"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "No wage obligation is stated by official court pages; the law protects the job, sick leave and vacation if the employee gives reasonable notice.",
+    "protection": true,
+    "notice": "Employee must give the employer reasonable notice of the summons.",
+    "law": null,
+    "src": "https://pulaskiclerkar.gov/departments/jury-administration/"
+   },
+   "age": {
+    "rule": "none",
+    "age": null,
+    "text": "County circuit clerk pages state there is no age exemption in Arkansas beyond the minimum age of 18 (statute not verified).",
+    "law": null,
+    "src": "https://clarkcountyar.gov/circuit-clerk/jury-duty/"
+   },
+   "odot": false,
+   "term": {
+    "text": "County terms of several months (Clark County: three 4-month terms a year; Mississippi County: 2 months); jurors appear when called for trials during the term.",
+    "src": "https://clarkcountyar.gov/circuit-clerk/jury-duty/",
+    "law": null
+   },
+   "frequency": {
+    "months": 24,
+    "text": "Not qualified if you served as a juror in the county in the last two years (county-reported qualification).",
+    "src": "https://clarkcountyar.gov/circuit-clerk/jury-duty/",
+    "law": null
+   },
+   "deferral": {
+    "text": "A 'deferment of term' lets you move your service to another term; it does not excuse you. Practice varies by county (Mississippi County allows no postponement).",
+    "src": "https://clarkcountyar.gov/circuit-clerk/jury-duty/",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "hardship"
+    ],
+    "list": [
+     "excuse only by a judge (economic or business reasons not accepted)"
+    ],
+    "text": "Only a judge can excuse you; you may explain your situation to the judge in court.",
+    "law": null,
+    "src": "https://clarkcountyar.gov/circuit-clerk/jury-duty/"
+   },
+   "penalty": {
+    "fine": null,
+    "jail": null,
+    "text": null,
+    "law": null,
+    "src": null
+   },
+   "portal": null,
+   "missing": [
+    "pay.firstDayRate",
+    "pay.mileage",
+    "pay.law (Arkansas Code not readable on an official site; county-reported figures)",
+    "employer.law",
+    "age.law",
+    "excuses.law",
+    "penalty",
+    "portal"
+   ],
+   "unread": "the Arkansas Code (published only through a commercial viewer) and the Arkansas Judiciary site",
+   "caveat": "What is shown for Arkansas comes from county circuit clerk pages (Clark and Pulaski counties), which report $50 a day for seated jurors and $15 for those not selected in Clark County; your county may differ."
+  },
+  {
+   "code": "AZ",
+   "name": "Arizona",
+   "slug": "arizona-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 12,
+    "daily": 12,
+    "from": 1,
+    "later": null,
+    "laterFrom": null,
+    "mileage": "Round-trip mileage at the state employee rate (A.R.S. § 38-623); a juror excused on the first day gets mileage only",
+    "countyVaries": false,
+    "topUp": false,
+    "text": "Paid by the county. Superior court trial jurors who lose earnings can also ask the Fair Jury Improvement (lengthy trial) fund for $40 to $300 a day from day 1, if money is available.",
+    "law": "A.R.S. §§ 21-221, 21-222",
+    "src": "https://www.azleg.gov/ars/21/00221.htm"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "Employers need not pay wages, cannot force use of vacation or sick leave, and must restore the employee's position and seniority.",
+    "protection": true,
+    "notice": null,
+    "law": "A.R.S. § 21-236",
+    "src": "https://www.azleg.gov/ars/21/00236.htm"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 75,
+    "text": "Anyone 75 or older may ask in writing to be excused, temporarily or permanently, and the court must grant it.",
+    "law": "A.R.S. § 21-202(C)",
+    "src": "https://www.azleg.gov/ars/21/00202.htm"
+   },
+   "odot": true,
+   "term": {
+    "text": "One day or one trial: service ends after one trial, or after one day without being assigned, or after the call-in period.",
+    "src": "https://www.azleg.gov/ars/21/00332.htm",
+    "law": null
+   },
+   "frequency": {
+    "months": 24,
+    "text": "A juror selected to serve on a jury is not required to serve again for two years.",
+    "src": "https://www.azleg.gov/ars/21/00335.htm",
+    "law": null
+   },
+   "deferral": {
+    "text": "Two postponements on request (in person, phone, email or writing) to a date set by the jury commissioner; more only for an unforeseen extreme emergency.",
+    "src": "https://www.azleg.gov/ars/21/00336.htm",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "caregiver",
+     "medical",
+     "hardship",
+     "distance",
+     "recent",
+     "responder"
+    ],
+    "list": [
+     "mental or physical condition (medical statement required)",
+     "public interest or welfare",
+     "not able to understand English",
+     "undue or extreme physical or financial hardship",
+     "sole caregiver with no substitute available",
+     "certified peace officer",
+     "grand jury service within the last 4 years",
+     "state correctional officer",
+     "temporary absence from the area or lack of transportation"
+    ],
+    "text": "Apply to the court before the report date with supporting documents (tax returns, payroll records, medical statement); missing work alone is not a hardship.",
+    "law": "A.R.S. § 21-202",
+    "src": "https://www.azleg.gov/ars/21/00202.htm"
+   },
+   "penalty": {
+    "fine": 500,
+    "jail": null,
+    "text": "Wilfully missing jury service is unlawful: fine up to $500 and a new date; after a second summons the court may issue a body attachment as for contempt.",
+    "law": "A.R.S. § 21-223",
+    "src": "https://www.azleg.gov/ars/21/00223.htm"
+   },
+   "portal": null,
+   "missing": [
+    "employer.noticeRequired",
+    "penalty.maxJailDays",
+    "portal"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "CA",
+   "name": "California",
+   "slug": "california-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 0,
+    "daily": 15,
+    "from": 2,
+    "later": null,
+    "laterFrom": null,
+    "mileage": "At least 34 cents per mile to and from court from the second day, or up to $12 a day for public transit from the first day",
+    "countyVaries": false,
+    "topUp": false,
+    "text": "No fee on day 1. Government employees who keep full pay get no daily fee.",
+    "law": "Cal. Code Civ. Proc. § 215",
+    "src": "https://courts.ca.gov/juryservice.htm?print=1"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "Private employers are not required to pay wages during jury service, but must allow time off and may not fire or harass a juror.",
+    "protection": true,
+    "notice": "The court advises telling the employer well in advance, as soon as the summons arrives.",
+    "law": "Cal. Gov. Code § 12945.8",
+    "src": "https://courts.ca.gov/juryservice.htm?print=1"
+   },
+   "age": {
+    "rule": "none",
+    "age": null,
+    "text": "No age exemption: advanced age is not a ground for exemption, though a serious health problem can lead to an excuse.",
+    "law": null,
+    "src": "https://courts.ca.gov/juryservice.htm?print=1"
+   },
+   "odot": true,
+   "term": {
+    "text": "One day or one trial (statewide)",
+    "src": "https://courts.ca.gov/juryservice.htm?print=1",
+    "law": null
+   },
+   "frequency": {
+    "months": 12,
+    "text": "Not required to serve again for at least 12 months after reporting or serving",
+    "src": "https://courts.ca.gov/juryservice.htm?print=1",
+    "law": null
+   },
+   "deferral": {
+    "text": "Follow the summons instructions (online or in writing) and give the earliest date you can serve; courts should grant a one-time deferral without requiring a court visit.",
+    "src": "https://courts.ca.gov/cms/rules/index/two/rule2_1004",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "caregiver",
+     "medical",
+     "hardship",
+     "distance"
+    ],
+    "list": [
+     "no means of transportation",
+     "excessive travel distance (over 1.5 hours)",
+     "extreme financial burden",
+     "undue risk to property",
+     "physical or mental impairment",
+     "caregiver of a dependent who cannot be replaced"
+    ],
+    "text": "Request in writing on the summons response form with facts showing the hardship and why a deferral would not solve it; a doctor's note may be required.",
+    "law": "Cal. Rules of Court, rule 2.1008; Code Civ. Proc. § 204",
+    "src": "https://courts.ca.gov/cms/rules/index/two/rule2_1008"
+   },
+   "penalty": {
+    "fine": 1500,
+    "jail": null,
+    "text": "Fines from up to $250 for a first violation to $1,500 for three or more; possible contempt of court and incarceration.",
+    "law": "Cal. Code Civ. Proc. § 209",
+    "src": "https://courts.ca.gov/system/files/file/jury-fta-brochure.pdf"
+   },
+   "portal": "https://courts.ca.gov/juryservice.htm",
+   "missing": [
+    "penalty.maxJailDays",
+    "age.law"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "CO",
+   "name": "Colorado",
+   "slug": "colorado-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 0,
+    "daily": 50,
+    "from": 4,
+    "later": null,
+    "laterFrom": null,
+    "mileage": null,
+    "countyVaries": false,
+    "topUp": false,
+    "text": "For the first 3 days the employer pays regular wages up to $50/day (self-employed may ask the court for up to $50/day; unemployed may claim certain expenses); from day 4 the state pays every juror $50/day.",
+    "law": "C.R.S. §§ 13-71-126, 13-71-127",
+    "src": "https://www.coloradojudicial.gov/jury/jury-faqs"
+   },
+   "employer": {
+    "pays": "partial",
+    "days": 3,
+    "minEmployees": null,
+    "dailyCap": 50,
+    "feeOffset": false,
+    "text": "Employers must pay regular wages up to $50 per day for the first 3 days of service to regularly employed jurors (including part-time/temporary workers employed 3+ months).",
+    "protection": true,
+    "notice": null,
+    "law": "C.R.S. §§ 13-71-126, 13-71-134",
+    "src": "https://www.coloradojudicial.gov/jury/jury-faqs"
+   },
+   "age": {
+    "rule": "none",
+    "age": null,
+    "text": "Colorado grants no age-based exemption; only the 18+ minimum applies.",
+    "law": null,
+    "src": "https://www.coloradojudicial.gov/jury/jury-faqs"
+   },
+   "odot": true,
+   "term": {
+    "text": "One day, or the length of one trial if impaneled (statewide).",
+    "src": "https://www.coloradojudicial.gov/sites/default/files/2025-02/Statutes%20and%20Rules.pdf",
+    "law": null
+   },
+   "frequency": {
+    "months": 12,
+    "text": "Not qualified to serve if you served on a jury in any court within the past 12 months.",
+    "src": "https://www.coloradojudicial.gov/jury/jury-faqs",
+    "law": null
+   },
+   "deferral": {
+    "text": "One postponement as of right: via the summons form (mail/email), the county's online postponement request, or the jury commissioner; generally to a date within 6 months (out-of-state students up to 12 months).",
+    "src": "https://www.coloradojudicial.gov/jury/jury-faqs",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "caregiver",
+     "medical",
+     "hardship",
+     "breastfeeding",
+     "recent"
+    ],
+    "list": [
+     "undue or extreme physical hardship (self or person under your care)",
+     "extreme hardship (decided by the court)",
+     "breastfeeding (medical statement)",
+     "primary caregiver of a permanently disabled household member who does not work outside the home",
+     "physical or mental disability preventing service",
+     "served on a jury within the past 12 months"
+    ],
+    "text": "Submit the disqualification request with supporting documentation (e.g. a physician statement); students and military are not automatically excused but can postpone.",
+    "law": "C.R.S. §§ 13-71-119, 13-71-119.5",
+    "src": "https://www.coloradojudicial.gov/sites/default/files/2025-02/Statutes%20and%20Rules.pdf"
+   },
+   "penalty": {
+    "fine": null,
+    "jail": null,
+    "text": null,
+    "law": null,
+    "src": null
+   },
+   "portal": "https://www.coloradojudicial.gov/jury-information",
+   "missing": [
+    "pay.mileage",
+    "penalty (C.R.S. 18-8-612 text not reachable on an official site)"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "CT",
+   "name": "Connecticut",
+   "slug": "connecticut-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 0,
+    "daily": 50,
+    "from": 6,
+    "later": null,
+    "laterFrom": null,
+    "mileage": "20 cents per mile round trip, counted within the out-of-pocket reimbursement for part-time/unemployed jurors during the first 5 days",
+    "countyVaries": false,
+    "topUp": false,
+    "text": "Days 1-5: full-time employees get regular wages from their employer; part-time and unemployed jurors are reimbursed out-of-pocket expenses ($20 to $50/day). From day 6, the state pays every juror $50/day.",
+    "law": "Conn. Gen. Stat. § 51-247",
+    "src": "https://www.cga.ct.gov/current/pub/chap_884.htm"
+   },
+   "employer": {
+    "pays": "partial",
+    "days": 5,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "Employers must pay full-time employees (30+ hours/week) their regular wages for the first 5 days of jury service; no employer-size threshold.",
+    "protection": true,
+    "notice": null,
+    "law": "Conn. Gen. Stat. §§ 51-247, 51-247a",
+    "src": "https://www.cga.ct.gov/current/pub/chap_884.htm"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 75,
+    "text": "People aged 75 or older may choose not to serve.",
+    "law": "Conn. Gen. Stat. § 51-217(a)(8)",
+    "src": "https://www.cga.ct.gov/current/pub/chap_884.htm"
+   },
+   "odot": true,
+   "term": {
+    "text": "One day, or the length of the trial if impaneled.",
+    "src": "https://www.cga.ct.gov/current/pub/chap_884.htm",
+    "law": null
+   },
+   "frequency": {
+    "months": 36,
+    "text": "Excused for 3 jury years after appearing for service (jury year runs Sept. 1 to Aug. 31).",
+    "src": "https://www.jud.ct.gov/jury/faq.htm",
+    "law": null
+   },
+   "deferral": {
+    "text": "Postpone online (Defer Your Jury Service page) to a date within 10 months of the original date; a second deferral or one within 2 weeks of the date requires calling Jury Administration (1-800-842-8175).",
+    "src": "https://www.jud.ct.gov/jury/faq.htm",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "caregiver",
+     "medical",
+     "hardship",
+     "military",
+     "recent",
+     "age"
+    ],
+    "list": [
+     "extreme hardship",
+     "age 75 or older",
+     "physical or mental disability (health care provider letter)",
+     "unable to speak and understand English",
+     "served within the 3 preceding jury years",
+     "federal jury service within 3 jury years",
+     "active-duty military",
+     "childcare hardship",
+     "not a Connecticut resident"
+    ],
+    "text": "Request an excusal through the eResponse online portal, by email or by calling Jury Administration; students are expected to defer to a school break.",
+    "law": "Conn. Gen. Stat. §§ 51-217, 51-217a",
+    "src": "https://www.jud.ct.gov/jury/faq.htm"
+   },
+   "penalty": {
+    "fine": null,
+    "jail": null,
+    "text": "Failing to appear exposes the juror to a civil penalty whose amount is set by the Chief Court Administrator; the court may waive it. No jail term in the statute.",
+    "law": "Conn. Gen. Stat. § 51-237",
+    "src": "https://www.cga.ct.gov/current/pub/chap_884.htm"
+   },
+   "portal": "https://www.jud.ct.gov/jury/",
+   "missing": [
+    "penalty.maxFine (amount set administratively, not published in statute)"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "DC",
+   "name": "District of Columbia",
+   "slug": "dc-jury-duty",
+   "kind": "dc",
+   "pay": {
+    "first": 57,
+    "daily": 57,
+    "from": 1,
+    "later": null,
+    "laterFrom": null,
+    "mileage": "No mileage; jurors still paid their salary get a $7 travel stipend per day",
+    "countyVaries": false,
+    "topUp": false,
+    "text": "The statute sets $30 a day plus up to $2 travel but lets the Board of Judges raise it; the court now pays $57 a day to jurors whose job does not pay them. Petit jurors who are summoned but do not serve on a jury are not paid the fee.",
+    "law": "D.C. Code § 15-718",
+    "src": "https://www.dccourts.gov/jurors/about-your-jury-duty"
+   },
+   "employer": {
+    "pays": "partial",
+    "days": 5,
+    "minEmployees": 11,
+    "dailyCap": null,
+    "feeOffset": true,
+    "text": "Full-time employees working in DC are entitled to their usual pay (less the juror fee) for up to 5 days of service; employers with 10 or fewer employees are exempt.",
+    "protection": true,
+    "notice": null,
+    "law": "D.C. Code § 15-718(c); D.C. Code § 11-1913",
+    "src": "https://code.dccouncil.gov/us/dc/council/code/sections/15-718"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 70,
+    "text": "People aged 70 or older may ask to be excused.",
+    "law": "D.C. Superior Court jury plan",
+    "src": "https://www.dccourts.gov/jurors/about-your-jury-duty"
+   },
+   "odot": true,
+   "term": {
+    "text": "Petit jurors: one day unless picked for a trial (service ends for the day once panels are filled); grand jurors: 25 workdays.",
+    "src": "https://www.dccourts.gov/jurors/about-your-jury-duty",
+    "law": null
+   },
+   "frequency": {
+    "months": 24,
+    "text": "Not required to serve again within 2 years",
+    "src": "https://code.dccouncil.gov/us/dc/council/code/sections/11-1911",
+    "law": null
+   },
+   "deferral": {
+    "text": "One postponement for any reason, via eJuror, email (jurorhelp@dcsc.gov), phone (202) 879-4604 or live chat.",
+    "src": "https://www.dccourts.gov/jurors/about-your-jury-duty",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "caregiver",
+     "medical",
+     "hardship",
+     "recent",
+     "age"
+    ],
+    "list": [
+     "not a DC resident",
+     "under 18",
+     "serious illness or disability",
+     "caring for a child under 2.5 years",
+     "age 70 or older",
+     "served in the last 2 years",
+     "extreme hardship"
+    ],
+    "text": "Ask through eJuror, by email or by phone to the Juror Office.",
+    "law": "D.C. Code § 11-1909; D.C. Superior Court jury plan",
+    "src": "https://www.dccourts.gov/jurors/about-your-jury-duty"
+   },
+   "penalty": {
+    "fine": 300,
+    "jail": 7,
+    "text": "A no-show who cannot show good cause may be held in contempt: up to $300 fine, 7 days in jail, or both.",
+    "law": "D.C. Code § 11-1907(b)",
+    "src": "https://code.dccouncil.gov/us/dc/council/code/sections/11-1907"
+   },
+   "portal": "https://www.dccourts.gov/jurors",
+   "missing": [
+    "employer.noticeRequired"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "DE",
+   "name": "Delaware",
+   "slug": "delaware-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 0,
+    "daily": 20,
+    "from": 2,
+    "later": null,
+    "laterFrom": null,
+    "mileage": null,
+    "countyVaries": false,
+    "topUp": false,
+    "text": "$20/day expense allowance (covers travel and parking). Under one-day/one-trial service (New Castle County) the first day is unpaid; in Kent and Sussex (two-week term) the $20 is paid for every day reported.",
+    "law": "10 Del. C. § 4514",
+    "src": "https://delcode.delaware.gov/title10/c045/index.html"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "No state law requires private employers to pay wages during jury service; the $20 allowance may not be treated as pay by the employer.",
+    "protection": true,
+    "notice": null,
+    "law": "10 Del. C. § 4515",
+    "src": "https://delcode.delaware.gov/title10/c045/index.html"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 70,
+    "text": "People over 70 may ask to be excused (send the questionnaire and a copy of a driver's license).",
+    "law": "10 Del. C. § 4511(b) (court-recognised class)",
+    "src": "https://courts.delaware.gov/superior/jury/jury_faq.aspx"
+   },
+   "odot": false,
+   "term": {
+    "text": "New Castle County: one day or one trial; Kent and Sussex Counties: a two-week term.",
+    "src": "https://courts.delaware.gov/superior/jury/jury_faq.aspx",
+    "law": null
+   },
+   "frequency": {
+    "months": 24,
+    "text": "Not required to serve more than once every two years (Superior Court and federal court together).",
+    "src": "https://courts.delaware.gov/superior/jury/jury_basics.aspx",
+    "law": null
+   },
+   "deferral": {
+    "text": "Ask through the online qualification questionnaire or use 'Request Schedule Change' in the juror portal (one-time date change, not within 5 days of service; otherwise contact Jury Services). Out-of-state residents temporarily away for work or study are deferred until return.",
+    "src": "https://courts.delaware.gov/superior/jury/jury_excusals_postponements.aspx",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "caregiver",
+     "medical",
+     "hardship",
+     "military",
+     "breastfeeding",
+     "recent",
+     "responder",
+     "business",
+     "age"
+    ],
+    "list": [
+     "undue hardship",
+     "extreme inconvenience",
+     "public necessity",
+     "served on a jury within the past two years",
+     "over 70 years of age",
+     "deeply-held religious beliefs",
+     "primary caregiver of persons unable to care for themselves",
+     "full-time police officer or firefighter",
+     "active full-time military or Delaware National Guard",
+     "active full-time clergy",
+     "self-employed or paid primarily on commission",
+     "breastfeeding (at least 1 year)",
+     "physical or mental disability"
+    ],
+    "text": "Return the qualification questionnaire with a written request and supporting documents (doctor's note, employer letter, etc.) to the county Jury Services office.",
+    "law": "10 Del. C. §§ 4509, 4511",
+    "src": "https://delcode.delaware.gov/title10/c045/index.html"
+   },
+   "penalty": {
+    "fine": 100,
+    "jail": 3,
+    "text": "Failing to appear and show cause is criminal contempt: up to $100 fine and/or up to 3 days in jail.",
+    "law": "10 Del. C. § 4516",
+    "src": "https://delcode.delaware.gov/title10/c045/index.html"
+   },
+   "portal": "https://courts.delaware.gov/superior/jury/",
+   "missing": [
+    "pay.mileage (no separate mileage; included in $20 allowance)"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "FL",
+   "name": "Florida",
+   "slug": "florida-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 15,
+    "daily": 15,
+    "from": 1,
+    "later": 30,
+    "laterFrom": 4,
+    "mileage": null,
+    "countyVaries": false,
+    "topUp": false,
+    "text": "Days 1-3: $15/day only for jurors who are not regularly employed or whose wages stop; employees who keep their wages get nothing from the clerk. From day 4 every juror gets $30/day. No separate travel reimbursement.",
+    "law": "Fla. Stat. § 40.24",
+    "src": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099/0040/0040.html"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "No requirement for private employers to pay wages; jurors whose wages stop receive $15/day from the clerk for days 1-3.",
+    "protection": true,
+    "notice": null,
+    "law": "Fla. Stat. § 40.271",
+    "src": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099/0040/0040.html"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 70,
+    "text": "Anyone 70 or older is excused on request, and may ask in writing to be permanently excused.",
+    "law": "Fla. Stat. § 40.013(8)",
+    "src": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099/0040/0040.html"
+   },
+   "odot": true,
+   "term": {
+    "text": "One day or one trial (statewide).",
+    "src": "https://miamidadeclerk.gov/clerk/jury-guidelines.page",
+    "law": null
+   },
+   "frequency": {
+    "months": 12,
+    "text": "Anyone who reported as a prospective juror in their county within the past year is exempt for 1 year from the last day of service.",
+    "src": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099/0040/0040.html",
+    "law": null
+   },
+   "deferral": {
+    "text": "Service may be postponed up to 6 months on written or oral request to the clerk (up to 12 months during a declared emergency); you may propose a date.",
+    "src": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099/0040/0040.html",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "caregiver",
+     "medical",
+     "student",
+     "hardship",
+     "recent",
+     "responder",
+     "age"
+    ],
+    "list": [
+     "hardship, extreme inconvenience or public necessity",
+     "age 70 or older",
+     "expectant mother",
+     "parent not employed full time with custody of a child under 6",
+     "gave birth within the 6 months before the reporting date",
+     "caregiver of a person incapable of caring for themselves",
+     "permanent physical or mental incapacity (physician statement)",
+     "full-time student aged 18-21",
+     "full-time law enforcement officer",
+     "practicing attorney or physician (judge's discretion)",
+     "physically infirm (judge's discretion)",
+     "reported for jury service within the past year"
+    ],
+    "text": "Ask the clerk of court in the county that summoned you; most statutory excusals are granted on request, others at the judge's discretion.",
+    "law": "Fla. Stat. § 40.013",
+    "src": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099/0040/0040.html"
+   },
+   "penalty": {
+    "fine": 100,
+    "jail": null,
+    "text": "Failing to attend without sufficient excuse: fine up to $100, and it may also be treated as contempt of court.",
+    "law": "Fla. Stat. § 40.23(3)",
+    "src": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099/0040/0040.html"
+   },
+   "portal": null,
+   "missing": [
+    "pay.mileage (statute: no travel reimbursement)",
+    "penalty.maxJailDays (contempt, no fixed cap in ch. 40)",
+    "portal (no statewide juror page found on flcourts.gov)"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "GA",
+   "name": "Georgia",
+   "slug": "georgia-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 5,
+    "daily": 5,
+    "from": 1,
+    "later": null,
+    "laterFrom": null,
+    "mileage": null,
+    "countyVaries": true,
+    "topUp": false,
+    "text": "Each county sets a daily expense allowance between $5 and $50 (most pay about $25), paid from the first day including jury selection.",
+    "law": "O.C.G.A. § 15-12-7",
+    "src": "https://georgia.gov/jury-duty"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "Employers must give time off for jury duty, but it may be unpaid.",
+    "protection": true,
+    "notice": null,
+    "law": "O.C.G.A. § 34-1-3",
+    "src": "https://georgia.gov/jury-duty"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 70,
+    "text": "People 70 or older may claim an exemption (and can sign an affidavit to be removed from the jury list permanently); contact the court before the appearance date.",
+    "law": "O.C.G.A. § 15-12-1.1(b)",
+    "src": "https://georgia.gov/jury-duty"
+   },
+   "odot": null,
+   "term": {
+    "text": "Set by each county: if not selected you are released and the summons is complete; some counties summon for a week (e.g. Fayette County).",
+    "src": "https://fayetteclerk.com/Jury/JuryFAQ.aspx",
+    "law": null
+   },
+   "frequency": {
+    "months": 12,
+    "text": "Not eligible if you served on a jury in the last 12 months.",
+    "src": "https://georgia.gov/jury-duty",
+    "law": null
+   },
+   "deferral": {
+    "text": "Handled by the county clerk of superior court; e.g. Fayette County grants a one-time deferral via the notarized affidavit on the back of the summons, with documentation.",
+    "src": "https://fayetteclerk.com/Jury/JuryFAQ.aspx",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "caregiver",
+     "medical",
+     "student",
+     "military",
+     "recent",
+     "age"
+    ],
+    "list": [
+     "age 70 or older",
+     "full-time student",
+     "active military service member or spouse",
+     "primary teacher in a home study program",
+     "primary caregiver of a child age 6 or younger",
+     "primary unpaid caregiver of a person unable to care for themselves",
+     "permanent mental or physical disability (doctor's affidavit)",
+     "not a resident of the county",
+     "served on a jury in the last 12 months"
+    ],
+    "text": "Contact the court before your appearance date; counties use a notarized affidavit for exemption with supporting documents.",
+    "law": "O.C.G.A. §§ 15-12-1, 15-12-1.1",
+    "src": "https://fayetteclerk.com/Jury/JuryFAQ.aspx"
+   },
+   "penalty": {
+    "fine": null,
+    "jail": null,
+    "text": "Failing to respond may lead to a fine or other penalties (contempt of court); no statewide amount found on an official page.",
+    "law": null,
+    "src": "https://georgia.gov/jury-duty"
+   },
+   "portal": "https://georgia.gov/jury-duty",
+   "missing": [
+    "pay.firstDayRate (county-set, $5-$50)",
+    "pay.mileage",
+    "oneDayOneTrial (county practice)",
+    "penalty.maxFine",
+    "penalty.maxJailDays",
+    "Georgia Code text not readable on an official site (Lexis-hosted); figures taken from georgia.gov and Fayette County clerk"
+   ],
+   "unread": null,
+   "caveat": "Georgia sets most jury procedures county by county. Term, postponement and excuses below come from one county clerk (Fayette County); your county may differ."
+  },
+  {
+   "code": "HI",
+   "name": "Hawaii",
+   "slug": "hawaii-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 50,
+    "daily": 50,
+    "from": 1,
+    "later": null,
+    "laterFrom": null,
+    "mileage": "33 cents per mile, round trip from home to court",
+    "countyVaries": false,
+    "topUp": false,
+    "text": "Raised from $30 to $50 a day on July 1, 2026 (first increase since 1989). Jurors excused at their own request may get mileage only.",
+    "law": null,
+    "src": "https://www.courts.state.hi.us/general_information/jury/jury_service_faqs"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "No Hawaii law requires employers to pay wages during jury service; some do voluntarily or under union contracts.",
+    "protection": true,
+    "notice": null,
+    "law": "Haw. Rev. Stat. § 612-25",
+    "src": "https://www.courts.state.hi.us/general_information/jury/jury_service_faqs"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 80,
+    "text": "People aged 80 or older may claim an optional exemption on the juror questionnaire.",
+    "law": null,
+    "src": "https://www.courts.state.hi.us/general_information/jury/jury_service_faqs"
+   },
+   "odot": null,
+   "term": {
+    "text": "Selection usually takes one day; if chosen you serve for the whole trial, often three to four days.",
+    "src": "https://www.courts.state.hi.us/general_information/jury/jury_service_faqs",
+    "law": null
+   },
+   "frequency": {
+    "months": null,
+    "text": null,
+    "src": null,
+    "law": null
+   },
+   "deferral": {
+    "text": "Write to or call the court explaining the conflict (written request required in the 2nd, 3rd and 5th circuits); only one deferral per summons.",
+    "src": "https://www.courts.state.hi.us/general_information/jury/jury_service_faqs",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "caregiver",
+     "medical",
+     "hardship",
+     "distance",
+     "military",
+     "breastfeeding",
+     "responder",
+     "age"
+    ],
+    "list": [
+     "age 80 or older",
+     "elected official during legislative session",
+     "judge",
+     "practicing physician or dentist",
+     "active military deployed out of state",
+     "police, fire or emergency medical services personnel",
+     "living more than 70 miles from the court",
+     "breastfeeding a child aged two or under",
+     "serious personal hardship",
+     "caregiving responsibilities with no substitute",
+     "disability or medical condition (with physician certificate)"
+    ],
+    "text": "Optional exemptions are claimed on the questionnaire. Other excuse requests must be in writing, signed, with supporting documents, and sent at least two weeks before the appearance date.",
+    "law": null,
+    "src": "https://www.courts.state.hi.us/general_information/jury/jury_service_faqs"
+   },
+   "penalty": {
+    "fine": null,
+    "jail": null,
+    "text": null,
+    "law": null,
+    "src": null
+   },
+   "portal": "https://www.courts.state.hi.us/general_information/jury/jury_service",
+   "missing": [
+    "pay.law (statute site capitol.hawaii.gov returned 403)",
+    "age.law",
+    "excuses.law",
+    "oneDayOneTrial",
+    "frequency",
+    "penalty",
+    "employer.noticeRequired"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "IA",
+   "name": "Iowa",
+   "slug": "iowa-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 30,
+    "daily": 30,
+    "from": 1,
+    "later": 50,
+    "laterFrom": 8,
+    "mileage": "Round-trip mileage at the rate set by the Iowa Supreme Court, plus actual parking costs",
+    "countyVaries": false,
+    "topUp": false,
+    "text": "Statute sets $30 a day and lets the Supreme Court add pay after 7 days; the Judicial Branch pays $50 a day from day 8.",
+    "law": "Iowa Code § 607A.8",
+    "src": "https://www.iowacourts.gov/iowa-courts/jury-service/"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "No Iowa law requires employers to pay wages during jury service.",
+    "protection": true,
+    "notice": "Court advises telling the employer well in advance, ideally on receipt of the summons (not a statutory condition).",
+    "law": "Iowa Code § 607A.45",
+    "src": "https://www.legis.iowa.gov/docs/code/607A.45.pdf"
+   },
+   "age": {
+    "rule": "none",
+    "age": null,
+    "text": "No age-based exemption; older jurors need a medical, disability or other good-cause reason.",
+    "law": null,
+    "src": "https://www.iowacourts.gov/iowa-courts/jury-service/"
+   },
+   "odot": null,
+   "term": {
+    "text": "Set by each county court, up to 3 months, longer only to finish a case.",
+    "src": "https://www.legis.iowa.gov/docs/code/607A.29.pdf",
+    "law": null
+   },
+   "frequency": {
+    "months": 24,
+    "text": "Excused if you served as a state grand or trial juror within the past two years.",
+    "src": "https://www.iowacourts.gov/iowa-courts/jury-service/",
+    "law": null
+   },
+   "deferral": {
+    "text": "Postpone up to 12 months online or by phone at least 10 days before the reporting date; the first request is granted automatically.",
+    "src": "https://www.iowacourts.gov/iowa-courts/jury-service/",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "caregiver",
+     "medical",
+     "hardship",
+     "breastfeeding",
+     "recent"
+    ],
+    "list": [
+     "physical or mental disability (doctor's note)",
+     "sole caregiver of a person with a permanent disability at home (not employed outside home)",
+     "breastfeeding mother caring for the child (not employed outside home)",
+     "served as a state juror within the past two years",
+     "hardship, inconvenience or public necessity (deferral)"
+    ],
+    "text": "Send written proof with the questionnaire; caregiving and breastfeeding excuses do not apply if you work outside the home.",
+    "law": "Iowa Code §§ 607A.5, 607A.6",
+    "src": "https://www.legis.iowa.gov/docs/code/607A.5.pdf"
+   },
+   "penalty": {
+    "fine": 500,
+    "jail": 180,
+    "text": "Failing to appear without sufficient cause can be punished as contempt; before a district judge, up to $500 and/or 6 months in jail.",
+    "law": "Iowa Code §§ 607A.36, 665.4",
+    "src": "https://www.legis.iowa.gov/docs/code/665.4.pdf"
+   },
+   "portal": "https://www.iowacourts.gov/iowa-courts/jury-service/",
+   "missing": [
+    "oneDayOneTrial",
+    "mileage cents-per-mile figure"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "ID",
+   "name": "Idaho",
+   "slug": "idaho-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 10,
+    "daily": 10,
+    "from": 1,
+    "later": null,
+    "laterFrom": null,
+    "mileage": "Mileage from home to the courthouse at the county employee rate",
+    "countyVaries": true,
+    "topUp": false,
+    "text": "State law sets a floor of $5 per half day or $10 per full day; counties pay more (e.g. Bingham County pays $25 per half day and $50 per full day).",
+    "law": null,
+    "src": "https://isc.idaho.gov/about-the-courts/jury-information"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "Paying wages during jury service is not required; it is up to the employer (county court guidance).",
+    "protection": true,
+    "notice": null,
+    "law": null,
+    "src": "https://isc.idaho.gov/about-the-courts/jury-information"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 70,
+    "text": "People 70 or older may ask to be excused by marking the jury qualification form (county court guidance).",
+    "law": null,
+    "src": "https://www.binghamid.gov/JuryFAQs"
+   },
+   "odot": null,
+   "term": {
+    "text": "Varies by court; in Bingham County a panel term lasts four months.",
+    "src": "https://www.binghamid.gov/JuryFAQs",
+    "law": null
+   },
+   "frequency": {
+    "months": 24,
+    "text": "In Bingham County, after a full panel term you may ask not to serve again for two years (county practice).",
+    "src": "https://www.binghamid.gov/JuryFAQs",
+    "law": null
+   },
+   "deferral": {
+    "text": "Follow the instructions on the summons, which vary by court; contact the court's jury commissioner.",
+    "src": "https://isc.idaho.gov/about-the-courts/jury-information",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "caregiver",
+     "medical",
+     "military",
+     "breastfeeding",
+     "age"
+    ],
+    "list": [
+     "age 70 or older (on request)",
+     "temporary or chronic medical condition (physician's letter)",
+     "active military duty",
+     "nursing mother",
+     "religious obligation",
+     "childcare problems"
+    ],
+    "text": "No automatic exemptions; requests go to the county jury commissioner with documentation. Grounds listed come from the Idaho Supreme Court page and Bingham County's court FAQ.",
+    "law": null,
+    "src": "https://www.binghamid.gov/JuryFAQs"
+   },
+   "penalty": {
+    "fine": null,
+    "jail": null,
+    "text": null,
+    "law": null,
+    "src": null
+   },
+   "portal": "https://isc.idaho.gov/about-the-courts/jury-information",
+   "missing": [
+    "pay.law, employer.law, age.law, excuses.law (legislature.idaho.gov unreachable: connection refused)",
+    "oneDayOneTrial",
+    "employer.noticeRequired",
+    "penalty",
+    "statewide term/frequency (only county practice found)"
+   ],
+   "unread": null,
+   "caveat": "Several rules below come from one county court page (Bingham County) because the state code site could not be reached; your county may differ."
+  },
+  {
+   "code": "IL",
+   "name": "Illinois",
+   "slug": "illinois-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": null,
+    "daily": null,
+    "from": 1,
+    "later": null,
+    "laterFrom": null,
+    "mileage": null,
+    "countyVaries": true,
+    "topUp": false,
+    "text": "Juror fees are paid by each county; figure shown is Cook County (Circuit Court of Cook County). The statewide statute (55 ILCS 5/4-11001) could not be read because ilga.gov was unreachable.",
+    "law": null,
+    "src": "https://www.cookcountycourt.org/jurors"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "Employers are not required to pay wages during jury service.",
+    "protection": true,
+    "notice": null,
+    "law": "705 ILCS 305/4.1",
+    "src": "https://www.cookcountycourt.org/jurors"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 70,
+    "text": "Cook County runs a Senior Citizen Opt-Out Program: people 70 or older can call before their date to decline or transfer. Not a statewide statutory exemption as far as verified.",
+    "law": null,
+    "src": "https://www.cookcountycourt.org/jurors"
+   },
+   "odot": null,
+   "term": {
+    "text": "Cook County: one day or one trial. Practice in other counties not verified.",
+    "src": "https://www.cookcountycourt.org/jurors",
+    "law": null
+   },
+   "frequency": {
+    "months": 12,
+    "text": "Cook County: not called again for 12 months after serving.",
+    "src": "https://www.cookcountycourt.org/jurors",
+    "law": null
+   },
+   "deferral": {
+    "text": "Cook County: call (312) 603-JURY; the date can be pushed back 11 or 22 weeks (e.g. vacation, student or teacher during school, seasonal work).",
+    "src": "https://www.cookcountycourt.org/jurors",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "caregiver",
+     "medical",
+     "hardship",
+     "military",
+     "breastfeeding",
+     "age"
+    ],
+    "list": [
+     "nursing mother (excused on request by statute)",
+     "medical condition",
+     "active military",
+     "pending lawsuit in the county",
+     "living in a nursing home or institution",
+     "extreme financial hardship",
+     "no childcare",
+     "primary caretaker of another person",
+     "age 70 or older (Cook County opt-out)"
+    ],
+    "text": "Cook County requires documentation for each excuse; nursing mothers are excused on request under 705 ILCS 305/10.3.",
+    "law": "705 ILCS 305/10.3",
+    "src": "https://www.cookcountycourt.org/jurors"
+   },
+   "penalty": {
+    "fine": null,
+    "jail": null,
+    "text": "Not appearing can lead to contempt of court and a fine or other penalty (Cook County guidance); statutory maximum not verified.",
+    "law": null,
+    "src": "https://www.cookcountycourt.org/jurors"
+   },
+   "portal": "https://www.illinoiscourts.gov/courts/circuit-court/jury-information/",
+   "missing": [
+    "statewide statutory pay minimum and pay.law (ilga.gov / lrb.ilga.gov unreachable: connection refused)",
+    "pay.mileage",
+    "employer.noticeRequired",
+    "age.law (statewide age rule)",
+    "oneDayOneTrial statewide",
+    "penalty.maxFine",
+    "penalty.maxJailDays"
+   ],
+   "unread": "the Illinois General Assembly site (statewide juror fee)",
+   "caveat": "Term, postponement and the age rule below come from the Circuit Court of Cook County, where the Cook County fee is $35 a day; other counties set their own fee and may differ."
+  },
+  {
+   "code": "IN",
+   "name": "Indiana",
+   "slug": "indiana-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 30,
+    "daily": 80,
+    "from": 1,
+    "later": 90,
+    "laterFrom": 6,
+    "mileage": "State-employee mileage rate for each mile traveled to and from court (counties may pay parking instead)",
+    "countyVaries": true,
+    "topUp": false,
+    "text": "Circuit/superior courts: $30 a day until the jury is impaneled, then $80 a day through the 5th day of trial and $90 a day from the 6th trial day (day counts refer to trial days). Counties may add a supplemental fee. City/town courts pay $15 a day.",
+    "law": "Ind. Code § 33-37-10-1",
+    "src": "https://iga.in.gov/ic/2026/Title_33/Article_37/Chapter_10.pdf"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "No wage-continuation duty; employers cannot force employees to use annual, vacation or sick leave for jury service.",
+    "protection": true,
+    "notice": "Employee must notify the employer within a reasonable period after receiving the summons and before appearing.",
+    "law": "Ind. Code §§ 33-28-5-24.3, 35-44.1-2-11, 34-28-4-1",
+    "src": "https://iga.in.gov/ic/2026/Title_33/Article_28/Chapter_5.pdf"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 75,
+    "text": "People 75 or older may be exempted by notifying the jury administrator.",
+    "law": "Ind. Code § 33-28-5-18(d)",
+    "src": "https://iga.in.gov/ic/2026/Title_33/Article_28/Chapter_5.pdf"
+   },
+   "odot": true,
+   "term": {
+    "text": "One trial: you serve until the end of the first trial you are sworn for; if not selected, service ends when jury selection is complete.",
+    "src": "https://iga.in.gov/ic/2026/Title_33/Article_28/Chapter_5.pdf",
+    "law": null
+   },
+   "frequency": {
+    "months": 12,
+    "text": "Cannot serve again as a trial juror in the same county within 365 days of a case that reached a verdict; after serving you are not recalled until the whole pool has been called.",
+    "src": "https://iga.in.gov/ic/2026/Title_33/Article_28/Chapter_5.pdf",
+    "law": null
+   },
+   "deferral": {
+    "text": "One deferral as of right for hardship, extreme inconvenience or necessity: contact the jury administrator by phone, email, letter or in person and pick a new date within one year.",
+    "src": "https://iga.in.gov/ic/2026/Title_33/Article_28/Chapter_5.pdf",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "medical",
+     "hardship",
+     "breastfeeding",
+     "age"
+    ],
+    "list": [
+     "age 75 or older",
+     "gave birth in the past 365 days and currently breastfeeding",
+     "physical or mental disability (physician certificate may be required)",
+     "hardship, extreme inconvenience or necessity (deferral)",
+     "employer with 10 or fewer employees already has a worker on jury service (rescheduling)"
+    ],
+    "text": "Notify the jury administrator; facts supporting an exemption are recorded under oath.",
+    "law": "Ind. Code §§ 33-28-5-18, 33-28-5-24.3",
+    "src": "https://iga.in.gov/ic/2026/Title_33/Article_28/Chapter_5.pdf"
+   },
+   "penalty": {
+    "fine": null,
+    "jail": null,
+    "text": "Failing to appear or complete service is criminal contempt; the statute sets no specific maximum. Lying on the qualification form is a Class C misdemeanor.",
+    "law": "Ind. Code §§ 33-28-5-17, 33-28-5-24",
+    "src": "https://iga.in.gov/ic/2026/Title_33/Article_28/Chapter_5.pdf"
+   },
+   "portal": null,
+   "missing": [
+    "penalty.maxFine",
+    "penalty.maxJailDays",
+    "portal (no statewide juror page found on in.gov/courts)"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "KS",
+   "name": "Kansas",
+   "slug": "kansas-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 10,
+    "daily": 10,
+    "from": 1,
+    "later": null,
+    "laterFrom": null,
+    "mileage": "Mileage at the rate authorized by law, for travel to and from court",
+    "countyVaries": true,
+    "topUp": false,
+    "text": "Each county commission sets the daily fee between $10 and $50; $10 is the statutory minimum.",
+    "law": "K.S.A. 43-171",
+    "src": "https://www.ksrevisor.gov/statutes/chapters/ch43/043_001_0071.html"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "No Kansas statute requires private employers to keep paying wages; the law only bars firing permanent employees for jury service.",
+    "protection": true,
+    "notice": null,
+    "law": "K.S.A. 43-173",
+    "src": "https://www.ksrevisor.gov/statutes/chapters/ch43/043_001_0073.html"
+   },
+   "age": {
+    "rule": "none",
+    "age": null,
+    "text": "Kansas law lists no age-based exemption; an older person can only be excused for physical or mental infirmity or hardship.",
+    "law": "K.S.A. 43-158, 43-159",
+    "src": "https://www.ksrevisor.gov/statutes/chapters/ch43/043_001_0059.html"
+   },
+   "odot": null,
+   "term": {
+    "text": "Set by each district court; e.g. Sedgwick County (Wichita) calls panels for one week, or until the trial ends if selected.",
+    "src": "https://www.dc18.org/jury-duty-faq",
+    "law": null
+   },
+   "frequency": {
+    "months": 12,
+    "text": "Excused if you served as a juror in the same county within the preceding year.",
+    "src": "https://www.ksrevisor.gov/statutes/chapters/ch43/043_001_0058.html",
+    "law": null
+   },
+   "deferral": {
+    "text": "Call the county jury clerk before the summons date; Sedgwick County allows one rescheduling for temporary extraordinary or compelling hardship.",
+    "src": "https://www.dc18.org/jury-duty-faq",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "medical",
+     "hardship",
+     "breastfeeding",
+     "recent"
+    ],
+    "list": [
+     "physical or mental infirmity",
+     "presence elsewhere required for public welfare, health or safety",
+     "extraordinary or compelling personal hardship",
+     "breastfeeding (service postponed)",
+     "served as a juror in the county within the past year",
+     "cannot understand English",
+     "felony conviction within 10 years"
+    ],
+    "text": "Ask the court (the jury clerk) to be excused; send supporting documents such as a doctor's note.",
+    "law": "K.S.A. 43-158, 43-159",
+    "src": "https://www.ksrevisor.gov/statutes/chapters/ch43/043_001_0058.html"
+   },
+   "penalty": {
+    "fine": 100,
+    "jail": null,
+    "text": "Fine of up to $100 for each day of unexcused absence; may also be held in contempt.",
+    "law": "K.S.A. 43-165",
+    "src": "https://www.ksrevisor.gov/statutes/chapters/ch43/043_001_0065.html"
+   },
+   "portal": null,
+   "missing": [
+    "pay.firstDayRate",
+    "employer.noticeRequired",
+    "age.age",
+    "oneDayOneTrial",
+    "penalty.maxJailDays",
+    "portal"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "KY",
+   "name": "Kentucky",
+   "slug": "kentucky-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 12.5,
+    "daily": 12.5,
+    "from": 1,
+    "later": null,
+    "laterFrom": null,
+    "mileage": null,
+    "countyVaries": false,
+    "topUp": false,
+    "text": "$5 per day for service plus $7.50 per day expense reimbursement ($12.50 total), paid for every day you attend even if not seated.",
+    "law": "KRS 29A.170",
+    "src": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=21134"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "No statute requires wages during service; employers may not fire, threaten or coerce an employee over jury service (Class B misdemeanor under KRS 29A.990).",
+    "protection": true,
+    "notice": null,
+    "law": "KRS 29A.160",
+    "src": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=21133"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 70,
+    "text": "People 70 or older can ask, on the juror qualification form, to be excused for the period summoned.",
+    "law": "KRS 29A.080(2)(h)",
+    "src": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=54074"
+   },
+   "odot": null,
+   "term": {
+    "text": "No more than 30 court days of petit jury service in any 24-month period, unless needed to finish a case.",
+    "src": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=21130",
+    "law": null
+   },
+   "frequency": {
+    "months": 24,
+    "text": "Service limits are counted over a 24-month period (30 court days, one grand jury, not both grand and petit).",
+    "src": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=21130",
+    "law": null
+   },
+   "deferral": {
+    "text": "Ask the Chief Circuit Judge or a designated clerk/administrator; staff can postpone up to 12 months, a judge up to 24 months.",
+    "src": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=21127",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "medical",
+     "hardship",
+     "breastfeeding",
+     "age"
+    ],
+    "list": [
+     "undue hardship",
+     "extreme inconvenience",
+     "public necessity",
+     "breastfeeding or expressing breastmilk",
+     "age 70 or older (on request)",
+     "permanent medical condition (permanent exemption)"
+    ],
+    "text": "Request an excuse before or on the day you are summoned; judges favour postponement or reduced service over a permanent excuse.",
+    "law": "KRS 29A.100",
+    "src": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=21127"
+   },
+   "penalty": {
+    "fine": null,
+    "jail": null,
+    "text": "A no-show is ordered to appear and show cause, and may be punished for contempt; the statute sets no specific amount.",
+    "law": "KRS 29A.150",
+    "src": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=21132"
+   },
+   "portal": null,
+   "missing": [
+    "pay.firstDayRate",
+    "pay.mileage",
+    "employer.noticeRequired",
+    "oneDayOneTrial",
+    "penalty.maxFine",
+    "penalty.maxJailDays",
+    "portal"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "LA",
+   "name": "Louisiana",
+   "slug": "louisiana-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 25,
+    "daily": 25,
+    "from": 1,
+    "later": null,
+    "laterFrom": null,
+    "mileage": "Mileage at the state-officials rate per mile to and from the courthouse (one charge each way)",
+    "countyVaries": true,
+    "topUp": false,
+    "text": "$25 a day is the statutory pay for jurors in criminal cases, paid by the parish; civil-jury pay is set separately by court and can differ.",
+    "law": "La. R.S. 13:3049(B)(1)(b)",
+    "src": "https://legis.la.gov/Legis/Law.aspx?d=77422"
+   },
+   "employer": {
+    "pays": "partial",
+    "days": 1,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "Employers must grant up to one day of paid jury leave (no loss of wages or leave); beyond that, pay is not required. Firing for jury service is banned, with fines of $100 to $1,000 per employee.",
+    "protection": true,
+    "notice": "Employee must notify the employer within a reasonable time after receiving the summons and before appearing.",
+    "law": "La. R.S. 23:965",
+    "src": "https://legis.la.gov/Legis/Law.aspx?d=84020"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 70,
+    "text": "People 70 or older are exempt under the state constitution and may decline to serve, or choose to serve.",
+    "law": "La. Const. art. V, §33(B)",
+    "src": "https://www.legis.la.gov/Legis/Law.aspx?d=206472"
+   },
+   "odot": null,
+   "term": {
+    "text": null,
+    "src": null,
+    "law": null
+   },
+   "frequency": {
+    "months": 24,
+    "text": "Anyone who served on a jury in the last two years may claim an exemption (as stated by the 21st Judicial District Court).",
+    "src": "https://21stjdc.org/jury-duty",
+    "law": null
+   },
+   "deferral": {
+    "text": "Contact the parish clerk of court before your date; one postponement, to a date within six months (21st Judicial District practice; parishes set their own procedure).",
+    "src": "https://21stjdc.org/jury-duty",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "caregiver",
+     "medical",
+     "hardship",
+     "recent",
+     "age"
+    ],
+    "list": [
+     "age 70 or older",
+     "served on a jury within the last two years",
+     "mental or physical condition (physician documentation, up to 24 months)",
+     "undue or extreme physical or financial hardship (caring for a dependent, daily living costs, illness)"
+    ],
+    "text": "Apply to the judge with documents (tax returns, doctor's statements, proof of dependency) before your appearance date; missing work alone is not hardship.",
+    "law": "La. R.S. 13:3042 (noted as superseded by La. Supreme Court Rule XXV); La. Const. art. V, §33",
+    "src": "https://legis.la.gov/Legis/Law.aspx?d=77415"
+   },
+   "penalty": {
+    "fine": 50,
+    "jail": 3,
+    "text": "The district judge can fine a no-show up to $50 and/or jail up to 3 days per violation.",
+    "law": "La. R.S. 13:3049(A)",
+    "src": "https://legis.la.gov/Legis/Law.aspx?d=77422"
+   },
+   "portal": null,
+   "missing": [
+    "pay.firstDayRate",
+    "oneDayOneTrial",
+    "term",
+    "portal"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "MA",
+   "name": "Massachusetts",
+   "slug": "massachusetts-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 0,
+    "daily": 50,
+    "from": 4,
+    "later": null,
+    "laterFrom": null,
+    "mileage": null,
+    "countyVaries": false,
+    "topUp": false,
+    "text": "Days 1-3 are paid by the employer (regular wages); from day 4 the state pays $50 a day, with no extra travel reimbursement. Unemployed, retired and other non-employed jurors can get up to $50 a day of expenses for days 1-3.",
+    "law": "M.G.L. c. 234A §§ 48, 50, 51",
+    "src": "https://malegislature.gov/Laws/GeneralLaws/PartIII/TitleII/Chapter234A/Section51"
+   },
+   "employer": {
+    "pays": "yes",
+    "days": 3,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "Every employer must pay regular wages for the first 3 days (including part-time, temporary and casual staff); a court can excuse an employer for extreme financial hardship, in which case the state pays up to $50 a day.",
+    "protection": true,
+    "notice": null,
+    "law": "M.G.L. c. 234A §§ 48, 49, 61",
+    "src": "https://malegislature.gov/Laws/GeneralLaws/PartIII/TitleII/Chapter234A/Section48"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 70,
+    "text": "People 70 or older can opt out by saying so on the summons response.",
+    "law": "M.G.L. c. 234A § 4(2)",
+    "src": "https://malegislature.gov/Laws/GeneralLaws/PartIII/TitleII/Chapter234A/Section4"
+   },
+   "odot": true,
+   "term": {
+    "text": "One day or one trial (statewide); grand jurors serve three months.",
+    "src": "https://malegislature.gov/Laws/GeneralLaws/PartIII/TitleII/Chapter234A/Section41",
+    "law": null
+   },
+   "frequency": {
+    "months": 36,
+    "text": "Disqualified if you served on a state or federal jury in the previous 3 years.",
+    "src": "https://malegislature.gov/Laws/GeneralLaws/PartIII/TitleII/Chapter234A/Section4",
+    "law": null
+   },
+   "deferral": {
+    "text": "One postponement as of right, for up to one year, chosen on the summons response; further deferrals only for hardship, inconvenience or public necessity.",
+    "src": "https://malegislature.gov/Laws/GeneralLaws/PartIII/TitleII/Chapter234A/Section34",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "caregiver",
+     "medical",
+     "hardship",
+     "recent",
+     "age"
+    ],
+    "list": [
+     "extreme hardship (decided strictly by the court)",
+     "physical or mental disability (physician letter)",
+     "sole daily caregiver of a permanently disabled household member (physician letter)",
+     "age 70 or older",
+     "served in the last 3 years",
+     "moved out of the judicial district",
+     "not able to speak and understand English"
+    ],
+    "text": "Disqualifications are claimed on the summons response with the required letters; a full excuse from trial service needs a court finding of extreme hardship.",
+    "law": "M.G.L. c. 234A §§ 4, 39",
+    "src": "https://malegislature.gov/Laws/GeneralLaws/PartIII/TitleII/Chapter234A/Section39"
+   },
+   "penalty": {
+    "fine": 2000,
+    "jail": null,
+    "text": "Failing to appear is a crime punishable by a fine of up to $2,000; the court may also issue an arrest warrant. No jail term is set by the statute.",
+    "law": "M.G.L. c. 234A § 42",
+    "src": "https://malegislature.gov/Laws/GeneralLaws/PartIII/TitleII/Chapter234A/Section42"
+   },
+   "portal": "https://www.mass.gov/info-details/learn-about-trial-jury-service",
+   "missing": [
+    "pay.mileage",
+    "employer.noticeRequired",
+    "penalty.maxJailDays"
+   ],
+   "unread": null,
+   "caveat": "Some texts cited on this page were read in archived copies (web.archive.org, 2025 and 2026) of the official pages linked, because the official site refused our connection on October 29, 2026."
+  },
+  {
+   "code": "MD",
+   "name": "Maryland",
+   "slug": "maryland-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 30,
+    "daily": 30,
+    "from": 1,
+    "later": 50,
+    "laterFrom": 6,
+    "mileage": null,
+    "countyVaries": true,
+    "topUp": false,
+    "text": "State per diem of $30 a day, plus any county supplement (total generally $30-$40); a trial juror gets $50 from the 6th day of one trial.",
+    "law": "Md. Code, Cts. & Jud. Proc. §§ 8-426, 8-427",
+    "src": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcj&enactments=false&section=8-426"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "No wage requirement, but employers cannot make you use annual, sick or vacation leave for jury service, and cannot require a shift starting after 5 p.m. (or before 3 a.m. next day) after 4+ hours of service.",
+    "protection": true,
+    "notice": null,
+    "law": "Md. Code, Cts. & Jud. Proc. §§ 8-501, 8-502",
+    "src": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcj&enactments=false&section=8-501"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 70,
+    "text": "People 70 or older are exempt if they ask the jury commissioner in writing.",
+    "law": "Md. Code, Cts. & Jud. Proc. § 8-306",
+    "src": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcj&enactments=false&section=8-306"
+   },
+   "odot": null,
+   "term": {
+    "text": "Length of service is set by each circuit court's jury plan; ask your local jury office.",
+    "src": "https://www.mdcourts.gov/juryservice/faqs",
+    "law": null
+   },
+   "frequency": {
+    "months": 36,
+    "text": "Not required to serve more than once in any 3-year period, unless a county jury plan provides otherwise (e.g. after 1 year if you served under 5 days).",
+    "src": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcj&enactments=false&section=8-310",
+    "law": null
+   },
+   "deferral": {
+    "text": "One-time change of report date online in participating counties, otherwise contact the local jury office with a pressing reason.",
+    "src": "https://www.mdcourts.gov/juryservice/faqs",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "caregiver",
+     "hardship",
+     "military",
+     "breastfeeding",
+     "age"
+    ],
+    "list": [
+     "extreme inconvenience",
+     "public necessity",
+     "undue hardship",
+     "breastfeeding mother",
+     "sole caregiver of a child under 3",
+     "age 70 or older (exemption)",
+     "active military (exemption)"
+    ],
+    "text": "Show the reason on the questionnaire, in an interview or with other evidence; excuses last only as long as needed and are limited to two unless extraordinary.",
+    "law": "Md. Code, Cts. & Jud. Proc. §§ 8-306, 8-402",
+    "src": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcj&enactments=false&section=8-402"
+   },
+   "penalty": {
+    "fine": 1000,
+    "jail": 60,
+    "text": "Failing to appear: up to $1,000 and/or 60 days in jail (90 days for not completing service; 30 days for not returning the qualification form).",
+    "law": "Md. Code, Cts. & Jud. Proc. § 8-504",
+    "src": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcj&enactments=false&section=8-504"
+   },
+   "portal": "https://www.mdcourts.gov/juryservice",
+   "missing": [
+    "pay.mileage",
+    "employer.noticeRequired",
+    "oneDayOneTrial"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "ME",
+   "name": "Maine",
+   "slug": "maine-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 15,
+    "daily": 15,
+    "from": 1,
+    "later": null,
+    "laterFrom": null,
+    "mileage": "Mileage from home to court and back at the state rate set in 5 M.R.S. § 8",
+    "countyVaries": false,
+    "topUp": false,
+    "text": "$15 for each day you are required to attend, plus mileage.",
+    "law": "14 M.R.S. § 1215",
+    "src": "https://legislature.maine.gov/statutes/14/title14sec1215.html"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "No statute requires wages; employers may not fire, threaten or cut health insurance because of jury service (Class E crime; lost wages recoverable up to 6 weeks).",
+    "protection": true,
+    "notice": null,
+    "law": "14 M.R.S. § 1218",
+    "src": "https://legislature.maine.gov/statutes/14/title14sec1218.html"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 80,
+    "text": "Anyone 80 or older who does not wish to serve is excused on request.",
+    "law": "14 M.R.S. § 1213(2)(C)",
+    "src": "https://legislature.maine.gov/statutes/14/title14sec1213.html"
+   },
+   "odot": false,
+   "term": {
+    "text": "The usual call is 15 court days (longer only to finish a case); in practice most jurors serve one day of selection.",
+    "src": "https://legislature.maine.gov/statutes/14/title14sec1213.html",
+    "law": null
+   },
+   "frequency": {
+    "months": 60,
+    "text": "No more than once in any 5-year period and no more than 3 times in a lifetime as a trial juror.",
+    "src": "https://legislature.maine.gov/statutes/14/title14sec1216.html",
+    "law": null
+   },
+   "deferral": {
+    "text": "Contact the court clerk before your date to ask to postpone; the court must approve and may reschedule to a less burdensome season.",
+    "src": "https://www.courts.maine.gov/juror/faqs.html",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "medical",
+     "hardship",
+     "military",
+     "breastfeeding",
+     "recent",
+     "age"
+    ],
+    "list": [
+     "undue hardship",
+     "extreme inconvenience",
+     "public necessity",
+     "physical or mental disability (physician certificate may be required)",
+     "age 80 or older",
+     "active military",
+     "election officials during elections",
+     "served within the past 5 years",
+     "breastfeeding (postponement)"
+    ],
+    "text": "Ask the clerk with written documentation (a medical note for health reasons); self-employment alone is not an excuse.",
+    "law": "14 M.R.S. §§ 1211, 1213",
+    "src": "https://legislature.maine.gov/statutes/14/title14sec1213.html"
+   },
+   "penalty": {
+    "fine": 100,
+    "jail": 3,
+    "text": "Contempt: up to $100 fine and/or up to 3 days in jail after a show-cause hearing.",
+    "law": "14 M.R.S. § 1217",
+    "src": "https://legislature.maine.gov/statutes/14/title14sec1217.html"
+   },
+   "portal": "https://www.courts.maine.gov/juror/index.html",
+   "missing": [
+    "pay.firstDayRate",
+    "employer.noticeRequired"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "MI",
+   "name": "Michigan",
+   "slug": "michigan-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 30,
+    "daily": 45,
+    "from": 2,
+    "later": null,
+    "laterFrom": null,
+    "mileage": "At least 20 cents per mile",
+    "countyVaries": true,
+    "topUp": false,
+    "text": "Statutory minimums since April 1, 2018: $30 a full day ($15 a half day) for the first day, then $45 ($22.50 half day). Counties may pay more with county board approval.",
+    "law": "MCL 600.1344",
+    "src": "https://www.courts.mi.gov/48f982/siteassets/jury-temporary/2018juryrateincreases.pdf"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "Employers must release the employee but are not required to keep paying wages.",
+    "protection": true,
+    "notice": null,
+    "law": "MCL 600.1348",
+    "src": "https://www.a2gov.org/15th-judicial-district-court-home/jury/"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 70,
+    "text": "People over 70 may claim an exemption if they request it.",
+    "law": "MCL 600.1307a",
+    "src": "https://www.courts.michigan.gov/4a2231/siteassets/court-administration/best-practices/jurybestpractices.pdf"
+   },
+   "odot": false,
+   "term": {
+    "text": "Set by each court; state law allows but does not require one day/one trial, and the state best-practice manual recommends no more than two weeks.",
+    "src": "https://www.courts.michigan.gov/4a2231/siteassets/court-administration/best-practices/jurybestpractices.pdf",
+    "law": null
+   },
+   "frequency": {
+    "months": 12,
+    "text": "Not qualified if you served as a juror within the past 12 months.",
+    "src": "https://www.courts.michigan.gov/4a2231/siteassets/court-administration/best-practices/jurybestpractices.pdf",
+    "law": null
+   },
+   "deferral": {
+    "text": "Handled by each court's jury clerk; contact the clerk as soon as possible (example: the 15th District Court grants only one postponement). Students' service is postponed to the end of the school or academic year.",
+    "src": "https://www.a2gov.org/15th-judicial-district-court-home/jury/",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "medical",
+     "student",
+     "breastfeeding",
+     "recent",
+     "age"
+    ],
+    "list": [
+     "age over 70 (on request)",
+     "nursing mother",
+     "served in the last 12 months",
+     "medical condition (physician statement)",
+     "student class conflict (postponement)"
+    ],
+    "text": "Exemptions must be requested; other excusals are at the court's discretion, and job reasons are generally not accepted.",
+    "law": "MCL 600.1307a",
+    "src": "https://www.courts.michigan.gov/4a2231/siteassets/court-administration/best-practices/jurybestpractices.pdf"
+   },
+   "penalty": {
+    "fine": 7500,
+    "jail": 93,
+    "text": "Failing to attend court when summoned is punishable as contempt of court (MCL 600.1346); contempt is capped at a $7,500 fine and 93 days in jail (MCL 600.1715).",
+    "law": "MCL 600.1346; MCL 600.1715",
+    "src": "https://www.courts.michigan.gov/49aeda/siteassets/publications/benchbooks/contempt/contemptresponsivehtml5.zip/Contempt/Ch_4_Sanctions/Jail_Terms__44__Fines__44__Costs__44__and_Expenses.htm"
+   },
+   "portal": null,
+   "missing": [
+    "employer.noticeRequired",
+    "portal"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "MN",
+   "name": "Minnesota",
+   "slug": "minnesota-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 20,
+    "daily": 20,
+    "from": 1,
+    "later": null,
+    "laterFrom": null,
+    "mileage": "54 cents per mile, round trip from home to the courthouse",
+    "countyVaries": false,
+    "topUp": false,
+    "text": "Rates are set statewide by the Judicial Branch (statute delegates to the supreme court); paid only for days you must report. Child care and parking can be reimbursed, parking is deducted from the daily rate.",
+    "law": "Minn. Stat. § 593.48",
+    "src": "https://www.house.mn.gov/hrd/pubs/ss/ssjury.pdf"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "No wage obligation, but the employer must release the employee and may not force an alternative shift on reporting days.",
+    "protection": true,
+    "notice": null,
+    "law": "Minn. Stat. § 593.50",
+    "src": "https://www.revisor.mn.gov/statutes/cite/593.50"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 70,
+    "text": "Anyone 70 or older who asks to be excused is excused automatically, with no proof needed.",
+    "law": "Minn. Gen. R. Prac. 808(e)",
+    "src": "https://www.revisor.mn.gov/court_rules/gp/id/808/"
+   },
+   "odot": false,
+   "term": {
+    "text": "Term set by county size: 2 weeks in counties of 100,000+, up to 2 months (50,000-100,000), up to 4 months (50,000 or less); service ends after 10 days actually reported.",
+    "src": "https://www.house.mn.gov/hrd/pubs/ss/ssjury.pdf",
+    "law": null
+   },
+   "frequency": {
+    "months": 48,
+    "text": "Not qualified to serve again within 4 years of state or federal jury service (2 years if the county runs short of jurors).",
+    "src": "https://www.revisor.mn.gov/court_rules/gp/id/808/",
+    "law": null
+   },
+   "deferral": {
+    "text": "Ask the jury commissioner; deferral is for a reasonable time set by the county jury plan and is preferred to an excuse.",
+    "src": "https://www.revisor.mn.gov/court_rules/gp/id/810/",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "medical",
+     "hardship",
+     "age"
+    ],
+    "list": [
+     "continuing hardship to the juror or the public",
+     "impaired ability to receive and evaluate information (excused by a judge)",
+     "disability (medical documentation may be required)",
+     "age 70 or older",
+     "legislators and legislative staff during session (deferral)",
+     "candidates for elected office (deferral)"
+    ],
+    "text": "Request an excuse from the jury commissioner; automatic excuses are abolished except those in Rule 808.",
+    "law": "Minn. Gen. R. Prac. 808, 810",
+    "src": "https://www.revisor.mn.gov/court_rules/gp/id/810/"
+   },
+   "penalty": {
+    "fine": 1000,
+    "jail": 90,
+    "text": "Failing to appear without good cause is a misdemeanor (up to $1,000 fine and/or 90 days in jail under the general misdemeanor penalty, Minn. Stat. § 609.03).",
+    "law": "Minn. Stat. § 593.42 subd. 4; § 609.03",
+    "src": "https://www.revisor.mn.gov/statutes/cite/593.42"
+   },
+   "portal": "https://mncourts.gov/jurors",
+   "missing": [
+    "employer.noticeRequired"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "MO",
+   "name": "Missouri",
+   "slug": "missouri-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 6,
+    "daily": 6,
+    "from": 1,
+    "later": null,
+    "laterFrom": null,
+    "mileage": "State-employee mileage rate (RSMo 33.095), round trip from home to the courthouse",
+    "countyVaries": true,
+    "topUp": false,
+    "text": "Statutory floor is $6 a day plus mileage; counties may add more (at least $18 total if the county adds $6, with $6 reimbursed by the state). A county may instead opt for $50 a day from the third day, with nothing for the first two days.",
+    "law": "RSMo § 494.455",
+    "src": "https://revisor.mo.gov/main/OneSection.aspx?section=494.455"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "No statute requires wages; an employer may not require or request that the employee use vacation, sick or personal leave for jury service.",
+    "protection": true,
+    "notice": null,
+    "law": "RSMo § 494.460",
+    "src": "https://revisor.mo.gov/main/OneSection.aspx?section=494.460"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 75,
+    "text": "People aged 75 or older are excused if they apply to the court in time.",
+    "law": "RSMo § 494.430(1)(7)",
+    "src": "https://revisor.mo.gov/main/OneSection.aspx?section=494.430"
+   },
+   "odot": null,
+   "term": {
+    "text": null,
+    "src": null,
+    "law": null
+   },
+   "frequency": {
+    "months": 24,
+    "text": "Anyone who served on a state or federal jury in the preceding two years is excused on timely application.",
+    "src": "https://revisor.mo.gov/main/OneSection.aspx?section=494.430",
+    "law": null
+   },
+   "deferral": {
+    "text": "One postponement as of right: ask the board of jury commissioners in person, by phone, email or in writing; the new date is within 6 months (12 for full-time students). A second postponement only for an unforeseeable extreme emergency.",
+    "src": "https://revisor.mo.gov/main/OneSection.aspx?section=494.432",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "caregiver",
+     "medical",
+     "hardship",
+     "breastfeeding",
+     "recent",
+     "responder",
+     "age"
+    ],
+    "list": [
+     "served on a jury in the preceding two years",
+     "nursing mother (physician statement)",
+     "absence from work would harm public safety, health or welfare",
+     "undue or extreme physical or financial hardship (e.g. no substitute caregiver, costs threatening daily living expenses, risk of illness)",
+     "health care provider whose absence would harm patients",
+     "religious institution employee whose obligations forbid jury service",
+     "age 75 or older"
+    ],
+    "text": "Apply to the court before the reporting date; hardship excuses are decided by a judge and need a ruling by the date you are due to appear.",
+    "law": "RSMo § 494.430",
+    "src": "https://revisor.mo.gov/main/OneSection.aspx?section=494.430"
+   },
+   "penalty": {
+    "fine": 500,
+    "jail": null,
+    "text": "Willful no-show is civil contempt: after a show-cause hearing the court may fine up to $500 and/or order community service. The statute sets no jail term.",
+    "law": "RSMo § 494.450",
+    "src": "https://revisor.mo.gov/main/OneSection.aspx?section=494.450"
+   },
+   "portal": "https://www.courts.mo.gov/page.jsp?id=103118",
+   "missing": [
+    "oneDayOneTrial",
+    "term",
+    "employer.noticeRequired",
+    "penalty.maxJailDays"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "MS",
+   "name": "Mississippi",
+   "slug": "mississippi-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 25,
+    "daily": 25,
+    "from": 1,
+    "later": null,
+    "laterFrom": null,
+    "mileage": "Mileage at the rate authorized by Miss. Code § 25-3-41",
+    "countyVaries": true,
+    "topUp": false,
+    "text": "Each county board of supervisors sets the daily fee between $25 and $40 (circuit, chancery, county courts; justice court $10-$15). Bills to raise the cap died in 2024 and 2025. A Lengthy Trial Fund can top up wages in civil trials over 10 days. Official code text read via legislature bill reproductions (the code itself is hosted by Lexis).",
+    "law": "Miss. Code § 25-7-61",
+    "src": "https://billstatus.ls.state.ms.us/documents/2025/html/HB/0100-0199/HB0123IN.htm"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "No wage obligation in the statute; an employer may not require or request that the employee use annual, vacation or sick leave for jury service.",
+    "protection": true,
+    "notice": "Employee must tell the employer of the summons within a reasonable time after receiving it to be protected.",
+    "law": "Miss. Code § 13-5-35 (enacted as § 15 of H.B. 13, 2004 1st Ex. Sess.)",
+    "src": "https://billstatus.ls.state.ms.us/documents/20041E/pdf/HB/0001-0099/HB0013SG.pdf"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 65,
+    "text": "Anyone over 65 is exempt if they claim it; the claim can be made to the circuit clerk outside court.",
+    "law": "Miss. Code § 13-5-25",
+    "src": "https://billstatus.ls.state.ms.us/documents/2024/html/HB/0900-0999/HB0999IN.htm"
+   },
+   "odot": null,
+   "term": {
+    "text": null,
+    "src": null,
+    "law": null
+   },
+   "frequency": {
+    "months": 24,
+    "text": "Anyone who served on a grand jury or on a trial jury in a litigated case within the last 2 years may claim an exemption.",
+    "src": "https://billstatus.ls.state.ms.us/documents/2024/html/HB/0900-0999/HB0999IN.htm",
+    "law": null
+   },
+   "deferral": {
+    "text": "One postponement as of right (if none in the past 2 years): contact the circuit clerk in person, by phone, email or in writing and fix a new date within 6 months or two court terms. A second postponement only for an unforeseeable extreme emergency.",
+    "src": "https://billstatus.ls.state.ms.us/documents/20041E/pdf/HB/0001-0099/HB0013SG.pdf",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "caregiver",
+     "medical",
+     "hardship",
+     "military",
+     "recent",
+     "age"
+    ],
+    "list": [
+     "illness making the juror incapable of service (physician certificate to the clerk)",
+     "undue or extreme physical or financial hardship (no substitute caregiver, costs threatening daily living expenses, physical hardship)",
+     "age over 65 (on request)",
+     "served on a jury within 2 years (on request)",
+     "Mississippi National Guard on active duty (superior officer statement)"
+    ],
+    "text": "Illness excuses can go to the clerk with a doctor's certificate; hardship excuses are decided by a judge, need documents (tax returns, medical statements...) and must be ruled on before the reporting date. Being away from work alone is not a hardship.",
+    "law": "Miss. Code §§ 13-5-23, 13-5-25, 33-1-5",
+    "src": "https://billstatus.ls.state.ms.us/documents/20041E/pdf/HB/0001-0099/HB0013SG.pdf"
+   },
+   "penalty": {
+    "fine": 500,
+    "jail": 3,
+    "text": "A no-show without good cause is in civil contempt: up to $500 fine, up to 3 days in jail, or both; the court may also order community service.",
+    "law": "Miss. Code § 13-5-34",
+    "src": "https://billstatus.ls.state.ms.us/documents/20041E/pdf/HB/0001-0099/HB0013SG.pdf"
+   },
+   "portal": null,
+   "missing": [
+    "oneDayOneTrial",
+    "term",
+    "portal"
+   ],
+   "unread": null,
+   "caveat": "The Mississippi Code is published online only by a commercial service. The rules on this page were read in bills on the Legislature's own site that reproduce the code sections in force when they were filed; a later amendment may not be reflected."
+  },
+  {
+   "code": "MT",
+   "name": "Montana",
+   "slug": "montana-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 12,
+    "daily": 12,
+    "from": 1,
+    "later": null,
+    "laterFrom": null,
+    "mileage": "Mileage allowance under MCA 2-18-503, each way between home and court",
+    "countyVaries": false,
+    "topUp": false,
+    "text": "Panel members get $12 a day; jurors selected for a case get an additional $13 a day ($25 total) while serving. A juror excused at their own request on the first day forfeits per diem and mileage.",
+    "law": "Mont. Code Ann. § 3-15-201",
+    "src": "https://mca.legmt.gov/bills/mca/title_0030/chapter_0150/part_0020/section_0010/0030-0150-0020-0010.html"
+   },
+   "employer": {
+    "pays": "unknown",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "",
+    "protection": true,
+    "notice": "Employee must give the employer reasonable notice of the summons",
+    "law": null,
+    "src": "https://lccountymt.gov/Government/Clerk-of-District-Court/Jury-Information"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 75,
+    "text": "Anyone 75 or older who asks must be excused by the court or jury commissioner.",
+    "law": "Mont. Code Ann. § 3-15-313(5)",
+    "src": "https://mca.legmt.gov/bills/mca/title_0030/chapter_0150/part_0030/section_0130/0030-0150-0030-0130.html"
+   },
+   "odot": false,
+   "term": {
+    "text": "Counties draw jurors for a jury term (e.g. Lewis and Clark County: a one-year term, September to August); after serving on a trial you are not called again for about two months.",
+    "src": "https://lccountymt.gov/Government/Clerk-of-District-Court/Jury-Information",
+    "law": null
+   },
+   "frequency": {
+    "months": null,
+    "text": null,
+    "src": null,
+    "law": null
+   },
+   "deferral": {
+    "text": "Ask the Clerk of District Court to be made unavailable for set dates (e.g. vacation, doctor appointment) before being drawn for a specific trial.",
+    "src": "https://lccountymt.gov/Government/Clerk-of-District-Court/Jury-Information",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "caregiver",
+     "medical",
+     "hardship",
+     "breastfeeding",
+     "age"
+    ],
+    "list": [
+     "undue hardship (for you, a dependent or the public you serve)",
+     "breastfeeding mother",
+     "personal care of a sick, aged or special-needs dependent",
+     "chronic incapacity from illness or injury (permanent exclusion, with physician certification)",
+     "age 75 or older"
+    ],
+    "text": "Send an affidavit stating the facts to the jury commissioner; the court decides. Chronically incapacitated people can ask for permanent exclusion with a physician's certificate.",
+    "law": "Mont. Code Ann. § 3-15-313",
+    "src": "https://mca.legmt.gov/bills/mca/title_0030/chapter_0150/part_0030/section_0130/0030-0150-0030-0130.html"
+   },
+   "penalty": {
+    "fine": 50,
+    "jail": null,
+    "text": "A summoned juror who willfully fails to attend may be attached (brought in) and fined up to $50; the statute sets no jail term.",
+    "law": "Mont. Code Ann. § 3-15-321",
+    "src": "https://mca.legmt.gov/bills/mca/title_0030/chapter_0150/part_0030/section_0210/0030-0150-0030-0210.html"
+   },
+   "portal": "https://courts.mt.gov/general-public/JurorInformation",
+   "missing": [
+    "employer.mustPay",
+    "employer.payDetail",
+    "employer.law (no statute located; protection stated by county clerk page)",
+    "frequency",
+    "penalty.maxJailDays (statute names no jail term)"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "NC",
+   "name": "North Carolina",
+   "slug": "north-carolina-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 12,
+    "daily": 20,
+    "from": 2,
+    "later": 40,
+    "laterFrom": 6,
+    "mileage": "Only for jurors summoned from outside the county to a special venire, at the State employee rate",
+    "countyVaries": false,
+    "topUp": false,
+    "text": "Uniform statewide fees: $12 for day 1, $20 a day after, and $40 a day for each day beyond 5 days served in any 24-month period. Grand jurors get $20 a day.",
+    "law": "N.C. Gen. Stat. § 7A-312",
+    "src": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_7A/GS_7A-312.html"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "No statute requires employers to keep paying wages; the law only forbids firing or demoting an employee for jury service.",
+    "protection": true,
+    "notice": null,
+    "law": "N.C. Gen. Stat. § 9-32",
+    "src": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_9/GS_9-32.html"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 72,
+    "text": "People 72 or older may ask to be excused, deferred or exempted by filing a signed statement, without appearing, at least 5 business days before the report date.",
+    "law": "N.C. Gen. Stat. § 9-6.1(a)",
+    "src": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_9/GS_9-6.1.html"
+   },
+   "odot": false,
+   "term": {
+    "text": "One week: jurors serve for the week summoned and are discharged at the end of the weekly session, unless sitting on a trial, which they must finish.",
+    "src": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_9/GS_9-5.html",
+    "law": null
+   },
+   "frequency": {
+    "months": 24,
+    "text": "A person who served as a juror in the preceding two years is not qualified, so cannot be required to serve again within 2 years (6 years after a full grand jury term).",
+    "src": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_9/GS_9-3.html",
+    "law": null
+   },
+   "deferral": {
+    "text": "Requests to be excused or deferred go to the chief district court judge (or the clerk or staff designated) under procedures set in each district; jurors 72+, full-time students and people with a disability may file a signed statement without appearing, at least 5 business days before the report date. Deferred jurors are added to a later session.",
+    "src": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_9/GS_9-6.1.html",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "medical",
+     "student",
+     "hardship",
+     "age"
+    ],
+    "list": [
+     "compelling personal hardship",
+     "service contrary to public welfare, health or safety",
+     "full-time student at an out-of-state college (classes or exams)",
+     "age 72 or older",
+     "disability that interferes with service",
+     "not qualified under § 9-3"
+    ],
+    "text": "Excuses are granted only for compelling personal hardship or public welfare, health or safety, on the form from the Administrative Office of the Courts, decided by the chief district court judge or a delegate before the session. A judge may require an excused juror to serve at a later session.",
+    "law": "N.C. Gen. Stat. §§ 9-6, 9-6.1",
+    "src": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_9/GS_9-6.html"
+   },
+   "penalty": {
+    "fine": 50,
+    "jail": null,
+    "text": "A summoned juror who fails to appear without a sufficient excuse can be fined up to $50, entered as a judgment if unpaid. The statute sets no jail term.",
+    "law": "N.C. Gen. Stat. § 9-13",
+    "src": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_9/GS_9-13.html"
+   },
+   "portal": "https://www.nccourts.gov/help-topics/jury-service",
+   "missing": [
+    "employer.noticeRequired",
+    "penalty.maxJailDays (statute sets a fine only)",
+    "deferral: no statewide online postponement procedure read (nccourts.gov unreachable)"
+   ],
+   "unread": null,
+   "caveat": "Some texts cited on this page were read in archived copies (web.archive.org, 2025 and 2026) of the official pages linked, because the official site refused our connection on October 29, 2026."
+  },
+  {
+   "code": "ND",
+   "name": "North Dakota",
+   "slug": "north-dakota-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 100,
+    "daily": 100,
+    "from": 1,
+    "later": null,
+    "laterFrom": null,
+    "mileage": "State-employee mileage rate (N.D.C.C. 54-06-09)",
+    "countyVaries": false,
+    "topUp": false,
+    "text": "$100 per day of required attendance in district court, paid by the state; only $50 for the first day if attendance that day is four hours or less.",
+    "law": "N.D. Cent. Code § 27-09.1-14",
+    "src": "https://ndlegis.gov/cencode/t27c09-1.pdf"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "The jury chapter imposes no duty on employers to pay wages; it only protects the job.",
+    "protection": true,
+    "notice": null,
+    "law": "N.D. Cent. Code § 27-09.1-17",
+    "src": "https://ndlegis.gov/cencode/t27c09-1.pdf"
+   },
+   "age": {
+    "rule": "none",
+    "age": null,
+    "text": "No age exemption: the statute says no qualified juror is exempt; older jurors can only ask to be excused for undue hardship.",
+    "law": "N.D. Cent. Code § 27-09.1-10",
+    "src": "https://ndlegis.gov/cencode/t27c09-1.pdf"
+   },
+   "odot": null,
+   "term": {
+    "text": "No more than ten court days as a trial juror in any two-year period, unless needed to finish a case.",
+    "src": "https://ndlegis.gov/cencode/t27c09-1.pdf",
+    "law": null
+   },
+   "frequency": {
+    "months": null,
+    "text": "Service is capped at ten court days and one grand jury per two-year period; no separate waiting period is set.",
+    "src": "https://ndlegis.gov/cencode/t27c09-1.pdf",
+    "law": null
+   },
+   "deferral": {
+    "text": "The court may excuse a juror for a period it deems necessary, after which the juror must report again (a postponement).",
+    "src": "https://ndlegis.gov/cencode/t27c09-1.pdf",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "hardship"
+    ],
+    "list": [
+     "undue hardship",
+     "extreme inconvenience",
+     "public necessity"
+    ],
+    "text": "Ask the court on the qualification form or by interview; the excuse is temporary and the court sets when you report again.",
+    "law": "N.D. Cent. Code § 27-09.1-11",
+    "src": "https://ndlegis.gov/cencode/t27c09-1.pdf"
+   },
+   "penalty": {
+    "fine": null,
+    "jail": null,
+    "text": "The jury chapter's penalty section for failing to serve (§ 27-09.1-16) was repealed in 1993; no specific penalty for not appearing is set in the chapter.",
+    "law": "N.D. Cent. Code § 27-09.1-16 (repealed)",
+    "src": "https://ndlegis.gov/cencode/t27c09-1.pdf"
+   },
+   "portal": null,
+   "missing": [
+    "oneDayOneTrial",
+    "penalty.maxFine",
+    "penalty.maxJailDays",
+    "frequency.months",
+    "employer.noticeRequired",
+    "portal (ndcourts.gov blocks automated access, 403)"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "NE",
+   "name": "Nebraska",
+   "slug": "nebraska-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 35,
+    "daily": 35,
+    "from": 1,
+    "later": null,
+    "laterFrom": null,
+    "mileage": "Mileage paid in addition (rate not stated on the court page)",
+    "countyVaries": false,
+    "topUp": false,
+    "text": "$35 for each day of required service plus mileage; checks are mailed by the county clerk 2 to 4 weeks after service.",
+    "law": "Neb. Rev. Stat. § 25-1640 (per court forms; statute site unreachable)",
+    "src": "https://supremecourt.nebraska.gov/administration/public/jury-service"
+   },
+   "employer": {
+    "pays": "yes",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": true,
+    "text": "Employers may not dock pay for jury service; they may only reduce wages by the $35/day juror fee (expense reimbursements excluded). Applies to all employers.",
+    "protection": true,
+    "notice": "Employee must give reasonable notice of the summons; shift workers must be excused from shift work on request",
+    "law": "Neb. Rev. Stat. § 25-1674",
+    "src": "https://supremecourt.nebraska.gov/administration/public/jury-service"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 70,
+    "text": "People 70 or older can be exempted by sending a written request.",
+    "law": null,
+    "src": "https://supremecourt.nebraska.gov/administration/public/jury-service"
+   },
+   "odot": null,
+   "term": {
+    "text": "Depends on the court: from one day to several weeks; you may have to check in daily.",
+    "src": "https://supremecourt.nebraska.gov/administration/public/jury-service",
+    "law": null
+   },
+   "frequency": {
+    "months": 60,
+    "text": "Not required to serve if, in the past 5 years, you served more than 4 weeks as a petit juror, on more than one grand jury, or on both a grand and a petit jury.",
+    "src": "https://supremecourt.nebraska.gov/administration/public/jury-service",
+    "law": null
+   },
+   "deferral": {
+    "text": "Written request to the judge (form DC 8:4, Application for Postponement of Jury Service) showing undue hardship, extreme inconvenience or public necessity; granted for a limited period.",
+    "src": "https://supremecourt.nebraska.gov/administration/public/jury-service",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "medical",
+     "military",
+     "breastfeeding",
+     "recent",
+     "age"
+    ],
+    "list": [
+     "physical or mental disability (physician's statement)",
+     "nursing mother (physician's certificate)",
+     "active-duty military (documentation)",
+     "age 70 or older",
+     "prior service within 5 years (as defined)"
+    ],
+    "text": "Notify the clerk of the court that summoned you in writing immediately; a judge reviews the request.",
+    "law": null,
+    "src": "https://supremecourt.nebraska.gov/administration/public/jury-service"
+   },
+   "penalty": {
+    "fine": null,
+    "jail": null,
+    "text": "Failing to respond to a summons without good cause, or to answer the qualification form, can lead to contempt of court. (Employers who violate § 25-1674 commit a Class IV misdemeanor.)",
+    "law": null,
+    "src": "https://supremecourt.nebraska.gov/administration/public/jury-service"
+   },
+   "portal": "https://supremecourt.nebraska.gov/administration/public/jury-service",
+   "missing": [
+    "pay.mileage rate",
+    "age.law",
+    "excuses.law",
+    "penalty.maxFine",
+    "penalty.maxJailDays",
+    "penalty.law",
+    "oneDayOneTrial (nebraskalegislature.gov unreachable from this environment; statutes not read)"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "NH",
+   "name": "New Hampshire",
+   "slug": "new-hampshire-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 20,
+    "daily": 20,
+    "from": 1,
+    "later": null,
+    "laterFrom": null,
+    "mileage": "20 cents per mile round trip, only if you live outside the town or city of the courthouse",
+    "countyVaries": false,
+    "topUp": false,
+    "text": "$10 per half day, $20 per full day, paid by the state; State of NH employees get mileage only.",
+    "law": "RSA 500-A:15",
+    "src": "https://gc.nh.gov/rsa/html/LI/500-A/500-A-15.htm"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "No NH statute read requires wages during jury service; RSA 500-A:14 protects the job only. Fired employees can sue within 1 year for lost wages and reinstatement.",
+    "protection": true,
+    "notice": null,
+    "law": "RSA 500-A:14",
+    "src": "https://gc.nh.gov/rsa/html/LI/500-A/500-A-14.htm"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 70,
+    "text": "People 70 or older may ask to be excused through eResponse if they do not wish to serve (eligibility is set by court rule under RSA 500-A:5).",
+    "law": "RSA 500-A:5 (eligibility by rule of court); NH Judicial Branch jurors page",
+    "src": "https://www.courts.nh.gov/jurors"
+   },
+   "odot": false,
+   "term": {
+    "text": "Petit jurors are summoned for a month and may sit on several trials; no more than 30 days (six 5-day weeks) unless on an ongoing trial. Grand jurors usually serve 1 to 3 days a month.",
+    "src": "https://www.courts.nh.gov/jurors",
+    "law": null
+   },
+   "frequency": {
+    "months": 36,
+    "text": "People who actually attended court as jurors are not put back on the master list for at least 3 years.",
+    "src": "https://gc.nh.gov/rsa/html/LI/500-A/500-A-16.htm",
+    "law": null
+   },
+   "deferral": {
+    "text": "Ask through the eResponse questionnaire to defer to another month (e.g. out-of-state student, legislator in session, pending case, temporary medical condition, hardship); a judge rules on it.",
+    "src": "https://www.courts.nh.gov/jurors",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "medical",
+     "student",
+     "hardship",
+     "military",
+     "recent",
+     "age"
+    ],
+    "list": [
+     "undue hardship",
+     "extreme inconvenience",
+     "public necessity",
+     "age 70 or older",
+     "active military service",
+     "served in NH Superior Court in the last 3 years",
+     "temporary medical condition (deferral)",
+     "out-of-state student (deferral)"
+    ],
+    "text": "Request an excusal or deferral in eResponse; a judge decides. The statute allows excuse for undue hardship, extreme inconvenience, public necessity or other cause the court finds appropriate (RSA 500-A:11).",
+    "law": "RSA 500-A:11",
+    "src": "https://gc.nh.gov/rsa/html/LI/500-A/500-A-11.htm"
+   },
+   "penalty": {
+    "fine": 1200,
+    "jail": null,
+    "text": "Failing to appear and to show cause is a misdemeanor (RSA 500-A:20). An unclassified misdemeanor is presumed class B (fine up to $1,200, no jail) unless the state seeks class A penalties (up to 1 year and $2,000) under RSA 625:9 IV(c) and 651:2.",
+    "law": "RSA 500-A:20; RSA 625:9 IV(c); RSA 651:2 IV(a)",
+    "src": "https://gc.nh.gov/rsa/html/LI/500-A/500-A-20.htm"
+   },
+   "portal": "https://www.courts.nh.gov/jurors",
+   "missing": [
+    "employer.noticeRequired",
+    "penalty.maxJailDays (none at the presumed class B level; up to 1 year only if prosecuted as class A)",
+    "Note: all NH sources read via web.archive.org copies because courts.nh.gov and gc.nh.gov block this machine"
+   ],
+   "unread": null,
+   "caveat": "Some texts cited on this page were read in archived copies (web.archive.org, 2025 and 2026) of the official pages linked, because the official site refused our connection on October 29, 2026."
+  },
+  {
+   "code": "NJ",
+   "name": "New Jersey",
+   "slug": "new-jersey-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 5,
+    "daily": 5,
+    "from": 1,
+    "later": 40,
+    "laterFrom": 4,
+    "mileage": null,
+    "countyVaries": false,
+    "topUp": false,
+    "text": "Petit jurors get $5 a day for the first 3 days and $40 a day from day 4; grand and State grand jurors get $5 a day. Full-time State employees get no juror fee but keep their regular wages (N.J.S.A. 2B:20-16).",
+    "law": "N.J.S.A. 2B:20-16",
+    "src": "https://www.njcourts.gov/jurors/faq"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "No statute requires private employers to pay wages during jury service; State agencies keep paying their full-time employees.",
+    "protection": true,
+    "notice": null,
+    "law": "N.J.S.A. 2B:20-17",
+    "src": "https://www.njcourts.gov/jurors/general-jury-information"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 75,
+    "text": "People 75 or older may ask to be excused by giving their date of birth to the Jury Management Office, either for the upcoming date only or permanently.",
+    "law": "N.J.S.A. 2B:20-10",
+    "src": "https://www.njcourts.gov/jurors/faq"
+   },
+   "odot": null,
+   "term": {
+    "text": null,
+    "src": null,
+    "law": null
+   },
+   "frequency": {
+    "months": 36,
+    "text": "Anyone who served in the same county within the last 3 years may ask to be excused; this is not automatic, and federal service does not count.",
+    "src": "https://www.njcourts.gov/jurors/excusal-requests",
+    "law": null
+   },
+   "deferral": {
+    "text": "After completing the qualification questionnaire, a juror may defer (reschedule) once through the My Jury Service Portal or by contacting the county Jury Management Office, choosing a new date and a reason (medical, transportation, travel, student, emergency, employment).",
+    "src": "https://www.njcourts.gov/jurors/rescheduling-requests",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "caregiver",
+     "medical",
+     "hardship",
+     "military",
+     "recent",
+     "responder",
+     "age"
+    ],
+    "list": [
+     "age 75 or older",
+     "served in the same county within 3 years",
+     "severe financial hardship",
+     "medical condition unlikely to change within a year",
+     "sole care of a minor child or of a sick, aged or infirm dependent",
+     "nursing or expressing milk for a child one year or younger",
+     "provider of highly specialized healthcare services who cannot be replaced",
+     "healthcare worker essential to a disabled person's care",
+     "full-time teacher with no substitute",
+     "active-duty military",
+     "active volunteer firefighter or rescue squad member"
+    ],
+    "text": "Complete the qualification questionnaire first, then mail or email the required documents (certification, doctor's form, employer or superintendent letter, orders) to the county Jury Management Office.",
+    "law": "N.J.S.A. 2B:20-10",
+    "src": "https://www.njcourts.gov/jurors/excusal-requests"
+   },
+   "penalty": {
+    "fine": null,
+    "jail": null,
+    "text": "The court site says only that failing to respond to the summons leads to further court action; no fine or jail figure was read in an official source.",
+    "law": null,
+    "src": "https://www.njcourts.gov/jurors/faq"
+   },
+   "portal": "https://www.njcourts.gov/jurors",
+   "missing": [
+    "pay.mileage",
+    "employer.noticeRequired",
+    "oneDayOneTrial",
+    "term",
+    "penalty.maxFine",
+    "penalty.maxJailDays",
+    "penalty.law (N.J.S.A. 2B:20 statute text not reachable: njleg.state.nj.us blocked and its URLs cannot be built for web.archive.org)"
+   ],
+   "unread": null,
+   "caveat": "Some texts cited on this page were read in archived copies (web.archive.org, 2025 and 2026) of the official pages linked, because the official site refused our connection on October 29, 2026."
+  },
+  {
+   "code": "NM",
+   "name": "New Mexico",
+   "slug": "new-mexico-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": null,
+    "daily": null,
+    "from": 1,
+    "later": null,
+    "laterFrom": null,
+    "mileage": "$0.70 per mile, round trip, for mileage over 40 miles",
+    "countyVaries": false,
+    "topUp": false,
+    "text": "New Mexico pays jurors by the hour, not by the day: $12.00 per hour, set by New Mexico Supreme Court order.",
+    "law": "NMSA 1978 § 38-5-15; N.M. Supreme Court order",
+    "src": "https://jury.nmcourts.gov/frequently-asked-questions-faqs/"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "No duty to pay wages; but an employer may not make an employee use annual, vacation or sick leave for jury service. A violation is a petty misdemeanor.",
+    "protection": true,
+    "notice": null,
+    "law": "NMSA 1978 §§ 38-5-18, 38-5-19",
+    "src": "https://nmcourts.gov/wp-content/uploads/sites/24/2023/11/Jury-FAQs.pdf"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 75,
+    "text": "People 75 or older may ask the court for a permanent exemption (one request each to the district and magistrate court of their county).",
+    "law": "NMSA 1978 § 38-5-2",
+    "src": "https://nmcourts.gov/wp-content/uploads/sites/24/2023/11/Jury-FAQs.pdf"
+   },
+   "odot": null,
+   "term": {
+    "text": "Set by each court; the summons or local jury office gives the length.",
+    "src": "https://jury.nmcourts.gov/frequently-asked-questions-faqs/",
+    "law": null
+   },
+   "frequency": {
+    "months": 36,
+    "text": "Generally not required to serve in a New Mexico state court more than once every 3 years (proof of actual service needed).",
+    "src": "https://jury.nmcourts.gov/frequently-asked-questions-faqs/",
+    "law": null
+   },
+   "deferral": {
+    "text": "One postponement can be requested through the online Jury Questionnaire; a second is allowed only for an unforeseen extreme emergency. You must appear unless told it was granted.",
+    "src": "https://jury.nmcourts.gov/frequently-asked-questions-faqs/",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "medical",
+     "recent",
+     "age"
+    ],
+    "list": [
+     "age 75 or older (on request)",
+     "medical condition or disability (with healthcare provider statement)",
+     "served within the past 3 years"
+    ],
+    "text": "Excusal is granted only in very limited circumstances, in writing with documents; a medical excuse needs a signed statement from a healthcare provider. Moral or religious beliefs are not a ground.",
+    "law": "NMSA 1978 §§ 38-5-2, 38-5-11",
+    "src": "https://jury.nmcourts.gov/frequently-asked-questions-faqs/"
+   },
+   "penalty": {
+    "fine": null,
+    "jail": null,
+    "text": "Willfully failing to appear can be punished under NMSA § 38-5-10; failure to appear and contempt are criminal charges that can bring jail, a fine or both.",
+    "law": "NMSA 1978 § 38-5-10",
+    "src": "https://jury.nmcourts.gov/frequently-asked-questions-faqs/"
+   },
+   "portal": "https://jury.nmcourts.gov/",
+   "missing": [
+    "pay.firstDayRate",
+    "pay.dailyRate (paid hourly: $12/hour)",
+    "employer.noticeRequired",
+    "oneDayOneTrial",
+    "penalty.maxFine",
+    "penalty.maxJailDays"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "NV",
+   "name": "Nevada",
+   "slug": "nevada-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 0,
+    "daily": 65,
+    "from": 3,
+    "later": null,
+    "laterFrom": null,
+    "mileage": "36.5 cents a mile if you live 30 miles or more (one way) from the place of trial",
+    "countyVaries": false,
+    "topUp": false,
+    "text": "$65 a day from the third day of jury selection, or from the day you are sworn in as a juror if earlier; the first two days of selection are unpaid unless you are sworn.",
+    "law": "NRS 6.150",
+    "src": "https://www.clarkcountycourts.us/departments/jury-services/"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "NRS 6.190 does not require wages, but an employer may not force you to use sick leave or vacation time, nor make you work within 8 hours before reporting (or that evening after 4+ hours of service).",
+    "protection": true,
+    "notice": "Give the employer notice (sent with the summons) at least 3 days before reporting",
+    "law": "NRS 6.190",
+    "src": "https://www.clarkcountycourts.us/departments/jury-services/"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 70,
+    "text": "People 70 or over may ask to be excused from all jury service (affidavit); 65+ living 65 miles or more from the court may also ask.",
+    "law": "NRS 6.020(2)-(3)",
+    "src": "https://www.leg.state.nv.us/NRS/NRS-006.html"
+   },
+   "odot": null,
+   "term": {
+    "text": "Clark County (Eighth Judicial District): if not assigned to a panel or selected the first day, service is complete; sworn jurors serve for the trial (average 3 to 5 days).",
+    "src": "https://www.clarkcountycourts.us/departments/jury-services/",
+    "law": null
+   },
+   "frequency": {
+    "months": 18,
+    "text": "Clark County: not called again for at least 18 months (federal court may still summon you).",
+    "src": "https://www.clarkcountycourts.us/departments/jury-services/",
+    "law": null
+   },
+   "deferral": {
+    "text": "Clark County: request a deferral through the online jury questionnaire, then email supporting documents to jury@clarkcountycourts.us.",
+    "src": "https://www.clarkcountycourts.us/departments/jury-services/",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "caregiver",
+     "medical",
+     "hardship"
+    ],
+    "list": [
+     "sickness or physical disability",
+     "serious illness or death in immediate family",
+     "undue hardship or extreme inconvenience",
+     "public necessity",
+     "primary caregiver of a person needing constant assistance",
+     "permanent physical or mental disability"
+    ],
+    "text": "Ask through the court's jury questionnaire with documentation; the court may excuse temporarily on these grounds and must permanently excuse people with a disabling permanent condition (doctor's certificate may be required).",
+    "law": "NRS 6.030",
+    "src": "https://www.leg.state.nv.us/NRS/NRS-006.html"
+   },
+   "penalty": {
+    "fine": 500,
+    "jail": null,
+    "text": "A no-show is ordered to show cause; without good cause it is contempt with a fine of up to $500 (no jail term in NRS 6.040).",
+    "law": "NRS 6.040",
+    "src": "https://www.leg.state.nv.us/NRS/NRS-006.html"
+   },
+   "portal": "https://www.clarkcountycourts.us/departments/jury-services/",
+   "missing": [
+    "penalty.maxJailDays (NRS 6.040 sets a fine only)",
+    "oneDayOneTrial (statewide practice not established)",
+    "statewide portal (nvcourts.gov 403); term, frequency and deferral from Clark County (Eighth Judicial District) official page"
+   ],
+   "unread": null,
+   "caveat": "Some texts cited on this page were read in archived copies (web.archive.org, 2025 and 2026) of the official pages linked, because the official site refused our connection on October 29, 2026."
+  },
+  {
+   "code": "NY",
+   "name": "New York",
+   "slug": "new-york-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 72,
+    "daily": 72,
+    "from": 1,
+    "later": null,
+    "laterFrom": null,
+    "mileage": null,
+    "countyVaries": false,
+    "topUp": true,
+    "text": "$72 per day of attendance in state courts (amended 2025). Employed jurors whose employer must keep paying at least $72 do not also get the state fee; if wages are under $72 the state pays the difference.",
+    "law": "N.Y. Judiciary Law § 521",
+    "src": "https://www.nysenate.gov/legislation/laws/JUD/521"
+   },
+   "employer": {
+    "pays": "partial",
+    "days": 3,
+    "minEmployees": 11,
+    "dailyCap": 72,
+    "feeOffset": false,
+    "text": "Employers with more than 10 employees may not withhold the first $72 of daily wages for the first 3 days of jury service; after that, pay may be withheld.",
+    "protection": true,
+    "notice": "Employee must notify the employer before the term of service begins",
+    "law": "N.Y. Judiciary Law § 519",
+    "src": "https://www.nysenate.gov/legislation/laws/JUD/519"
+   },
+   "age": {
+    "rule": "none",
+    "age": null,
+    "text": "The qualifications set only a minimum age of 18; the statute sets no upper age limit and no age exemption.",
+    "law": "N.Y. Judiciary Law § 510",
+    "src": "https://www.nysenate.gov/legislation/laws/JUD/510"
+   },
+   "odot": null,
+   "term": {
+    "text": "Trial jurors serve no more than five court days of actual attendance (or less if the commissioner sets it), but stay until any trial they are on ends.",
+    "src": "https://www.nysenate.gov/legislation/laws/JUD/525",
+    "law": null
+   },
+   "frequency": {
+    "months": 72,
+    "text": "Not eligible to serve again in state courts for 6 years after the last day of service (8 years if service lasted more than 10 days).",
+    "src": "https://www.nysenate.gov/legislation/laws/JUD/524",
+    "law": null
+   },
+   "deferral": {
+    "text": "One postponement to a definite date when court is in session, no more than 6 months after the original date; a breastfeeding mother may postpone up to 2 years. Ask the county commissioner of jurors.",
+    "src": "https://www.nysenate.gov/legislation/laws/JUD/517",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "caregiver",
+     "medical",
+     "hardship"
+    ],
+    "list": [
+     "mental or physical incapacity",
+     "undue hardship",
+     "extreme inconvenience",
+     "hardship to a person under the juror's care",
+     "hardship to the public"
+    ],
+    "text": "Apply to the commissioner of jurors or the court; excusal requires incapacity, or undue hardship or extreme inconvenience to you, a person in your care, or the public.",
+    "law": "N.Y. Judiciary Law § 517",
+    "src": "https://www.nysenate.gov/legislation/laws/JUD/517"
+   },
+   "penalty": {
+    "fine": 250,
+    "jail": null,
+    "text": "Civil penalty of up to $250 for failing to return the questionnaire or to appear; the section sets no jail term (ignoring a court order can bring other penalties).",
+    "law": "N.Y. Judiciary Law § 527",
+    "src": "https://www.nysenate.gov/legislation/laws/JUD/527"
+   },
+   "portal": "https://www.nycourts.gov/juror/",
+   "missing": [
+    "pay.mileage",
+    "oneDayOneTrial",
+    "penalty.maxJailDays"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "OH",
+   "name": "Ohio",
+   "slug": "ohio-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": null,
+    "daily": null,
+    "from": 1,
+    "later": null,
+    "laterFrom": 11,
+    "mileage": null,
+    "countyVaries": true,
+    "topUp": false,
+    "text": "No statewide figure: each board of county commissioners sets the daily rate. After 10 days of actual service, pay rises to the greater of $15 or 1.5 times the county rate (the county may go up to 2 times).",
+    "law": "Ohio Rev. Code § 2313.22",
+    "src": "https://codes.ohio.gov/ohio-revised-code/section-2313.22"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "Ohio law does not require wages during jury service; employers may not require or request use of vacation, sick or annual leave.",
+    "protection": true,
+    "notice": "Employee must give the employer reasonable notice of the summons before service starts.",
+    "law": "Ohio Rev. Code § 2313.19",
+    "src": "https://codes.ohio.gov/ohio-revised-code/section-2313.19"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 75,
+    "text": "A juror over 75 is excused if they ask, by telling the court's jury employee in person, by phone, in writing or by email before the reporting date.",
+    "law": "Ohio Rev. Code § 2313.14(A)(6)",
+    "src": "https://codes.ohio.gov/ohio-revised-code/section-2313.14"
+   },
+   "odot": null,
+   "term": {
+    "text": "A juror who has actually served two consecutive calendar weeks is discharged (unless a trial is still under way).",
+    "src": "https://codes.ohio.gov/ohio-revised-code/section-2313.21",
+    "law": null
+   },
+   "frequency": {
+    "months": null,
+    "text": "After such a discharge, no jury service in any Ohio court until the second jury year after the last service (counties under 100,000 people set their own rule).",
+    "src": "https://codes.ohio.gov/ohio-revised-code/section-2313.21",
+    "law": null
+   },
+   "deferral": {
+    "text": "One postponement is granted automatically if asked at least two business days before the first appearance (phone, writing or email) and a new date within six months is agreed; further postponements only for extreme emergencies. Small employers (25 or fewer staff) get an automatic postponement if another employee served in the prior 30 days.",
+    "src": "https://codes.ohio.gov/ohio-revised-code/section-2313.15",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "caregiver",
+     "medical",
+     "hardship",
+     "military",
+     "breastfeeding",
+     "age"
+    ],
+    "list": [
+     "public interest materially injured by attendance",
+     "recent death or dangerous illness of spouse or near relative",
+     "cloistered member of a religious order",
+     "mental or physical condition (documentation may be required)",
+     "undue or extreme physical or financial hardship",
+     "caregiver with no substitute",
+     "breastfeeding a baby one year old or younger",
+     "over 75 on request",
+     "active member of an Amish sect",
+     "active military duty"
+    ],
+    "text": "Ask the court or jury commissioners before the reporting date, with documentation for hardship. Missing work alone is not a hardship. Excuses last only for that jury year unless the grounds are permanent.",
+    "law": "Ohio Rev. Code § 2313.14",
+    "src": "https://codes.ohio.gov/ohio-revised-code/section-2313.14"
+   },
+   "penalty": {
+    "fine": 250,
+    "jail": 30,
+    "text": "Failing to attend violates § 2313.20 and is punished as contempt: first offense up to $250 and 30 days in jail; second up to $500 and 60 days; third or later up to $1,000 and 90 days.",
+    "law": "Ohio Rev. Code §§ 2313.20, 2313.99(A), 2705.05",
+    "src": "https://codes.ohio.gov/ohio-revised-code/section-2705.05"
+   },
+   "portal": null,
+   "missing": [
+    "pay.firstDayRate",
+    "pay.dailyRate",
+    "pay.laterRate",
+    "pay.mileage",
+    "oneDayOneTrial",
+    "frequency.months",
+    "portal"
+   ],
+   "unread": null,
+   "caveat": "Some texts cited on this page were read in archived copies (web.archive.org, 2025 and 2026) of the official pages linked, because the official site refused our connection on October 29, 2026."
+  },
+  {
+   "code": "OK",
+   "name": "Oklahoma",
+   "slug": "oklahoma-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 50,
+    "daily": 50,
+    "from": 1,
+    "later": null,
+    "laterFrom": null,
+    "mileage": "Daily round-trip mileage under the State Travel Reimbursement Act; parking may be provided",
+    "countyVaries": false,
+    "topUp": false,
+    "text": "$50 per day of attendance. For trials longer than 10 days, the Lengthy Trial Fund may add wage replacement of up to $200 a day from day 11 (and up to $50 a day for days 4-10 on proven hardship).",
+    "law": "28 Okla. Stat. § 86",
+    "src": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os28.rtf"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "Employers need not pay wages unless the employee chooses to use paid leave; they cannot require or request use of leave. Firing or adverse action is a misdemeanor (fine up to $5,000).",
+    "protection": true,
+    "notice": "Employee must notify the employer within a reasonable time after receiving the summons and before reporting.",
+    "law": "38 Okla. Stat. § 34",
+    "src": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os38.rtf"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 70,
+    "text": "People over 70 cannot be compelled to serve; they may decline.",
+    "law": "38 Okla. Stat. § 28(B)",
+    "src": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os38.rtf"
+   },
+   "odot": true,
+   "term": {
+    "text": "One day per calendar year, unless selected (or under consideration) for a trial; then for the length of the trial.",
+    "src": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os38.rtf",
+    "law": null
+   },
+   "frequency": {
+    "months": 60,
+    "text": "Anyone who served as a grand or trial juror in the five preceding calendar years cannot be compelled to serve again.",
+    "src": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os38.rtf",
+    "law": null
+   },
+   "deferral": {
+    "text": "One postponement as of right: ask the court clerk in person, by phone, email or in writing and fix a new date within six months. A second only for an extreme emergency. Automatic postponement if a co-worker at an employer with 5 or fewer full-time staff was summoned for the same period.",
+    "src": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os38.rtf",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "caregiver",
+     "medical",
+     "hardship",
+     "recent",
+     "age"
+    ],
+    "list": [
+     "over 70 (not compelled)",
+     "served in the last five calendar years (not compelled)",
+     "mental or physical condition (medical documentation required)",
+     "undue or extreme physical or financial hardship",
+     "caregiver with no substitute"
+    ],
+    "text": "Ask the judge before the reporting date with documents (tax returns, medical statements, proof of dependency). Missing work alone is not a hardship. A non-permanent excuse lasts two years.",
+    "law": "38 Okla. Stat. § 28",
+    "src": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os38.rtf"
+   },
+   "penalty": {
+    "fine": null,
+    "jail": null,
+    "text": null,
+    "law": null,
+    "src": null
+   },
+   "portal": null,
+   "missing": [
+    "penalty (no juror-specific no-show penalty found in Title 38; OSCN unreachable from our network)",
+    "portal"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "OR",
+   "name": "Oregon",
+   "slug": "oregon-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 10,
+    "daily": 10,
+    "from": 1,
+    "later": 25,
+    "laterFrom": 3,
+    "mileage": "20 cents per mile round trip for circuit court (public transit tickets reimbursed instead, any distance)",
+    "countyVaries": false,
+    "topUp": false,
+    "text": "Circuit court: $10 a day for days 1-2, then $25 a day from day 3. Jurors whose employer keeps paying them must waive the fee unless their employment agreement says otherwise.",
+    "law": "ORS 10.061, 10.065",
+    "src": "https://www.oregonlegislature.gov/bills_laws/ors/ors010.html"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "No Oregon law requires wages during jury service; employers cannot force use of paid leave and must allow unpaid leave. Employers with 10+ employees must keep insurance if the employee elects it.",
+    "protection": true,
+    "notice": "To keep insurance coverage, the employee must notify the employer under its notification policy.",
+    "law": "ORS 10.090, 10.092",
+    "src": "https://www.courts.oregon.gov/how/Pages/jury.aspx"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 70,
+    "text": "Anyone 70 or older is excused on request (by phone, mail or the court's method), but must still respond to the summons.",
+    "law": "ORS 10.050(3)",
+    "src": "https://www.oregonlegislature.gov/bills_laws/ors/ors010.html"
+   },
+   "odot": true,
+   "term": {
+    "text": "One day or one trial is the statutory goal for circuit courts; term length is set locally, but no trial juror serves more than 10 days unless needed to finish a trial.",
+    "src": "https://www.oregonlegislature.gov/bills_laws/ors/ors010.html",
+    "law": null
+   },
+   "frequency": {
+    "months": 24,
+    "text": "Not eligible if you served as a juror in an Oregon state or federal court within the last 24 months.",
+    "src": "https://www.courts.oregon.gov/how/Pages/jury.aspx",
+    "law": null
+   },
+   "deferral": {
+    "text": "Request a postponement in the county's online eResponse portal after completing the qualification form. One deferral for good cause, to a term starting within a year; more only for good cause with 10 available dates in the next six months.",
+    "src": "https://www.oregonlegislature.gov/bills_laws/ors/ors010.html",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "caregiver",
+     "hardship",
+     "military",
+     "breastfeeding",
+     "age"
+    ],
+    "list": [
+     "age 70 or older",
+     "undue hardship or extreme inconvenience (to you, your family, employer or the public)",
+     "breastfeeding",
+     "sole caregiver of a child or dependent who cannot afford other care",
+     "active Oregon National Guard (optional service)"
+    ],
+    "text": "Ask through the county eResponse portal (or phone/mail); the court reviews each request. No permanent excusal is required by law.",
+    "law": "ORS 10.050",
+    "src": "https://www.courts.oregon.gov/how/Pages/jury.aspx"
+   },
+   "penalty": {
+    "fine": 500,
+    "jail": 180,
+    "text": "A no-show is ordered to show cause and can be held in contempt; punitive contempt allows a fine of up to $500 or 1% of annual gross income (whichever is greater) and up to six months in jail.",
+    "law": "ORS 10.990(2); ORS 33.105(2)",
+    "src": "https://www.oregonlegislature.gov/bills_laws/ors/ors033.html"
+   },
+   "portal": "https://www.courts.oregon.gov/how/Pages/jury.aspx",
+   "missing": [],
+   "unread": null,
+   "caveat": "Some texts cited on this page were read in archived copies (web.archive.org, 2025 and 2026) of the official pages linked, because the official site refused our connection on October 29, 2026."
+  },
+  {
+   "code": "PA",
+   "name": "Pennsylvania",
+   "slug": "pennsylvania-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 9,
+    "daily": 25,
+    "from": 4,
+    "later": null,
+    "laterFrom": null,
+    "mileage": "17 cents per mile, round trip (none in Philadelphia, the first judicial district)",
+    "countyVaries": false,
+    "topUp": false,
+    "text": "$9 a day for the first three days of service in a calendar year, then $25 a day for each later day that year.",
+    "law": "42 Pa.C.S. § 4561",
+    "src": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=42&div=0&chapter=45&section=61&subsctn=0"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "No duty to pay wages; firing or penalising a juror is a summary offense. Protection does not cover retail/service employers with fewer than 15 staff or manufacturers with fewer than 40 (those employees may ask to be excused).",
+    "protection": true,
+    "notice": null,
+    "law": "42 Pa.C.S. § 4563",
+    "src": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=42&div=0&chapter=45&section=63&subsctn=0"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 75,
+    "text": "People aged 75 or older are excused if they ask.",
+    "law": "42 Pa.C.S. § 4503(a)(6)",
+    "src": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=42&div=0&chapter=45&section=3&subsctn=0"
+   },
+   "odot": null,
+   "term": {
+    "text": "Set by each county. Many counties (e.g. Lehigh) use one day or one trial.",
+    "src": "https://www.lccpa.org/jury/faq.nex",
+    "law": null
+   },
+   "frequency": {
+    "months": 36,
+    "text": "Exempt for 3 years after serving on a jury; only 1 year if you served fewer than 3 days that year.",
+    "src": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=42&div=0&chapter=45&section=3&subsctn=0",
+    "law": null
+   },
+   "deferral": {
+    "text": "Postponements are handled by each county's court administrator. Example: Lehigh County allows one deferment chosen in the online questionnaire.",
+    "src": "https://www.lccpa.org/jury/faq.nex",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "hardship",
+     "military",
+     "breastfeeding",
+     "recent",
+     "age"
+    ],
+    "list": [
+     "active military service",
+     "undue hardship or extreme inconvenience",
+     "served on a jury within the last 3 years",
+     "close relative of a criminal homicide victim",
+     "former 18-month statewide investigating grand juror",
+     "age 75 or older (on request)",
+     "judges",
+     "breastfeeding (on request)",
+     "employee of a small employer not covered by job protection"
+    ],
+    "text": "Only the grounds listed in the statute; ask the county jury office, which decides hardship requests.",
+    "law": "42 Pa.C.S. § 4503; § 4563(e)",
+    "src": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=42&div=0&chapter=45&section=3&subsctn=0"
+   },
+   "penalty": {
+    "fine": 500,
+    "jail": 10,
+    "text": "Failing to appear is contempt of court: fine up to $500, up to 10 days in jail, or both.",
+    "law": "42 Pa.C.S. § 4584",
+    "src": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=42&div=0&chapter=45&section=84&subsctn=0"
+   },
+   "portal": "https://www.pacourts.us/learn/jury-duty",
+   "missing": [
+    "oneDayOneTrial (no statewide rule; set by county)",
+    "employer.noticeRequired"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "RI",
+   "name": "Rhode Island",
+   "slug": "rhode-island-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 25,
+    "daily": 25,
+    "from": 1,
+    "later": null,
+    "laterFrom": null,
+    "mileage": null,
+    "countyVaries": false,
+    "topUp": false,
+    "text": "$25 for each day of attendance at Superior Court (since July 1, 2022); not paid for weekends, holidays or days you are excused. Providence County jurors get free parking and shuttle.",
+    "law": "R.I. Gen. Laws § 9-29-5",
+    "src": "https://webserver.rilegislature.gov/Statutes/TITLE9/9-29/9-29-5.htm"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "No duty to pay wages unless a contract or collective agreement says so; an employer may not take away the job, raises, promotions or benefits. Violation is a misdemeanor.",
+    "protection": true,
+    "notice": null,
+    "law": "R.I. Gen. Laws § 9-9-28",
+    "src": "https://webserver.rilegislature.gov/Statutes/TITLE9/9-9/9-9-28.htm"
+   },
+   "age": {
+    "rule": "not-specified",
+    "age": null,
+    "text": "",
+    "law": "R.I. Gen. Laws § 9-9-3",
+    "src": null
+   },
+   "odot": null,
+   "term": {
+    "text": "Providence and Kent counties: two days or one trial. Washington and Newport counties: usually one day or one trial.",
+    "src": "https://courts.ri.gov/Jurors/Documents/GuideToJuryService.pdf",
+    "law": null
+   },
+   "frequency": {
+    "months": 36,
+    "text": "No one serves more than once every three years.",
+    "src": "https://www.courts.ri.gov/Jurors/Pages/Jury-Service-default.aspx",
+    "law": null
+   },
+   "deferral": {
+    "text": "After receiving a summons, log in to Jury Service eResponse and choose 'Apply to defer'; pick a new date on the calendar; the Jury Commissioner approves or denies.",
+    "src": "https://www.courts.ri.gov/Jurors/Documents/JuryInstructions-eResponse.pdf",
+    "law": null
+   },
+   "excuses": {
+    "tags": [],
+    "list": [],
+    "text": "Apply to be excused or disqualified through Jury Service eResponse; the Office of the Jury Commissioner decides. The court asks people to request excuse only for urgent reasons. Statutory grounds (R.I. Gen. Laws § 9-9-3, § 9-10-9) could not be read: legislature site unreachable.",
+    "law": "R.I. Gen. Laws §§ 9-9-3, 9-10-9",
+    "src": "https://www.courts.ri.gov/Jurors/Documents/JuryInstructions-eResponse.pdf"
+   },
+   "penalty": {
+    "fine": null,
+    "jail": null,
+    "text": "A juror who fails to attend without a satisfactory excuse can be held in contempt and fined at least $20 (no maximum stated in this section).",
+    "law": "R.I. Gen. Laws § 9-10-10",
+    "src": "https://webserver.rilegislature.gov/Statutes/TITLE9/9-10/9-10-10.htm"
+   },
+   "portal": "https://www.courts.ri.gov/Jurors/Pages/Jury-Service-default.aspx",
+   "missing": [
+    "pay.mileage",
+    "employer.noticeRequired",
+    "age (R.I. Gen. Laws § 9-9-3 unreadable: webserver.rilegislature.gov unreachable on 2026-10-29)",
+    "oneDayOneTrial (varies by county)",
+    "excuses.list (§ 9-9-3 and § 9-10-9 unreadable)",
+    "penalty.maxFine",
+    "penalty.maxJailDays"
+   ],
+   "unread": null,
+   "caveat": "Some texts cited on this page were read in archived copies (web.archive.org, 2025 and 2026) of the official pages linked, because the official site refused our connection on October 29, 2026."
+  },
+  {
+   "code": "SC",
+   "name": "South Carolina",
+   "slug": "south-carolina-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": null,
+    "daily": null,
+    "from": 1,
+    "later": null,
+    "laterFrom": null,
+    "mileage": "Paid; rate varies by county (statute sets 5 cents per mile round trip as the base)",
+    "countyVaries": true,
+    "topUp": false,
+    "text": "Pay is set county by county. The old statute lists per diems of $2 to $10 by county; counties now pay more (e.g. Georgetown County pays $25 a day). Paid whether or not you sit on a case.",
+    "law": "S.C. Code § 14-7-1370",
+    "src": "https://www.sccourts.org/resources/general-public/juror-information/"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "No state law requires wages during service. An employer who fires or demotes an employee for jury service can be sued for up to one year's wages.",
+    "protection": true,
+    "notice": null,
+    "law": "S.C. Code § 41-1-70",
+    "src": "https://www.scstatehouse.gov/code/t41c001.php"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 65,
+    "text": "People 65 or older are exempt if they ask; a phone call to the clerk of court confirming date of birth is enough.",
+    "law": "S.C. Code § 14-7-840",
+    "src": "https://www.scstatehouse.gov/code/t14c007.php"
+   },
+   "odot": null,
+   "term": {
+    "text": "Circuit court jurors are summoned for a court term beginning a given week; the length is set locally.",
+    "src": "https://www.sccourts.org/media/forms/pdf/SCCA235.pdf",
+    "law": null
+   },
+   "frequency": {
+    "months": 36,
+    "text": "Not drawn more than once every three calendar years, and never more than once a calendar year (the court's web page cites two years).",
+    "src": "https://www.scstatehouse.gov/code/t14c007.php",
+    "law": null
+   },
+   "deferral": {
+    "text": "Students and school employees get their service moved outside the school term on request (with proof). Essential workers may be transferred to another term by affidavit. Responses and waiver requests go through the clerk of court or the Juror Web Portal.",
+    "src": "https://www.scstatehouse.gov/code/t14c007.php",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "caregiver",
+     "medical",
+     "student",
+     "age"
+    ],
+    "list": [
+     "age 65 or older (on request)",
+     "legal custody of a child under 7 without adequate childcare",
+     "primary caretaker of a person 65+ or a severely disabled person",
+     "person essential to a business that would have to close",
+     "good and sufficient cause shown to the judge",
+     "state penitentiary guard or officer",
+     "served on a circuit court jury recently",
+     "student or school employee (postponement)",
+     "mental or physical condition (doctor's statement)"
+    ],
+    "text": "Mark the ground on the summons response form or Juror Web Portal; caretaker and business grounds need a notarized affidavit to the clerk of court.",
+    "law": "S.C. Code §§ 14-7-840, 14-7-845, 14-7-860",
+    "src": "https://www.scstatehouse.gov/code/t14c007.php"
+   },
+   "penalty": {
+    "fine": 100,
+    "jail": null,
+    "text": "Not attending without a sufficient excuse: civil penalty up to $100. Violating the excuse rules of § 14-7-860 is a misdemeanor (up to $1,000 and/or 30 days).",
+    "law": "S.C. Code § 14-7-1390; § 14-7-860(E)",
+    "src": "https://www.scstatehouse.gov/code/t14c007.php"
+   },
+   "portal": "https://www.sccourts.org/resources/general-public/juror-information/",
+   "missing": [
+    "pay.dailyRate (set by county; statute figures outdated)",
+    "oneDayOneTrial",
+    "employer.noticeRequired",
+    "penalty.maxJailDays (none for non-appearance)"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "SD",
+   "name": "South Dakota",
+   "slug": "south-dakota-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 50,
+    "daily": 50,
+    "from": 1,
+    "later": null,
+    "laterFrom": null,
+    "mileage": "State mileage rate for each mile actually traveled (UJS lists $0.76 per mile, round trip)",
+    "countyVaries": false,
+    "topUp": false,
+    "text": "$50 for each day you sit on a case; if you are called but not seated, a $10 appearance fee. Paid by the county.",
+    "law": "SDCL 16-13-46",
+    "src": "https://sdlegislature.gov/Statutes/16-13-46"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "The employee keeps job status, pay rate and seniority, but paying wages during the absence is at the employer's discretion. Firing or suspending a juror is a Class 2 misdemeanor.",
+    "protection": true,
+    "notice": null,
+    "law": "SDCL 16-13-41.1, 16-13-41.2",
+    "src": "https://sdlegislature.gov/Statutes/16-13-41.2"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 80,
+    "text": "People 80 or older may ask to be excused; the judge gives the request substantial weight but can refuse it.",
+    "law": "SDCL 16-13-10.3",
+    "src": "https://sdlegislature.gov/Statutes/16-13-10.3"
+   },
+   "odot": null,
+   "term": {
+    "text": "Each circuit's presiding judge decides how jury panels are used and summoned; your term of service is shown in the UJS Juror Portal.",
+    "src": "https://sdlegislature.gov/Statutes/16-13-37",
+    "law": null
+   },
+   "frequency": {
+    "months": null,
+    "text": "Anyone who has already served (summoned and appeared for a trial) since the current master list was drawn is skipped; the list is compiled each year.",
+    "src": "https://sdlegislature.gov/Statutes/16-13-28",
+    "law": null
+   },
+   "deferral": {
+    "text": "Enter unavailable dates in the online questionnaire or tell the local clerk of courts; written proof may be requested. Students contact the clerk.",
+    "src": "https://ujs.sd.gov/media/1jhp50em/jurors_faq.pdf",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "caregiver",
+     "breastfeeding",
+     "age"
+    ],
+    "list": [
+     "age 80 or older (on request)",
+     "breastfeeding a baby under one year",
+     "parent of a baby under six weeks or expected during service",
+     "clergy whose religious beliefs conflict",
+     "other reasons approved by the presiding judge"
+    ],
+    "text": "Send a written request to the clerk of courts; the presiding judge decides. Breastfeeding/new-parent requests go in writing within 10 days of the summons.",
+    "law": "SDCL 16-13-10.3, 16-13-10.4",
+    "src": "https://ujs.sd.gov/media/1jhp50em/jurors_faq.pdf"
+   },
+   "penalty": {
+    "fine": 500,
+    "jail": 10,
+    "text": "Contempt of court: fine of $50 to $500; up to 10 days in county jail if you ignore a second order of attachment.",
+    "law": "SDCL 16-13-45",
+    "src": "https://sdlegislature.gov/Statutes/16-13-45"
+   },
+   "portal": "https://ujs.sd.gov/for-jurors/",
+   "missing": [
+    "oneDayOneTrial",
+    "frequency.months (rule tied to annual master list, not a fixed period)",
+    "employer.noticeRequired"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "TN",
+   "name": "Tennessee",
+   "slug": "tennessee-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": null,
+    "daily": null,
+    "from": 1,
+    "later": null,
+    "laterFrom": null,
+    "mileage": null,
+    "countyVaries": true,
+    "topUp": false,
+    "text": "Each county sets juror pay under Tenn. Code § 22-4-101. The statewide minimum could not be read on an official site. County examples: Blount $10 a day, Knox $11 a day, Hamilton $25 a day.",
+    "law": "Tenn. Code Ann. § 22-4-101",
+    "src": "https://hamiltontn.gov/JuryServiceInstructions.aspx"
+   },
+   "employer": {
+    "pays": "partial",
+    "days": null,
+    "minEmployees": 5,
+    "dailyCap": null,
+    "feeOffset": true,
+    "text": "Employers with 5 or more regular employees must pay usual wages for time spent serving and traveling, minus the juror fee. This does not apply to employers with fewer than 5 regular employees or to temporary workers employed under 6 months.",
+    "protection": true,
+    "notice": "Show the summons to your immediate superior on your next workday after receiving it.",
+    "law": "Tenn. Code Ann. § 22-4-106",
+    "src": "https://blounttn.gov/392/Jury-Information"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 75,
+    "text": "There is no automatic age exemption. People 75 or older are excused if they file a written declaration that a mental or physical condition makes them unable to serve.",
+    "law": "Tenn. Code Ann. § 22-1-103 (Public Chapter 544 of 2021)",
+    "src": "https://publications.tnsosfiles.com/acts/112/pub/pc0544.pdf"
+   },
+   "odot": null,
+   "term": {
+    "text": "Set by each county: for example 2 weeks in Knox County and 2 or 3 weeks in Hamilton County.",
+    "src": "https://www.knoxcounty.org/jury/faqs.php",
+    "law": null
+   },
+   "frequency": {
+    "months": 24,
+    "text": "Hamilton County lists, as an eligibility criterion, not having served on a federal or state jury in the past 24 months. A statewide statute could not be read.",
+    "src": "https://hamiltontn.gov/JuryServiceInstructions.aspx",
+    "law": null
+   },
+   "deferral": {
+    "text": "Handled by the county jury coordinator or clerk. Knox: ask at orientation or contact the Jury Coordinator. Hamilton: request at least 10 days ahead and pick a new 2- or 3-week term.",
+    "src": "https://hamiltontn.gov/JuryServiceInstructions.aspx",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "caregiver",
+     "medical",
+     "hardship",
+     "age"
+    ],
+    "list": [
+     "undue or extreme physical or financial hardship",
+     "mental or physical condition",
+     "caregiver who cannot find a substitute",
+     "costs harming necessary daily living expenses",
+     "physical hardship leading to illness",
+     "out-of-state employment without compensation",
+     "age 75+ with a disabling condition"
+    ],
+    "text": "Send the county jury clerk a jury service affidavit with documentation before your date (Hamilton asks for at least 10 days ahead).",
+    "law": "Tenn. Code Ann. § 22-1-103",
+    "src": "https://hamiltontn.gov/JuryServiceInstructions.aspx"
+   },
+   "penalty": {
+    "fine": null,
+    "jail": null,
+    "text": "Statewide maximum not found in an official source. Knox County says a no-show may be held in contempt and fined $500.",
+    "law": null,
+    "src": "https://www.knoxcounty.org/jury/faqs.php"
+   },
+   "portal": null,
+   "missing": [
+    "pay.firstDayRate",
+    "pay.dailyRate",
+    "pay.fromDay",
+    "pay.mileage",
+    "oneDayOneTrial",
+    "penalty.maxFine",
+    "penalty.maxJailDays",
+    "penalty.law",
+    "portal",
+    "statewide statute text (TN code only on Lexis; tncourts.gov behind a bot check)"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "TX",
+   "name": "Texas",
+   "slug": "texas-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 20,
+    "daily": 58,
+    "from": 2,
+    "later": null,
+    "laterFrom": null,
+    "mileage": null,
+    "countyVaries": true,
+    "topUp": false,
+    "text": "State minimums: at least $20 for the first day and at least $58 for each later day; each county's commissioners court sets its own amount at or above these. Municipal-court jurors are not covered.",
+    "law": "Tex. Gov't Code § 61.001",
+    "src": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.61.htm#61.001"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "No Texas statute requires private employers to pay wages during jury service.",
+    "protection": true,
+    "notice": "To get the job back after an unlawful firing, the employee must tell the employer as soon as practical after release that they intend to return.",
+    "law": "Tex. Civ. Prac. & Rem. Code §§ 122.001-122.0022",
+    "src": "https://statutes.capitol.texas.gov/Docs/CP/htm/CP.122.htm#122.001"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 75,
+    "text": "People 75 or older may claim an exemption, temporary or permanent, by filing a signed statement with the clerk.",
+    "law": "Tex. Gov't Code §§ 62.106, 62.108",
+    "src": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.62.htm#62.106"
+   },
+   "odot": null,
+   "term": {
+    "text": null,
+    "src": null,
+    "law": null
+   },
+   "frequency": {
+    "months": 24,
+    "text": "Exemption on request if you served as a petit juror in the county in the previous 24 months (counties of 200,000+) or 3 years (counties of 250,000+); none statewide in smaller counties.",
+    "src": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.62.htm#62.106",
+    "law": null
+   },
+   "deferral": {
+    "text": "Ask the court clerk in person, in writing or by phone before your date. A first postponement is granted automatically (if none in the past year) to a date within 6 months; later ones need an extreme emergency.",
+    "src": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.62.htm#62.0143",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "caregiver",
+     "medical",
+     "student",
+     "military",
+     "age"
+    ],
+    "list": [
+     "age 75 or older",
+     "legal custody of a child under 12 who would be left without adequate supervision",
+     "secondary school student",
+     "college or university student in attendance",
+     "legislative branch officer or employee",
+     "primary caretaker of a person unable to care for themselves",
+     "recent jury service in large counties",
+     "active-duty military deployed away from home station",
+     "religious holy day",
+     "physical or mental impairment or inability to comprehend English",
+     "any reasonable sworn excuse accepted by the court"
+    ],
+    "text": "Exemptions are claimed by filing a signed statement with the clerk before the date; the judge may also accept any reasonable sworn excuse. Economic excuses need the parties' approval.",
+    "law": "Tex. Gov't Code §§ 62.106, 62.107, 62.109, 62.110, 62.112",
+    "src": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.62.htm#62.110"
+   },
+   "penalty": {
+    "fine": 1000,
+    "jail": null,
+    "text": "Ignoring a summons or giving false exemption information can bring a contempt fine of $100 to $1,000. Section 62.111 also sets a fine of $100 to $500 for jurors who fail to attend without reasonable excuse.",
+    "law": "Tex. Gov't Code §§ 62.0141, 62.111",
+    "src": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.62.htm#62.0141"
+   },
+   "portal": "https://www.txcourts.gov/about-texas-courts/juror-information/",
+   "missing": [
+    "pay.mileage",
+    "oneDayOneTrial",
+    "term",
+    "penalty.maxJailDays"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "US",
+   "name": "Federal courts",
+   "slug": "federal-jury-duty",
+   "kind": "federal",
+   "pay": {
+    "first": 50,
+    "daily": 50,
+    "from": 1,
+    "later": 60,
+    "laterFrom": 11,
+    "mileage": "Per-mile travel allowance at the rate the Administrative Office sets for court staff using private cars, for the shortest route to and from court; tolls paid, parking at the court's discretion",
+    "countyVaries": false,
+    "topUp": false,
+    "text": "$50 a day from day one. A trial juror who sits more than 10 days on one case may get up to $10 more a day ($60) if the judge orders it; grand jurors after 45 days. Federal government employees get their regular salary instead.",
+    "law": "28 U.S.C. § 1871",
+    "src": "https://www.govinfo.gov/content/pkg/USCODE-2024-title28/html/USCODE-2024-title28-partV-chap121-sec1871.htm"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "Federal law does not require private employers to keep paying wages during federal jury service; check the employer's own policy.",
+    "protection": true,
+    "notice": null,
+    "law": "28 U.S.C. § 1875",
+    "src": "https://www.uscourts.gov/court-programs/jury-service/juror-pay"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 70,
+    "text": "No automatic age exemption in the statute. Most district courts' jury plans let people over 70 ask for a permanent excuse; each of the 94 courts sets its own rule.",
+    "law": "28 U.S.C. § 1863(b)(5); local jury selection plans",
+    "src": "https://www.uscourts.gov/court-programs/jury-service/juror-qualifications-exemptions-and-excuses"
+   },
+   "odot": null,
+   "term": {
+    "text": "Set by each district court. A trial (petit) juror hears at most one case and is then discharged; nobody can be required to attend more than 30 days as a petit juror in any two-year period, except to finish a case. Grand jurors generally serve up to 18 months (24 with extension).",
+    "src": "https://www.uscourts.gov/court-programs/jury-service/types-juries",
+    "law": null
+   },
+   "frequency": {
+    "months": 24,
+    "text": "In any two-year period no one can be required to serve more than 30 days as a petit juror, on more than one grand jury, or as both grand and petit juror; most courts also excuse on request anyone who served on a federal jury in the past two years.",
+    "src": "https://www.govinfo.gov/content/pkg/USCODE-2024-title28/html/USCODE-2024-title28-partV-chap121-sec1866.htm",
+    "law": null
+   },
+   "deferral": {
+    "text": "Ask the district court that summoned you, usually through its eJuror page: you can request an excuse or deferral and pick another time to serve if the deferral is granted. Rules vary by court.",
+    "src": "https://www.uscourts.gov/court-programs/jury-service/summoned-federal-jury-service",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "hardship",
+     "recent",
+     "responder",
+     "age"
+    ],
+    "list": [
+     "undue hardship or extreme inconvenience",
+     "over age 70 (most courts, on request)",
+     "served on a federal jury within the past two years (most courts, on request)",
+     "volunteer firefighter, rescue squad or ambulance crew (most courts, on request)"
+    ],
+    "text": "Temporary excuses or deferrals are granted at the court's discretion for undue hardship or extreme inconvenience; local plans add group excuses on request. Active-duty military, professional fire and police, and full-time public officers are barred (exempt), not excused.",
+    "law": "28 U.S.C. §§ 1863(b)(5)-(6), 1866(c)",
+    "src": "https://www.uscourts.gov/court-programs/jury-service/juror-qualifications-exemptions-and-excuses"
+   },
+   "penalty": {
+    "fine": 1000,
+    "jail": 3,
+    "text": "Someone who skips a summons can be ordered to show cause; without good cause, up to $1,000 fine, up to 3 days in jail, community service, or a combination. Employers who punish a juror face up to $5,000 civil penalty per violation.",
+    "law": "28 U.S.C. § 1866(g)",
+    "src": "https://www.govinfo.gov/content/pkg/USCODE-2024-title28/html/USCODE-2024-title28-partV-chap121-sec1866.htm"
+   },
+   "portal": "https://www.uscourts.gov/court-programs/jury-service",
+   "missing": [
+    "employer.noticeRequired",
+    "oneDayOneTrial (set by each district court)",
+    "pay.mileage exact cents-per-mile figure"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "UT",
+   "name": "Utah",
+   "slug": "utah-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 18.5,
+    "daily": 49,
+    "from": 2,
+    "later": null,
+    "laterFrom": null,
+    "mileage": "$1 for each 4 miles beyond 50 miles, one way",
+    "countyVaries": false,
+    "topUp": false,
+    "text": "$18.50 for the first day and $49 for each later day, set by state law. The court FAQ adds that parking or transit costs may be reimbursed with proof of payment.",
+    "law": "Utah Code § 78B-1-119",
+    "src": "https://le.utah.gov/xcode/Title78B/Chapter1/C78B-1-S119_2017050920170509.html"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "No wage requirement, but an employer cannot make you use annual, vacation or sick leave for jury service.",
+    "protection": true,
+    "notice": null,
+    "law": "Utah Code § 78B-1-116",
+    "src": "https://le.utah.gov/xcode/Title78B/Chapter1/C78B-1-S116_1800010118000101.html"
+   },
+   "age": {
+    "rule": "none",
+    "age": null,
+    "text": "Utah has no age exemption: no qualified prospective juror is exempt. An older person may still ask to be excused for undue hardship or incapacity.",
+    "law": "Utah Code § 78B-1-108",
+    "src": "https://le.utah.gov/xcode/Title78B/Chapter1/C78B-1-S108_1800010118000101.html"
+   },
+   "odot": true,
+   "term": {
+    "text": "One day or one trial. Your qualification term runs 1 month (Salt Lake County district courts), 3 months (Davis, Utah, Weber) or 6 months elsewhere.",
+    "src": "https://www.utcourts.gov/en/self-help/services/juryroom/faq.html",
+    "law": null
+   },
+   "frequency": {
+    "months": 24,
+    "text": "After you attend court, you cannot be summoned again for at least two years.",
+    "src": "https://www.utcourts.gov/en/self-help/services/juryroom/faq.html",
+    "law": null
+   },
+   "deferral": {
+    "text": "The court may postpone service if you show good cause; contact the court using the number on your notice.",
+    "src": "https://le.utah.gov/xcode/Title78B/Chapter1/C78B-1-S109_2015051220150512.html",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "hardship",
+     "breastfeeding"
+    ],
+    "list": [
+     "undue hardship",
+     "public necessity",
+     "breastfeeding mother",
+     "incapable of jury service"
+    ],
+    "text": "Ask the court and support the request with an affidavit, sworn testimony or other evidence. The excuse lasts as long as the reason exists.",
+    "law": "Utah Code § 78B-1-109",
+    "src": "https://le.utah.gov/xcode/Title78B/Chapter1/C78B-1-S109_2015051220150512.html"
+   },
+   "penalty": {
+    "fine": 1000,
+    "jail": 30,
+    "text": "Failing to appear or to complete service is contempt of court: up to a $1,000 fine, 30 days in jail, or both ($500 and 5 days before a justice court judge or commissioner).",
+    "law": "Utah Code §§ 78B-1-115, 78B-6-310",
+    "src": "https://le.utah.gov/xcode/Title78B/Chapter6/C78B-6-S310_2018050820190701.html"
+   },
+   "portal": "https://www.utcourts.gov/en/self-help/services/juryroom/faq.html",
+   "missing": [
+    "employer.noticeRequired"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "VA",
+   "name": "Virginia",
+   "slug": "virginia-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 50,
+    "daily": 50,
+    "from": 1,
+    "later": null,
+    "laterFrom": null,
+    "mileage": null,
+    "countyVaries": false,
+    "topUp": false,
+    "text": "$50 per day of attendance, meant to cover travel and other expenses; no separate mileage rate in the statute. Paid for only one case per day.",
+    "law": "Va. Code § 17.1-618",
+    "src": "https://law.lis.virginia.gov/vacode/title17.1/chapter6/section17.1-618/"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "No duty to pay wages, but the employer cannot force the employee to use sick leave or vacation; after 4+ hours of jury duty the employee cannot be required to start a shift beginning at/after 5 p.m. that day or before 3 a.m. the next day.",
+    "protection": true,
+    "notice": "Employee must give reasonable notice of the summons to the employer",
+    "law": "Va. Code § 18.2-465.1",
+    "src": "https://law.lis.virginia.gov/vacode/title18.2/chapter10/section18.2-465.1/"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 74,
+    "text": "Anyone over 73 (i.e. 74 or older) may ask to be exempted.",
+    "law": "Va. Code § 8.01-341.1(10)",
+    "src": "https://law.lis.virginia.gov/vacode/title8.01/chapter11/section8.01-341.1/"
+   },
+   "odot": false,
+   "term": {
+    "text": "One term of court, which can last up to four months depending on the circuit; the summons gives the dates.",
+    "src": "https://www.vacourts.gov/static/courts/circuit/jury.pdf",
+    "law": null
+   },
+   "frequency": {
+    "months": 36,
+    "text": "Anyone who reported for jury duty in a state court in the previous three years is left off the next jury list.",
+    "src": "https://law.lis.virginia.gov/vacode/title8.01/chapter11/section8.01-342/",
+    "law": null
+   },
+   "deferral": {
+    "text": "Call the number on the summons; the judge may defer service for genuine hardship, or defer it to the next term for an occupational inconvenience (incl. full-time students and parents of children 16 or younger).",
+    "src": "https://www.vacourts.gov/static/courts/circuit/jury.pdf",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "caregiver",
+     "medical",
+     "student",
+     "military",
+     "breastfeeding",
+     "responder",
+     "age"
+    ],
+    "list": [
+     "mariner in maritime service",
+     "custody of a child 16 or younger needing continuous care",
+     "custody of a child under 18 with a serious health condition",
+     "breastfeeding mother",
+     "caregiver of a person with a serious health condition",
+     "age over 73",
+     "spouse summoned to the same panel",
+     "sole essential worker of a business or farm",
+     "sole essential firefighter of a locality",
+     "legislative staff during sessions",
+     "election officials around elections",
+     "military or diplomatic service abroad",
+     "disability substantially impairing ability to serve",
+     "occupational inconvenience (deferral)",
+     "full-time student (deferral)"
+    ],
+    "text": "These groups may serve but are exempt on request; certain officials (lawyers, judges, police, etc.) are exempt outright. Contact the court on the summons.",
+    "law": "Va. Code §§ 8.01-341, 8.01-341.1, 8.01-341.2",
+    "src": "https://law.lis.virginia.gov/vacode/title8.01/chapter11/section8.01-341.1/"
+   },
+   "penalty": {
+    "fine": 200,
+    "jail": null,
+    "text": "A juror who fails to appear without sufficient excuse is fined $50 to $200; the court may also treat it as contempt.",
+    "law": "Va. Code § 8.01-356",
+    "src": "https://law.lis.virginia.gov/vacode/title8.01/chapter11/section8.01-356/"
+   },
+   "portal": "https://www.vacourts.gov/static/courts/circuit/jury.pdf",
+   "missing": [
+    "pay.mileage",
+    "penalty.maxJailDays"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "VT",
+   "name": "Vermont",
+   "slug": "vermont-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 30,
+    "daily": 30,
+    "from": 1,
+    "later": null,
+    "laterFrom": null,
+    "mileage": "On request and on a showing of hardship, travel from home to court and back at the state-employee rate",
+    "countyVaries": false,
+    "topUp": false,
+    "text": "Superior Court jurors get $30 a day on request, unless their employer already paid them.",
+    "law": "32 V.S.A. § 1511",
+    "src": "https://legislature.vermont.gov/statutes/section/32/017/01511"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "No wage requirement. The employee keeps seniority, fringe benefits and vacation credit while serving.",
+    "protection": true,
+    "notice": null,
+    "law": "21 V.S.A. § 499",
+    "src": "https://legislature.vermont.gov/statutes/section/21/005/00499"
+   },
+   "age": {
+    "rule": "none",
+    "age": null,
+    "text": "There is no age exemption: no one is excused automatically. The judge may excuse a person who asks and shows undue hardship.",
+    "law": "4 V.S.A. § 962",
+    "src": "https://legislature.vermont.gov/statutes/section/04/025/00962"
+   },
+   "odot": false,
+   "term": {
+    "text": "Two-year term: during it you can be called to jury selection at most 3 times and to serve on a trial date at most 3 times.",
+    "src": "https://legislature.vermont.gov/statutes/section/04/025/00963",
+    "law": null
+   },
+   "frequency": {
+    "months": 24,
+    "text": "Your name can be put on a venire for a state court only once in any two-year period.",
+    "src": "https://legislature.vermont.gov/statutes/section/04/025/00953",
+    "law": null
+   },
+   "deferral": {
+    "text": "On an individual request showing undue hardship, the judge may excuse you for part of the two-year term, which works as a postponement. The court's own procedure (online questionnaire, Jury Administration) could not be read.",
+    "src": "https://legislature.vermont.gov/statutes/section/04/025/00962",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "medical",
+     "hardship"
+    ],
+    "list": [
+     "undue hardship on the prospective juror",
+     "undue hardship on the employer",
+     "not capable because of mental or physical condition"
+    ],
+    "text": "Nobody is excused automatically. Make an individual request to the presiding judge showing undue hardship. People not physically or mentally able to serve are not qualified.",
+    "law": "4 V.S.A. § 962",
+    "src": "https://legislature.vermont.gov/statutes/section/04/025/00962"
+   },
+   "penalty": {
+    "fine": 200,
+    "jail": null,
+    "text": "A summoned juror who doesn't appear and gives no satisfactory excuse faces a civil penalty of up to $200, which can be waived for good cause. Ignoring a questionnaire order can be contempt.",
+    "law": "4 V.S.A. §§ 958, 961",
+    "src": "https://legislature.vermont.gov/statutes/section/04/025/00958"
+   },
+   "portal": "https://www.vermontjudiciary.org/jurors",
+   "missing": [
+    "employer.noticeRequired",
+    "penalty.maxJailDays",
+    "deferral (court procedure: vermontjudiciary.org returned 403)"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "WA",
+   "name": "Washington",
+   "slug": "washington-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 10,
+    "daily": 10,
+    "from": 1,
+    "later": null,
+    "laterFrom": null,
+    "mileage": "Mileage at the state rate set under RCW 43.03.060, each day of attendance",
+    "countyVaries": true,
+    "topUp": false,
+    "text": "Each county sets a uniform daily fee between $10 and $25; most counties pay $10. Mileage is paid on top.",
+    "law": "RCW 2.36.150",
+    "src": "https://app.leg.wa.gov/RCW/default.aspx?cite=2.36.150"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "Employers must grant leave but are not required to pay wages during jury service.",
+    "protection": true,
+    "notice": null,
+    "law": "RCW 2.36.165",
+    "src": "https://app.leg.wa.gov/RCW/default.aspx?cite=2.36.165"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 80,
+    "text": "People 80 or older who attest they cannot serve for health reasons must be excused on request; no doctor's note required.",
+    "law": "RCW 2.36.100(2)",
+    "src": "https://app.leg.wa.gov/RCW/default.aspx?cite=2.36.100"
+   },
+   "odot": null,
+   "term": {
+    "text": "Each court sets its own jury terms; state policy says a term should ideally be one week or less and service one day or one trial, whichever is longer.",
+    "src": "https://app.leg.wa.gov/RCW/default.aspx?cite=2.36.080",
+    "law": null
+   },
+   "frequency": {
+    "months": 12,
+    "text": "If summoned again within 12 months, a juror who already served at least one week in that period may ask in writing to be excused.",
+    "src": "https://app.leg.wa.gov/RCW/default.aspx?cite=2.36.100",
+    "law": null
+   },
+   "deferral": {
+    "text": "Call or write to the number/address on the summons to reschedule; an excused juror may be reassigned to another term within 12 months.",
+    "src": "https://www.courts.wa.gov/newsinfo/resources/?fa=newsinfo_jury.faq",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "medical",
+     "hardship",
+     "age"
+    ],
+    "list": [
+     "undue hardship",
+     "extreme inconvenience",
+     "public necessity",
+     "age 80+ with health reasons",
+     "illness",
+     "any reason the court deems sufficient"
+    ],
+    "text": "Ask the court named on the summons. A breastfeeding exemption (infant under 24 months) is added to RCW 2.36.100 from January 1, 2027.",
+    "law": "RCW 2.36.100",
+    "src": "https://app.leg.wa.gov/RCW/default.aspx?cite=2.36.100"
+   },
+   "penalty": {
+    "fine": 1000,
+    "jail": 90,
+    "text": "Intentionally failing to appear is a misdemeanor, punishable by up to 90 days in jail and/or a $1,000 fine (general misdemeanor penalty, RCW 9.92.030).",
+    "law": "RCW 2.36.170; RCW 9.92.030",
+    "src": "https://app.leg.wa.gov/RCW/default.aspx?cite=9.92.030"
+   },
+   "portal": "https://www.courts.wa.gov/newsinfo/resources/?fa=newsinfo_jury.faq",
+   "missing": [
+    "employer.noticeRequired",
+    "oneDayOneTrial"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "WI",
+   "name": "Wisconsin",
+   "slug": "wisconsin-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 16,
+    "daily": 16,
+    "from": 1,
+    "later": null,
+    "laterFrom": null,
+    "mileage": "State mileage rate (s. 20.916(8)) for each mile traveled each day, round trip",
+    "countyVaries": true,
+    "topUp": false,
+    "text": "Statutory minimum is $16 per day; each county board sets the actual rate (may pay by half-day, and may set a different first-day amount in one-day/one-trial circuits).",
+    "law": "Wis. Stat. § 756.25",
+    "src": "https://docs.legis.wisconsin.gov/document/statutes/756.25"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "Employers must grant leave with no loss of seniority or pay advancement, but the statute does not require wages to be paid.",
+    "protection": true,
+    "notice": null,
+    "law": "Wis. Stat. § 756.255",
+    "src": "https://docs.legis.wisconsin.gov/document/statutes/756.255"
+   },
+   "age": {
+    "rule": "none",
+    "age": null,
+    "text": "No age exemption: Wisconsin abolished exemptions and bars excluding qualified jurors because of age; only an individual excuse or deferral is possible.",
+    "law": "Wis. Stat. § 756.001(3)",
+    "src": "https://docs.legis.wisconsin.gov/document/statutes/756.001(3)"
+   },
+   "odot": null,
+   "term": {
+    "text": "Circuits may opt for one day or one trial. Elsewhere, availability is capped at 31 consecutive days and at most 5 days in court unless a trial needs more.",
+    "src": "https://docs.legis.wisconsin.gov/document/statutes/756.28",
+    "law": null
+   },
+   "frequency": {
+    "months": 24,
+    "text": "Once in any 4-year period in counties without one day/one trial; in one day/one trial circuits the protected period is set by the judges at 2 to 4 years.",
+    "src": "https://docs.legis.wisconsin.gov/document/statutes/756.28",
+    "law": null
+   },
+   "deferral": {
+    "text": "Ask the court (or the clerk of circuit court, if authorized) named on the summons; it may move your service to a later date it sets. Documentation may be required.",
+    "src": "https://docs.legis.wisconsin.gov/document/statutes/756.03",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "hardship"
+    ],
+    "list": [
+     "cannot fulfill the responsibilities of a juror",
+     "undue hardship (deferral)",
+     "extreme inconvenience (deferral)"
+    ],
+    "text": "No automatic exemptions. The court may excuse someone who cannot fulfill a juror's responsibilities; hardship normally leads to a deferral. The clerk may be authorized to decide.",
+    "law": "Wis. Stat. § 756.03",
+    "src": "https://docs.legis.wisconsin.gov/document/statutes/756.03"
+   },
+   "penalty": {
+    "fine": 500,
+    "jail": null,
+    "text": "Failing to attend without being excused is contempt of court; after a show-cause hearing the circuit court may impose a sanction of up to $500.",
+    "law": "Wis. Stat. § 756.30",
+    "src": "https://docs.legis.wisconsin.gov/document/statutes/756.30"
+   },
+   "portal": "https://www.wicourts.gov/services/juror/index.htm",
+   "missing": [
+    "employer.noticeRequired",
+    "age.age",
+    "oneDayOneTrial",
+    "penalty.maxJailDays"
+   ],
+   "unread": null,
+   "caveat": "Some texts cited on this page were read in archived copies (web.archive.org, 2025 and 2026) of the official pages linked, because the official site refused our connection on October 29, 2026."
+  },
+  {
+   "code": "WV",
+   "name": "West Virginia",
+   "slug": "west-virginia-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 40,
+    "daily": 40,
+    "from": 1,
+    "later": null,
+    "laterFrom": null,
+    "mileage": "Round-trip mileage at the rate set by the Secretary of Administration, each day of required attendance",
+    "countyVaries": true,
+    "topUp": false,
+    "text": "The statute lets each circuit court set the daily reimbursement between $15 and $40; the state court system says jurors receive $40 a day plus mileage. Paid by the State Treasury.",
+    "law": "W. Va. Code § 52-1-17",
+    "src": "https://www.courtswv.gov/public-resources/jury-information"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "Employers must excuse the employee for the days of service but need not pay wages; they may not cut pay for time the employee was not actually away.",
+    "protection": true,
+    "notice": "Employee must show the summons to the immediate supervisor on the next working day after receiving it",
+    "law": "W. Va. Code §§ 52-1-21, 52-3-1",
+    "src": "https://code.wvlegislature.gov/52-3-1/"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 70,
+    "text": "People 70 or older are qualified but must be excused if they ask (box on the qualification questionnaire).",
+    "law": "W. Va. Code § 52-1-8(c)",
+    "src": "https://code.wvlegislature.gov/52-1-8/"
+   },
+   "odot": null,
+   "term": {
+    "text": "Service is for a term of court; within any two years no one may be required to attend more than 30 court days (unless needed to finish a case) or serve as a petit juror at more than one term. Call-in system means not every day in person.",
+    "src": "https://code.wvlegislature.gov/52-1-23/",
+    "law": null
+   },
+   "frequency": {
+    "months": 24,
+    "text": "Anyone who attended and was paid as a petit, grand or magistrate juror in the previous two years is disqualified.",
+    "src": "https://code.wvlegislature.gov/52-1-8/",
+    "law": null
+   },
+   "deferral": {
+    "text": "Write to the presiding circuit judge; the court may excuse you for a set period, after which you must report again as directed.",
+    "src": "https://code.wvlegislature.gov/52-1-11/",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "medical",
+     "hardship",
+     "military",
+     "age"
+    ],
+    "list": [
+     "undue hardship",
+     "extreme inconvenience",
+     "public necessity",
+     "current National Guard or reserves member",
+     "age 70+ (on request)",
+     "substantial physical or mental disability (disqualification, physician's certificate may be required)"
+    ],
+    "text": "No occupation is automatically exempt. Put the request in writing to the presiding circuit judge.",
+    "law": "W. Va. Code §§ 52-1-8, 52-1-10, 52-1-11",
+    "src": "https://www.courtswv.gov/public-resources/jury-information"
+   },
+   "penalty": {
+    "fine": 1000,
+    "jail": null,
+    "text": "A no-show is ordered to show cause; without good cause it is civil contempt with a fine up to $1,000.",
+    "law": "W. Va. Code § 52-1-24",
+    "src": "https://code.wvlegislature.gov/52-1-24/"
+   },
+   "portal": "https://www.courtswv.gov/public-resources/jury-information",
+   "missing": [
+    "oneDayOneTrial",
+    "penalty.maxJailDays"
+   ],
+   "unread": null,
+   "caveat": null
+  },
+  {
+   "code": "WY",
+   "name": "Wyoming",
+   "slug": "wyoming-jury-duty",
+   "kind": "state",
+   "pay": {
+    "first": 30,
+    "daily": 30,
+    "from": 1,
+    "later": 50,
+    "laterFrom": 6,
+    "mileage": "Paid when the one-way trip from home to court is over 5 miles, at the state travel rate (capped at the IRS nontaxable rate, W.S. 9-3-103)",
+    "countyVaries": false,
+    "topUp": false,
+    "text": "$30 for each full or part day. After more than 5 consecutive days (weekends and holidays not counted), the court may add $20 a day, for $50.",
+    "law": "Wyo. Stat. §§ 1-11-302, 1-11-303",
+    "src": "https://wyoleg.gov/statutes/compress/title01.pdf"
+   },
+   "employer": {
+    "pays": "no",
+    "days": null,
+    "minEmployees": null,
+    "dailyCap": null,
+    "feeOffset": false,
+    "text": "The Wyoming jury statutes protect the job but contain no rule requiring employers to keep paying wages.",
+    "protection": true,
+    "notice": null,
+    "law": "Wyo. Stat. § 1-11-401",
+    "src": "https://wyoleg.gov/statutes/compress/title01.pdf"
+   },
+   "age": {
+    "rule": "on-request",
+    "age": 72,
+    "text": "Anyone aged 72 or older may ask to be excused; it is not automatic.",
+    "law": "Wyo. Stat. § 1-11-104(a)",
+    "src": "https://wyoleg.gov/statutes/compress/title01.pdf"
+   },
+   "odot": null,
+   "term": {
+    "text": "Each court sets its own jury term; jurors are summoned for that term. Example: Teton County District Court uses six-month terms.",
+    "src": "https://tetoncountywy.gov/244/Jury-Service",
+    "law": null
+   },
+   "frequency": {
+    "months": null,
+    "text": "After serving on a jury you are, on request, excused for the rest of that jury term and the rest of the calendar year; the court may also excuse you for the following term.",
+    "src": "https://wyoleg.gov/statutes/compress/title01.pdf",
+    "law": null
+   },
+   "deferral": {
+    "text": "No statewide postponement rule found in the statute; courts handle it. Example: Teton County lets jurors ask in advance to be excused from trial dates in certain periods (full-time students away at school until a break).",
+    "src": "https://tetoncountywy.gov/244/Jury-Service",
+    "law": null
+   },
+   "excuses": {
+    "tags": [
+     "caregiver",
+     "medical",
+     "age"
+    ],
+    "list": [
+     "threatened material injury or destruction of property",
+     "own health",
+     "sickness or death of a family member",
+     "care of young children",
+     "age 72 or older (on request)",
+     "already served during the jury term"
+    ],
+    "text": "Hardship or business inconvenience alone is not enough. Exempt (on sworn declaration): salaried firefighters, police, elected officials, active-duty National Guard and military where federal law exempts them.",
+    "law": "Wyo. Stat. §§ 1-11-103, 1-11-104",
+    "src": "https://wyoleg.gov/statutes/compress/title01.pdf"
+   },
+   "penalty": {
+    "fine": null,
+    "jail": null,
+    "text": "A juror who wilfully skips without reasonable excuse can be arrested, brought to court and held in contempt; the jury statute sets no fine amount. Employers who punish a juror owe up to $1,000 exemplary damages per violation.",
+    "law": "Wyo. Stat. § 1-11-115",
+    "src": "https://wyoleg.gov/statutes/compress/title01.pdf"
+   },
+   "portal": "https://www.wyocourts.gov/jury-duty/",
+   "missing": [
+    "employer.noticeRequired",
+    "oneDayOneTrial",
+    "frequency.months",
+    "deferral (statewide rule)",
+    "penalty.maxFine",
+    "penalty.maxJailDays"
+   ],
+   "unread": null,
+   "caveat": null
+  }
+ ]
+}

@@ -1,0 +1,110 @@
+---
+/**
+ * Home (pillar page): the pay tool first, then the whole picture of jury duty in the United States, with
+ * the 52 courts on one grid (50 states, DC, federal), the excuse checker and every page of the site.
+ * Every figure is read from data/states.json through the engine and the helpers.
+ */
+import PageLayout from '../layouts/PageLayout.astro';
+import Tool from './Tool.astro';
+import Clamp from './Clamp.astro';
+import Sources from './Sources.astro';
+import { route } from '../i18n/routes';
+import { PAGES } from '../lib/guides';
+import { GROUPS_ORDER, groupLabel } from '../i18n/nav';
+import { helpers } from '../lib/helpers';
+import { LAST_UPDATED, AUTHOR_NAME } from '../data/site-config';
+import { displayDate } from '../lib/format';
+import { faqSchema, webApplicationSchema, websiteSchema, organizationSchema } from '../lib/seo';
+import { t } from '../i18n/ui';
+const lang = 'en';
+const h = helpers(lang, true);
+const ui = t(lang);
+const A = h.agg;
+const F = h.FEDERAL;
+const cards = (g: (typeof GROUPS_ORDER)[number]) => PAGES.filter((p) => p.group === g).map((p) => ({ href: route(p.id, lang), name: p.en.nav, text: p.en.card }));
+const top = A.byDay1[0];
+const low = A.byDay1[A.byDay1.length - 1];
+const unset = h.STATES.filter((j) => j.pay.daily === null);
+const grid = [...h.STATES, F].map((j) => ({
+  href: route(`st-${j.code}`, lang), name: j.kind === 'federal' ? 'Federal courts' : j.name,
+  fee: j.pay.daily === null ? 'set locally' : `${h.m(h.dayRate(j, 1))} day 1`,
+  emp: j.employer.pays === 'no' ? 'job protected' : j.employer.pays === 'unknown' ? 'employer rule not stated' : 'employer pays',
+}));
+
+const title = 'Jury Duty by State: Pay, Employer Rules, Excuses, Age';
+const description = 'Jury duty in all 50 states, DC and federal court: what each day pays, what your employer owes you, the age rule, lawful excuses, postponing and penalties.';
+const faqs = [
+  { q: 'Do I have to go to jury duty?', a: `Yes, if the summons is addressed to you and you qualify: answering is a legal duty, and each state's law sets a fine for ignoring it. You can still ask to postpone to a better date, or to be excused on a ground the law accepts, such as illness, the care of a young child or real financial hardship. Ask before the date, through the channel your summons gives.` },
+  { q: 'How much does jury duty pay?', a: `It depends on the court. Federal courts pay ${h.m(h.dayRate(F, 1))} a day. Among the states and DC, the first day pays from ${h.m(h.dayRate(low, 1))} to ${h.m(h.dayRate(top, 1))}, and several states raise the fee for later days. ${unset.length ? `${h.num(unset.length)} states leave the amount to counties or a court order. ` : ''}The calculator at the top gives the total for your state and number of days.` },
+  { q: 'Can my employer fire me for going to jury duty?', a: `Not lawfully in ${h.num(A.protect.length)} of the 51 jurisdictions whose law or court guidance we read, and federal law protects federal jurors under 28 U.S.C. § 1875. Protection of the job is not the same as pay, though: only some states make employers keep paying wages, usually for a few days. Give your employer a copy of the summons early; some state laws make notice a condition.` },
+  { q: 'Is a call saying I missed jury duty and must pay a fine real?', a: `No. Courts contact jurors by mail, and a judge deals with a missed date in court. Nobody from a court calls or texts to demand payment, gift cards or a wire transfer to avoid arrest. The FTC calls these calls a scam. Hang up, look up your court's number yourself, and report the call at ReportFraud.ftc.gov.` },
+  { q: 'Can I postpone jury duty instead of being excused?', a: `Usually, yes, and it is the easier request. Most courts grant a first postponement when you ask before the reporting date, often online through the juror portal named on the summons, and you pick a later date within the limits the court sets. Some states cap how far or how often you can move it. A postponement keeps your obligation; it only changes the date.` },
+  { q: 'Is this site run by a court?', a: `No. It is an independent reference published by ${AUTHOR_NAME}, with no tie to any court, clerk or agency. It does not receive summonses, excuses or payments, and nothing you type in the tools leaves your browser. To answer a summons, use the address, portal or phone number printed on it.` },
+];
+const jsonLd = [websiteSchema(lang), organizationSchema(lang), webApplicationSchema({ name: 'Jury duty pay calculator by state', description, path: route('home', lang), lang }), faqSchema(faqs, lang)];
+const resume = `Jury duty in the United States is run by 52 separate systems: one per state, one for the District of Columbia and the federal courts. Each sets its own fee, its own rules for employers and its own grounds for excuse, so the answer to almost every jury question starts with the court named on your summons. Federal jurors receive ${h.m(h.dayRate(F, 1))} a day under 28 U.S.C. § 1871. State fees for the first day run from ${h.m(h.dayRate(low, 1))} to ${h.m(h.dayRate(top, 1))}. Every state we read protects the juror's job, but only ${h.num(A.empPays.length)} jurisdictions make some employers keep paying wages, usually for the first days. ${h.num(A.ageAuto.length + A.ageAsk.length)} jurisdictions let older residents step aside at an age between ${A.ageMin} and ${A.ageMax}, most of them on request. Postponing once is usually simple, ignoring a summons can bring a fine, and no court ever asks for money by phone. Each fact on this site links to the law it comes from, read on ${h.read}.`;
+---
+<PageLayout title={title} description={description} lang={lang} jsonLd={jsonLd} faqs={faqs} breadcrumbs={[]}>
+  <header class="mb-3">
+    <h1 class="mt-0 text-[1.75rem] font-bold text-navy-900 max-sm:leading-tight sm:text-3xl md:text-4xl">Jury duty by state: pay, employer rules, excuses and age limits</h1>
+    <p class="mt-1 text-xs font-medium text-navy-600" data-independant>{ui.independent}</p>
+    <p class="mt-2 text-base text-navy-700 sm:text-lg">Pick the court that summoned you and your days: the tool adds the juror fee its law sets and the wages your employer must keep paying.</p>
+  </header>
+  <div data-outil class="mb-4"><Tool tool={{ kind: 'pay', props: { state: 'CA', days: 3, wage: 200 } }} primary={true} seedKey="home" /></div>
+  <Clamp text={resume} id="clamp-home" lang={lang} class="mb-3" />
+  <p class="mb-8 text-sm text-navy-600">Laws read on <time datetime={LAST_UPDATED}>{displayDate(LAST_UPDATED, 'en-US')}</time> · {AUTHOR_NAME} · <a href={route('method', lang)} class="underline hover:text-navy-900">How the data is kept</a> · <a href={route('about', lang)} class="underline hover:text-navy-900">About this site</a></p>
+
+  <div class="prose prose-slate max-w-none">
+    <h2>Your court decides the rules</h2>
+    <p>A jury summons comes from one of two systems. State courts handle most trials, from traffic disputes to murder cases, and draw jurors from voter rolls, driver's license lists and similar records of the county. Federal district courts handle cases under federal law and draw from the voters of their district under the Jury Selection and Service Act, 28 U.S.C. §§ 1861 to 1878. The two do not share lists, so a person can be summoned by both in the same year. Read the letterhead: it names the court, and that court's law sets everything below.</p>
+    <p>Within a state, the law is the same everywhere, but counties often run the day-to-day side: the phone line, the online portal, the reporting time, and in some states the fee itself. When a state's statute sets only a floor, the state's page here says so and gives the floor; the actual fee is then on your county court's juror page. The grid below opens the page of each court.</p>
+  </div>
+  <div class="not-prose my-6 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-4" data-sommaire data-chrome>
+    {grid.map((c) => <a href={c.href} class="rounded-lg border border-navy-100 bg-white px-3 py-2 text-sm hover:border-accent-600"><span class="block font-semibold text-navy-900">{c.name}</span><span class="block text-xs text-navy-600">{c.fee} · {c.emp}</span></a>)}
+  </div>
+  <div class="prose prose-slate max-w-none">
+    <h2>What a day in court pays</h2>
+    <p>The juror fee is a token set by statute decades ago in most places and seldom revised. It is paid for each day you attend as a summoned juror, whether or not you sit on a trial. The most generous first day in our data is {top.name}'s, at {h.m(h.dayRate(top, 1))}; {A.unpaidDay1.length ? <>{h.num(A.unpaidDay1.length)} states pay nothing at all for day one and start paying from the second day</> : <>every state with a statewide fee pays something from the first day</>}. {h.num(A.raises.length)} jurisdictions pay more after a set number of days, which helps trial jurors on long cases. Mileage is often added on top, at a rate the statute fixes or ties to the rate for state employees.</p>
+    <p>The fee is income for federal tax purposes. If your employer keeps paying your salary and asks you to hand the fee over, you report the fee and deduct the amount you gave back, which the <Fragment set:html={h.a('jury-duty-taxes', 'jury duty taxes page')} /> walks through line by line. For the full ranking of fees, the <Fragment set:html={h.a('jury-duty-pay', 'jury duty pay page')} /> puts every state on one table and lets you rank them for any length of service.</p>
+
+    <h2>Your job and your wages</h2>
+    <p>Two different promises are at stake. The first is that you cannot be fired, demoted or threatened for serving: {h.num(A.protect.length)} of the 51 jurisdictions write it into their law or their court's official guidance, and federal law gives it to federal jurors, with back pay and a civil penalty for employers who break it. The second is that you keep earning. Here the states split: {h.num(A.empPays.length)} jurisdictions require at least some employers to keep paying for at least some days, often with a size threshold or a daily cap, while the rest leave pay to the employer's own policy. Many large employers pay regardless, so check your handbook before assuming the worst.</p>
+    <p>Hourly workers, gig workers and the self-employed carry most of the cost of a long trial. The law does not make the court replace lost income, but it does let you ask to be excused or postponed when service would cause real financial hardship. Ask early, with proof, rather than in the courtroom. The <Fragment set:html={h.a('employer-pay-jury-duty', 'employer page')} /> lists the states that require pay and the conditions each sets.</p>
+  </div>
+  <div class="mb-6"><Tool tool={{ kind: 'excuse', props: { state: 'TX' } }} idPrefix="h1" /></div>
+  <div class="prose prose-slate max-w-none">
+    <h2>Excuses the law accepts</h2>
+    <p>An excuse is not a favor: it is a ground written in the statute or in the court's rules, and the clerk or judge applies it to the facts you give. The grounds named most often are a medical condition that prevents service, the care of a young child or a dependent adult with no one else to step in, a financial hardship that goes beyond the ordinary cost of a few days off, a long distance to the courthouse, and active military duty. Some states add full-time students, breastfeeding mothers, or people who served on a jury in the last year or two. The checker above shows which of your circumstances your state names.</p>
+    <p>An honest request with a short explanation and a document, such as a doctor's note or a letter from a school, is what clerks expect. A false statement on a juror questionnaire is a different matter: it is made under penalty of perjury in many states. This site helps only with lawful grounds; the <Fragment set:html={h.a('how-to-get-out-of-jury-duty', 'page on getting out of jury duty')} /> explains what works and what backfires, and the <Fragment set:html={h.a('jury-duty-excuse', 'excuse request page')} /> writes the letter in your browser.</p>
+
+    <h2>Age limits</h2>
+    <p>No state forces older residents to serve without a way out, but the rules differ more than people expect. {h.num(A.ageAsk.length)} jurisdictions let you ask to be excused once you reach an age between {A.ageMin} and {A.ageMax}, usually by ticking a box or signing a statement; {A.ageAuto.length ? <>{h.num(A.ageAuto.length)} make the exemption automatic; </> : null}{h.num(A.ageNone.length)} have no age rule at all, so an older juror asks on health or another ground like anyone else. Federal courts leave it to each district's jury plan; many excuse people over {F.age.age ?? 70} on request. The <Fragment set:html={h.a('jury-duty-exemption-age', 'exemption age page')} /> gives every state's age and checks it against your date of birth.</p>
+
+    <h2>Postponing instead of skipping</h2>
+    <p>A bad date is the most common problem and the easiest to solve. Courts generally grant a first postponement on request, often online and without a reason beyond the dates you cannot make, as long as you ask before the reporting date. Some states cap the delay or the number of postponements; a few require a new date within a set number of months. The <Fragment set:html={h.a('postpone-jury-duty', 'postponement page')} /> collects these limits.</p>
+
+    <h2>How long it lasts</h2>
+    <p>{h.num(A.odot.length)} jurisdictions state a one day or one trial system: if you are not picked for a trial on your reporting day, your service is over. Elsewhere, a summons may cover a week, a month or a term on call, though many courts release jurors after a day or two. Once you serve, most states protect you from another summons for a period, from one year to six. The <Fragment set:html={h.a('how-long-is-jury-duty', 'jury duty length page')} /> gives each state's term and computes the date from which you can be summoned again.</p>
+
+    <h2>If you missed the date</h2>
+    <p>Missing a summons by mistake is common and usually repairable: call the jury office on the summons the same day, explain, and ask for a new date. Courts treat a juror who calls very differently from one who ignores repeated notices. A judge can order a juror who fails to appear to explain why, and the statutes we read set fines up to {A.fines.length ? h.m(A.fines[0].penalty.fine as number) : 'a level set by each state'}, sometimes with a short jail term for contempt. The <Fragment set:html={h.a('missed-jury-duty', 'missed jury duty page')} /> lists the penalties and the steps to put things right.</p>
+
+    <h2>Jury duty scams</h2>
+    <p>A caller says there is a warrant for your arrest because you missed jury duty, and that a payment by gift card, wire transfer or cryptocurrency will clear it. It is a scam every time. The United States Courts and the Federal Trade Commission both warn that courts do not call to demand money and do not take payment over the phone. Hang up, find the number of your court yourself, and report the call. The <Fragment set:html={h.a('jury-duty-scam', 'scam page')} /> has a short checker for calls, texts and emails.</p>
+
+    <h2>Your first day</h2>
+    <p>Expect a security check at the courthouse entrance, a check-in desk, an orientation, and a wait. Bring the summons, a photo ID, something to read and any medication you need. Many courts publish a call-in line or a portal message the evening before, and groups are often cancelled at the last minute. The <Fragment set:html={h.a('what-to-expect-jury-duty', 'what to expect page')} /> has a checklist for each stage, and the <Fragment set:html={h.a('compare-jury-duty-by-state', 'comparator')} /> sets two or three states side by side if you live in one and work in another.</p>
+
+    <h2>Every page of the site</h2>
+  </div>
+  <div class="not-prose grid gap-6 sm:grid-cols-2 lg:grid-cols-3" data-sommaire>
+    {GROUPS_ORDER.filter((g) => cards(g).length).map((g) => (
+      <section><h3 class="mb-2 text-lg font-semibold text-navy-900">{groupLabel(g)}</h3><ul class="space-y-2 text-sm">{cards(g).map((c) => <li><a href={c.href} class="font-medium text-accent-700 underline">{c.name}</a><span class="block text-navy-700">{c.text}</span></li>)}</ul></section>
+    ))}
+  </div>
+  <div class="prose prose-slate mt-8 max-w-none">
+    <h2>How this site works</h2>
+    <p>Each rule comes from the state's code on its legislature's website, or from the official juror page of its judiciary when the code leaves a figure to a court order, with the address and the date we read it. When a state's law does not settle a question, the site says "not specified by the state" rather than borrowing a number from elsewhere. The tools run in your browser: nothing you type is sent or kept. The site answers no summons, files no excuse and earns nothing from any court, lawyer or service. The <a href={route('method', lang)}>method page</a> explains the checks.</p>
+    <Sources lang={lang} keys={['uscourts-jury', 'uscourts-pay', 'uscourts-excuses', 'usc-1871', 'uscourts-scams', 'ftc-jury-scam', 'irs-p525']} />
+  </div>
+</PageLayout>

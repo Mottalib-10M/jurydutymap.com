@@ -1,0 +1,62 @@
+{
+  "_lisezmoi": "General rules of the site, each read on the page given in `sources` on `retrieved_at` (RECETTE §4). State and federal jury rules live in data/states.json, each fact with its own law, page and date. Never type a figure in a page: read it through `h.P` or the engine.",
+  "year": 2026,
+  "retrieved_at": "2026-10-29",
+  "valid_from": "2026-10-29",
+  "valid_to": "2027-10-28",
+  "irs": {
+    "pub": "Publication 525 (2025)",
+    "incomeLine": "Schedule 1 (Form 1040), line 8h",
+    "repayLine": "Schedule 1 (Form 1040), line 24a"
+  },
+  "sources": {
+    "uscourts-scams": {
+      "url": "https://www.uscourts.gov/court-programs/jury-service/juror-scams",
+      "label": {
+        "en": "United States Courts: Juror scams"
+      }
+    },
+    "ftc-jury-scam": {
+      "url": "https://consumer.ftc.gov/consumer-alerts/2025/03/call-or-email-saying-you-missed-jury-duty-and-need-pay-its-scam",
+      "label": {
+        "en": "Federal Trade Commission: a call or email saying you missed jury duty and need to pay? It's a scam (March 7, 2025)"
+      }
+    },
+    "ftc-report": {
+      "url": "https://reportfraud.ftc.gov/",
+      "label": {
+        "en": "Federal Trade Commission: ReportFraud.ftc.gov"
+      }
+    },
+    "irs-p525": {
+      "url": "https://www.irs.gov/publications/p525",
+      "label": {
+        "en": "IRS Publication 525 (2025), Taxable and Nontaxable Income: Jury duty"
+      }
+    },
+    "uscourts-jury": {
+      "url": "https://www.uscourts.gov/court-programs/jury-service",
+      "label": {
+        "en": "United States Courts: Jury service"
+      }
+    },
+    "uscourts-pay": {
+      "url": "https://www.uscourts.gov/court-programs/jury-service/juror-pay",
+      "label": {
+        "en": "United States Courts: Juror pay"
+      }
+    },
+    "uscourts-excuses": {
+      "url": "https://www.uscourts.gov/court-programs/jury-service/juror-qualifications-exemptions-and-excuses",
+      "label": {
+        "en": "United States Courts: Juror qualifications, exemptions and excuses"
+      }
+    },
+    "usc-1871": {
+      "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title28/html/USCODE-2024-title28-partV-chap121-sec1871.htm",
+      "label": {
+        "en": "28 U.S.C. § 1871, Fees (US Code, govinfo.gov)"
+      }
+    }
+  }
+}

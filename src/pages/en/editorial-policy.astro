@@ -1,0 +1,26 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { AUTHOR_NAME, CONTACT_EMAIL, LAST_UPDATED, SITE_NAMES } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { displayDate } from '../../lib/format';
+const lang = 'en';
+---
+<PageLayout title={`Editorial policy of ${SITE_NAMES[lang]}: sources and corrections`} description="Which state codes, court rules and federal pages Jury Duty Map relies on, how every juror rule is dated, which sources it refuses and how a mistake gets corrected." lang={lang} noindex={true} breadcrumbs={[{ label: 'Editorial policy' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none">
+    <h1>Editorial and corrections policy</h1>
+    <p>People read these pages to plan a week of lost wages, to answer an employer, or to decide whether to ask for an excuse. A wrong fee or a wrong age rule leads to a bad decision, so every rule points back to the official text it was read in, with the day it was read.</p>
+    <h2>Who is responsible</h2><p>{AUTHOR_NAME}, reachable at <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</p>
+    <h2>What we read</h2>
+    <ul>
+      <li>the jury chapters of each state's code, on the legislature's own website;</li>
+      <li>court rules, supreme court orders and the official juror pages of state judiciaries and county courts, when the code leaves a figure or a procedure to them;</li>
+      <li>for federal service, 28 U.S.C. §§ 1861 to 1878 on govinfo.gov and the pages of the United States Courts;</li>
+      <li>the Federal Trade Commission for scam warnings and the IRS for the tax treatment of juror pay.</li>
+    </ul>
+    <h2>Sources we refuse</h2><p>Private legal databases, law firm articles, payroll vendors, news stories and forums never supply a fact here, even when they are right; they can only help us find the section to read. When the official text says nothing, the page says "not specified by the state".</p>
+    <h2>Review cycle</h2><p>Juror fees change by statute, usually on July 1 or January 1. We re-read the sources at least twice a year and whenever a legislature passes a change. A new rule enacted for a later date is shown with that date, never as current before it.</p>
+    <h2>Corrections</h2>
+    <ol><li>We open the official text again.</li><li>We correct the data file and its reading date, and add a test when a calculation is involved.</li><li>The site rebuilds and every page shows the new date.</li></ol>
+    <h2>Independence</h2><p>No court, agency, law firm or employer pays for or reviews what is published here. See also the <a href={route('method', lang)}>method page</a>. Version of <time datetime={LAST_UPDATED}>{displayDate(LAST_UPDATED, 'en-US')}</time>.</p>
+  </div>
+</PageLayout>

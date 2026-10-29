@@ -1,0 +1,37 @@
+---
+/**
+ * Renders one tool with its page defaults: `pay` (props: state, days, wage, title), `excuse` (state, age, tags),
+ * `compare` (a, b, c, days), `scam` (preset), `checklist` (phase), `letter` (state, kind), or `mini:<spec>`.
+ */
+import JuryCalc from './calc/JuryCalc';
+import ExcuseCheck from './calc/ExcuseCheck';
+import CompareStates from './calc/CompareStates';
+import ScamCheck from './calc/ScamCheck';
+import DayChecklist from './calc/DayChecklist';
+import RequestLetter from './calc/RequestLetter';
+import MiniSim from './calc/MiniSim';
+import { route, hasRoute, type Locale } from '../i18n/routes';
+import { getSpec } from '../lib/mini-specs';
+import { ALL } from '../lib/engine/jury';
+import type { ToolDef } from '../lib/guide-types';
+interface Props { tool: ToolDef; lang?: Locale; primary?: boolean; idPrefix?: string; seedKey?: string }
+const { tool, lang = 'en', primary = false, idPrefix } = Astro.props;
+const props = (tool.props ?? {}) as Record<string, any>;
+const kind = tool.kind;
+const mini = kind.startsWith('mini:') ? kind.slice(5) : null;
+const spec = mini ? getSpec(mini) : null;
+const href = spec?.ctaPage && hasRoute(spec.ctaPage, lang) ? route(spec.ctaPage, lang) : undefined;
+const numDefaults: Record<string, number> = {};
+for (const [k, v] of Object.entries(props)) {
+  if (typeof v === 'number') numDefaults[k] = v;
+  else if (k === 's' && typeof v === 'string') numDefaults.s = Math.max(0, ALL.findIndex((j) => j.code === v));
+}
+const pre = idPrefix ?? (primary ? 'p' : 'm');
+---
+{kind === 'pay' && <JuryCalc client:load idPrefix={`${pre}-pay`} primary={primary} {...props} />}
+{kind === 'excuse' && <ExcuseCheck client:load idPrefix={`${pre}-exc`} primary={primary} {...props} />}
+{kind === 'compare' && <CompareStates client:load idPrefix={`${pre}-cmp`} primary={primary} {...props} />}
+{kind === 'scam' && <ScamCheck client:load idPrefix={`${pre}-scam`} primary={primary} {...props} />}
+{kind === 'checklist' && <DayChecklist client:load idPrefix={`${pre}-day`} primary={primary} {...props} />}
+{kind === 'letter' && <RequestLetter client:load idPrefix={`${pre}-ltr`} primary={primary} {...props} />}
+{mini && <MiniSim client:load kind={mini} href={href} defaults={numDefaults} primary={primary} idPrefix={pre} />}

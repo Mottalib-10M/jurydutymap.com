@@ -1,0 +1,72 @@
+---
+/**
+ * One page per state, DC and the federal courts (RECETTE §6.2: a family by place differs by its own data).
+ * Order: H1, the pay calculator preset to the state (first screen), the state's own text (content/state-notes.ts,
+ * written for that state), the facts table with each law, the excuse checker, the generated sections and FAQ
+ * (`data-chrome`: built from data/states.json, identical in form on every state page).
+ */
+import PageLayout from '../layouts/PageLayout.astro';
+import Clamp from './Clamp.astro';
+import Tool from './Tool.astro';
+import { route } from '../i18n/routes';
+import { t } from '../i18n/ui';
+import { helpers } from '../lib/helpers';
+import { NOTES } from '../content/state-notes';
+import { stateTitle, stateDescription, factRows, stateFaqs, paySentence } from '../lib/state-text';
+import { STATES, READ_ON, type Juris } from '../lib/engine/jury';
+import { dateL } from '../lib/format-l';
+import { AUTHOR_NAME } from '../data/site-config';
+import { articleSchema, faqSchema, breadcrumbSchema, webPageSchema, webApplicationSchema } from '../lib/seo';
+interface Props { j: Juris }
+const { j } = Astro.props;
+const lang = 'en';
+const ui = t(lang);
+const h = helpers(lang, true);
+const note = NOTES[j.code];
+if (!note) throw new Error(`No text for ${j.code} in content/state-notes.ts`);
+const path = route(`st-${j.code}`, lang);
+const title = stateTitle(j);
+const description = stateDescription(j);
+const fed = j.kind === 'federal';
+const h1 = fed ? 'Federal jury duty: pay, employers, excuses and length' : `Jury duty in ${j.name}: pay, employer rules and excuses`;
+const faqs = stateFaqs(j);
+const jsonLd = [articleSchema({ title: h1, description, path, lang }), webPageSchema({ name: h1, description, path, lang }), breadcrumbSchema([{ name: ui.breadcrumbHome, path: route('home', lang) }, { name: fed ? 'Federal courts' : j.name, path }]), webApplicationSchema({ name: h1, description, path, lang }), faqSchema(faqs, lang)];
+const srcs = new Map<string, string>();
+const addS = (url: string | null, name: string | null | undefined) => { if (url && !srcs.has(url)) srcs.set(url, name ?? new URL(url).hostname); };
+addS(j.pay.src, j.pay.law); addS(j.employer.src, j.employer.law); addS(j.age.src, j.age.law); addS(j.term.src, j.term.law); addS(j.frequency.src, j.frequency.law); addS(j.deferral.src, j.deferral.law); addS(j.excuses.src, j.excuses.law); addS(j.penalty.src, j.penalty.law); addS(j.portal, 'Official juror page');
+const sources = [...srcs.entries()].map(([url, name]) => ({ url, name: `${fed ? '' : `${j.name}: `}${name}` }));
+const i = STATES.findIndex((x) => x.code === j.code);
+const near = fed ? [STATES[0], STATES[4], STATES[43]] : [STATES[(i + 1) % STATES.length], STATES[(i + STATES.length - 1) % STATES.length]];
+const related = [
+  ...near.map((x) => ({ href: route(`st-${x.code}`, lang), name: `Jury duty in ${x.name}`, description: paySentence(x).split('. ')[0] + '.' })),
+  { href: route('compare-jury-duty-by-state', lang), name: 'Compare states', description: 'Three courts side by side: pay, employer duty, age rule, penalties.' },
+  { href: route('how-to-get-out-of-jury-duty', lang), name: 'Excuses the law allows', description: 'The grounds each state names and how to ask before your date.' },
+];
+const rows = factRows(j);
+---
+<PageLayout title={title} description={description} lang={lang} jsonLd={jsonLd} faqs={faqs} faqChrome={true} related={related} sources={sources} breadcrumbs={[{ label: fed ? 'Federal courts' : j.name }]}>
+  <article>
+    <header class="mb-3">
+      <p class="kicker">{fed ? 'Federal courts' : 'States'}</p>
+      <h1 class="mt-0 text-[1.75rem] font-bold text-navy-900 max-sm:leading-tight sm:text-3xl md:text-4xl">{h1}</h1>
+      <p class="mt-1 text-xs font-medium text-navy-600" data-independant>{ui.independent}</p>
+      <p class="mt-2 text-base text-navy-700 sm:text-lg">{note.intro}</p>
+    </header>
+    <div data-outil class="mb-4"><Tool tool={{ kind: 'pay', props: { state: j.code, days: note.days ?? 3, wage: 200, title: fed ? 'What federal jury duty will pay you' : `What jury duty in ${j.name} will pay you` } }} primary={true} /></div>
+    <Clamp text={note.resume} id={`clamp-${j.code}`} lang={lang} class="mb-3" />
+    <p class="mb-8 text-sm text-navy-600">{ui.reviewedBy} <a href={route('about', lang)} class="underline hover:text-navy-900">{AUTHOR_NAME}</a> on {dateL(READ_ON)} · <a href={route('method', lang)} class="underline hover:text-navy-900">Method and sources</a></p>
+    <div class="prose prose-slate max-w-none">
+      {j.unread && <p class="rounded-lg border border-amber-300 bg-amber-50 px-3 py-2 text-sm text-navy-800" data-chrome>On {dateL(READ_ON)}, {j.unread} could not be reached from our network. Rules shown below as not specified are unconfirmed, not absent: the court named on your summons has the answer.</p>}
+      {j.caveat && <p class="rounded-lg border border-amber-300 bg-amber-50 px-3 py-2 text-sm text-navy-800" data-chrome>{j.caveat}</p>}
+      {note.body && <Fragment set:html={note.body} />}
+      <div data-chrome>
+        <h2>{fed ? 'The federal rules, law by law' : `The rules in ${j.name}, law by law`}</h2>
+        <Fragment set:html={h.table(['Rule', 'What the law or court says', 'Source'], rows, `Read on ${h.read}. A rule the statutes do not set is shown as not specified, never guessed.`, ['l', 'l', 'l'])} />
+        <h2>{fed ? 'Excuses and postponement in federal court' : `Excuses and postponement in ${j.name}`}</h2>
+        <p>{j.excuses.text} {j.deferral.text ?? ''}</p>
+      </div>
+    </div>
+    <div class="not-prose"><Tool tool={{ kind: 'excuse', props: { state: j.code, age: 45, tags: '' } }} idPrefix="s1" /></div>
+    {j.portal && <p class="text-sm text-navy-700" data-chrome>Official juror page: <a href={j.portal} target="_blank" rel="nofollow noopener noreferrer" class="underline [overflow-wrap:anywhere]">{new URL(j.portal).hostname.replace('www.', '')}</a>. Answer your summons and file any request there or as your summons says.</p>}
+  </article>
+</PageLayout>

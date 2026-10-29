@@ -1,0 +1,17 @@
+---
+/** Content pages (`src/content/pages/`) and one page per state, DC and the federal courts, all at /en/<slug>/. */
+import ContentPage from '../../components/ContentPage.astro';
+import StatePage from '../../components/StatePage.astro';
+import { PAGES } from '../../lib/guides';
+import { ALL } from '../../lib/engine/jury';
+import type { PageDef } from '../../lib/guide-types';
+import type { Juris } from '../../lib/engine/jury';
+export function getStaticPaths() {
+  return [
+    ...PAGES.map((page) => ({ params: { slug: page.en.slug }, props: { page, j: null } })),
+    ...ALL.map((j) => ({ params: { slug: j.slug }, props: { page: null, j } })),
+  ];
+}
+const { page, j } = Astro.props as { page: PageDef | null; j: Juris | null };
+---
+{page ? <ContentPage page={page} /> : <StatePage j={j!} />}

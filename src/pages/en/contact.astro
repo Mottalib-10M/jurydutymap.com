@@ -1,0 +1,23 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import LegalIdentity from '../../components/LegalIdentity.astro';
+import { CONTACT_EMAIL, LAST_UPDATED, SITE_NAMES } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { displayDate } from '../../lib/format';
+const lang = 'en';
+---
+<PageLayout title={`Contact ${SITE_NAMES[lang]}: a juror fee, a rule, a tool`} description="Write to Jury Duty Map when a state changes its juror fee or jury law, when a page seems wrong, or to show the jury pay calculator on your own site at no cost." lang={lang} noindex={true} breadcrumbs={[{ label: 'Contact' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none">
+    <h1>Contact</h1>
+    <p>Email: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. A person reads every message.</p>
+    <h2>A fee or a rule changed</h2>
+    <p>Send the address of the official text that shows the change: the statute, the court order or the court's juror page. We read it, update the data file, and the new reading date appears on every page that uses it.</p>
+    <h2>What we cannot do</h2>
+    <p>We are not a court. We cannot answer a summons for you, postpone or excuse anyone, look up whether you were summoned, or advise you on a case. Never send us a juror number, a summons or any personal document; write to the jury office named on your summons.</p>
+    <h2>Using a tool on your own site</h2>
+    <p>Employers, unions, libraries and community groups can show the pay calculator or the excuse checker in an iframe at no cost: see the <a href={route('widget', lang)}>embed page</a>.</p>
+    <h2>Publisher</h2>
+    <LegalIdentity lang={lang} />
+    <p>Updated on <time datetime={LAST_UPDATED}>{displayDate(LAST_UPDATED, 'en-US')}</time>.</p>
+  </div>
+</PageLayout>

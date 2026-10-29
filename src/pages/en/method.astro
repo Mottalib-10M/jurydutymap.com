@@ -1,0 +1,39 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { LAST_UPDATED } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { breadcrumbSchema, articleSchema } from '../../lib/seo';
+import { helpers } from '../../lib/helpers';
+import { displayDate } from '../../lib/format';
+const lang = 'en';
+const h = helpers(lang);
+const P = h.P;
+const rows = Object.values(P.sources).map((s) => [s.label.en, new URL(s.url).hostname.replace('www.', '')]);
+const hosts = [...new Set(h.ALL.flatMap((j) => [j.pay.src, j.employer.src, j.age.src, j.excuses.src, j.penalty.src]).filter((u): u is string => !!u).map((u) => new URL(u).hostname.replace('www.', '')))].sort();
+const ns = h.ALL.reduce((n, j) => n + [j.pay.daily, j.employer.protection, j.age.rule === 'not-specified' ? null : 1, j.odot, j.frequency.months, j.penalty.fine].filter((x) => x === null).length, 0);
+---
+<PageLayout title="Method of Jury Duty Map: state laws, juror fees, excuses" description="How Jury Duty Map reads 52 jury laws, adds the juror fee day by day with the wages an employer owes, matches excuses to each state law and marks gaps." lang={lang} jsonLd={[articleSchema({ title: 'How the jury rules are read and the pay worked out', description: 'Method of Jury Duty Map', path: route('method', lang), lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'Method', path: route('method', lang) }])]} breadcrumbs={[{ label: 'Method' }]}>
+  <header class="mb-6"><p class="kicker">Method</p><h1 class="mt-0 text-3xl font-bold text-navy-900 md:text-4xl">How the jury rules are read and the pay worked out</h1></header>
+  <div class="prose prose-slate max-w-none">
+    <p>Every tool and every page reads one data file with 52 entries: the 50 states, the District of Columbia and the federal courts. Each rule in it carries the statute or court page it was read in and the date ({h.read}). No figure is typed into a page. Automated tests run the calculations on cases worked out by hand from those rules.</p>
+    <h2>1. What counts as a source</h2>
+    <p>The state's code on its legislature's website; court rules, supreme court orders and juror pages of the state judiciary or a county court when the code leaves a figure or a procedure to them; for federal service, the US Code on govinfo.gov and the United States Courts. Legal databases run by private publishers, law firm articles and payroll vendors are used at most to find a section number, never as the source shown. Across the 52 entries, the rules were read on {hosts.length} official sites.</p>
+    <h2>2. Juror pay day by day</h2>
+    <p>For each court we record the fee for the first day, the fee from the day it changes, and a higher fee for long service when the law sets one. The calculator applies the right fee to each day you enter and adds them up. Where a statute sets only a minimum and lets counties pay more, the state's minimum is used and the page says "minimum". Where the amount is left entirely to counties or a court order we could not read, the fee is shown as not specified and the state is left out of rankings. Mileage is described but not added, because it depends on your trip.</p>
+    <h2>3. What the employer owes</h2>
+    <p>For the jurisdictions whose law makes employers keep paying, we record the number of days covered, the staff size from which the rule applies, any daily cap, and whether the employer may subtract the juror fee. The calculator applies these to the daily pay you enter. In New York, where the state pays the juror fee only to the extent the employer's payment falls short of it, the court fee is reduced for the covered days. If you tick that your employer pays you anyway, its policy is counted instead of the legal minimum.</p>
+    <h2>4. Age and excuses</h2>
+    <p>An age rule is "exempt by law" when the statute removes or exempts people from that age, and "may ask" when they must request it. For excuses, each court's grounds are grouped into a short list (caregiving, own illness, student, hardship, distance, military, breastfeeding, recent service, emergency worker, sole proprietor); a ground is marked only when the statute, the court rules or the official juror page names it. A ground not named is shown as "not named": the court can still accept it under a general hardship clause, which the checker says.</p>
+    <h2>5. Unknowns</h2>
+    <p>When the official text does not settle a question, the entry is left empty and the page says "not specified by the state". There are {h.num(ns)} such gaps across the main rules of the 52 entries. We would rather show a gap than a figure borrowed from a secondary source.</p>
+    <h2>6. Pages read for the general rules</h2>
+    <Fragment set:html={h.table(['Page', 'Site'], rows, `Read on ${h.read}. State sources are listed on each state page.`, ['l', 'l'])} />
+    <h2>7. What the site does not do</h2>
+    <ul>
+      <li>It does not answer, postpone or excuse a summons: only the court can.</li>
+      <li>It gives no legal advice and helps only with grounds the law provides; it never suggests a false statement to a court.</li>
+      <li>It keeps nothing you type: the tools run in your browser.</li>
+    </ul>
+    <p>Method version of <time datetime={LAST_UPDATED}>{displayDate(LAST_UPDATED, 'en-US')}</time>. A rule that looks wrong: <a href={route('contact', lang)}>contact</a>.</p>
+  </div>
+</PageLayout>

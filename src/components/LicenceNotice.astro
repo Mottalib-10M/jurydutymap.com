@@ -1,0 +1,9 @@
+---
+/** Attributions (RECETTE §12.1). Shown at the foot of every page, embeds included. */
+interface Props { class?: string }
+const { class: cls = 'text-xs text-navy-500' } = Astro.props;
+---
+<p class={cls} data-licence-notice>
+  Statutes are quoted from each state legislature's official code; federal law from the US Code and the pages of the United States Courts, the FTC and the IRS, works of the US government. No court or agency endorses this site.
+  Summaries, tables and tools written by Radif Partners; they are not legal advice and do not replace your summons.
+</p>
