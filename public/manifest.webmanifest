@@ -1,6 +1,6 @@
 {
- "name": "US Jury Duty",
- "short_name": "US Jury Duty",
+ "name": "Jury Duty Map",
+ "short_name": "Jury Duty Map",
  "description": "TO REWRITE",
  "start_url": "/en/",
  "display": "standalone",
